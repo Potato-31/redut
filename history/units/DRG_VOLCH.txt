@@ -1,0 +1,36 @@
+units = {
+	division = {
+		name = "1-ya ODSHBr imeni Batonio"
+		location = 12438
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "1-ya ODSHBr imeni Tvikersa"
+		location = 7702
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "1-ya ODSHBr imeni Rufirixz`a"
+		location = 18381
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "1-ya ODSHBr imeni Mist`a"
+		location = 11898
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

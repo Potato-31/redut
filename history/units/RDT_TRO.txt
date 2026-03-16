@@ -1,0 +1,567 @@
+division_template = {
+	name = "Teretorialnaya oborona (full 20)"
+	is_locked = yes
+	force_allow_recruiting = yes
+	priority = 0
+	#division_names_group = UKR_MOT_01 # Группа названий для дивизий, необязательно
+	regiments = {
+		opolchenie = {
+			x = 0
+			y = 0
+		}
+		opolchenie = {
+			x = 0
+			y = 1
+		}
+		opolchenie = {
+			x = 0
+			y = 2
+		}
+		opolchenie = {
+			x = 0
+			y = 3
+		}
+		opolchenie = {
+			x = 0
+			y = 4
+		}
+		opolchenie = {
+			x = 1
+			y = 0
+		}
+		opolchenie = {
+			x = 1
+			y = 1
+		}
+		opolchenie = {
+			x = 1
+			y = 2
+		}
+		opolchenie = {
+			x = 1
+			y = 3
+		}
+		opolchenie = {
+			x = 1
+			y = 4
+		}
+	}
+	support = {
+		recon = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		artillery = {
+			x = 0
+			y = 2
+		}
+		signal_company = {
+			x = 0
+			y = 3
+		}
+		atgm = {
+			x = 1
+			y = 0
+		}	
+		mortar = {
+			x = 1
+			y = 1
+		}
+	}
+}
+units = {
+	division = {
+		name = "1-ya TRO"
+		location = 18198
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2-ya TRO"
+		location = 13023
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3-ya TRO"
+		location = 18168
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4-ya TRO"
+		location = 18186
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5-ya TRO"
+		location = 18185
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6-ya TRO"
+		location = 18184
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "7-ya TRO"
+		location = 18183
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8-ya TRO"
+		location = 18182
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9-ya TRO"
+		location = 18181
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "10-ya TRO"
+		location = 18180
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "11-ya TRO"
+		location = 18179
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "12-ya TRO"
+		location = 13027
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "13-ya TRO"
+		location = 18170
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "14-ya TRO"
+		location = 18171
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "15-ya TRO"
+		location = 18172
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "16-ya TRO"
+		location = 18173
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "17-ya TRO"
+		location = 18174
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "18-ya TRO"
+		location = 18175
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "19-ya TRO"
+		location = 18176
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "20-ya TRO"
+		location = 18177
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "21-ya TRO"
+		location = 13454
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "22-ya TRO"
+		location = 13454
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "23-ya TRO"
+		location = 13454
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "24-ya TRO"
+		location = 13454
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "25-ya TRO"
+		location = 13454
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "26-ya TRO"
+		location = 13454
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "27-ya TRO"
+		location = 10027
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "28-ya TRO"
+		location = 10027
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "29-ya TRO"
+		location = 10027
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "30-ya TRO"
+		location = 10027
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "31-ya TRO"
+		location = 10027
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "32-ya TRO"
+		location = 10027
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "33-ya TRO"
+		location = 8028
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "34-ya TRO"
+		location = 8028
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "35-ya TRO"
+		location = 8028
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "36-ya TRO"
+		location = 8028
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "37-ya TRO"
+		location = 4524
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "38-ya TRO"
+		location = 4524
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "39-ya TRO"
+		location = 4524
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "40-ya TRO"
+		location = 4524
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "41-ya TRO"
+		location = 1883
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "42-ya TRO"
+		location = 1883
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "43-ya TRO"
+		location = 1883
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "44-ya TRO"
+		location = 1883
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "45-ya TRO"
+		location = 1883
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "46-ya TRO"
+		location = 1883
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "47-ya TRO"
+		location = 1883
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "48-ya TRO"
+		location = 14611
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "49-ya TRO"
+		location = 14611
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "50-ya TRO"
+		location = 14611
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "51-ya TRO"
+		location = 14611
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "52-ya TRO"
+		location = 14611
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "53-ya TRO"
+		location = 14611
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "54-ya TRO"
+		location = 14611
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "55-ya TRO"
+		location = 1883
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "56-ya TRO"
+		location = 9227
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "57-ya TRO"
+		location = 9227
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "58-ya TRO"
+		location = 9227
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "59-ya TRO"
+		location = 9227
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "60-ya TRO"
+		location = 9227
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "61-ya TRO"
+		location = 14521
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "62-ya TRO"
+		location = 14521
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "63-ya TRO"
+		location = 14521
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "64-ya TRO"
+		location = 14521
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "65-ya TRO"
+		location = 14521
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "66-ya TRO"
+		location = 5814
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "67-ya TRO"
+		location = 5814
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "68-ya TRO"
+		location = 5814
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "69-ya TRO"
+		location = 5814
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "70-ya TRO"
+		location = 5814
+		division_template = "Teretorialnaya oborona (full 20)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+}

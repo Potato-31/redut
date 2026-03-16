@@ -1,0 +1,25 @@
+state = {
+	id = 9
+	name = "STATE_9"
+	manpower = 4017
+
+	state_category = megalopolis
+
+	provinces = { 5081 8171 }
+
+	history = {
+		owner = RDT
+		
+		victory_points = { 8171 10 }
+		
+		buildings = {
+			ammunition_silo = 5
+			anti_air_building = 3
+			electrical_substation = 1
+		}
+		
+		add_core_of = RDT
+		add_core_of = RUS
+	}
+
+}

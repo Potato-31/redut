@@ -1,0 +1,156 @@
+spriteTypes = {						
+	#RDT
+	#Не путать dds с PNG, долбоеб
+	spriteType = {
+		name = "GFX_RDT_START_SMO"
+		texturefile = "gfx/interface/goals/RDT/RDT_START_SMO.png"
+	}
+	spriteType = {
+		name = "GFX_kubinka"
+		texturefile = "gfx/interface/goals/RDT/kubinka.dds"
+	}
+	spriteType = {
+		name = "GFX_borderRDT"
+		texturefile = "gfx/interface/goals/RDT/borderRDT.dds"
+	}
+	spriteType = {
+		name = "GFX_RDT_CHVK"
+		texturefile = "gfx/interface/goals/RDT/RDT_CHVK.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_XP"
+		texturefile = "gfx/interface/goals/RDT/RDT_XP.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_GRU"
+		texturefile = "gfx/interface/goals/RDT/RDT_GRU.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_FUCK"
+		texturefile = "gfx/interface/goals/RDT/RDT_FUCK.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_WALK"
+		texturefile = "gfx/interface/goals/RDT/RDT_WALK.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_COMMANDERS"
+		texturefile = "gfx/interface/goals/RDT/RDT_COMMANDERS.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_WAR_READY"
+		texturefile = "gfx/interface/goals/RDT/RDT_WAR_READY.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_MO_ARSENAL"
+		texturefile = "gfx/interface/goals/RDT/RDT_MO_ARSENAL.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_STARTKUBINKA"
+		texturefile = "gfx/interface/goals/RDT/RDT_STARTKUBINKA.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_BARS"
+		texturefile = "gfx/interface/goals/RDT/RDT_BARS.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_SMO"
+		texturefile = "gfx/interface/goals/RDT/RDT_SMO.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_WIN"
+		texturefile = "gfx/interface/goals/RDT/RDT_WIN.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_GREATESCHVK"
+		texturefile = "gfx/interface/goals/RDT/RDT_GREATESCHVK.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_GOSDUMA"
+		texturefile = "gfx/interface/goals/RDT/RDT_GOSDUMA.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_NEW_DONATION"
+		texturefile = "gfx/interface/goals/RDT/RDT_NEW_DONATION.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_SIC"
+		texturefile = "gfx/interface/goals/RDT/RDT_SIC.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_RUSSIAN_SPETS"
+		texturefile = "gfx/interface/goals/RDT/RDT_RUSSIAN_SPETS.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_WITH_AK"
+		texturefile = "gfx/interface/goals/RDT/RDT_WITH_AK.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_DRG_21"
+		texturefile = "gfx/interface/goals/RDT/RDT_DRG_21.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_RESERVS"
+		texturefile = "gfx/interface/goals/RDT/RDT_RESERVS.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_UKR_BORDERS"
+		texturefile = "gfx/interface/goals/RDT/RDT_UKR_BORDERS.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_AVANTURE"
+		texturefile = "gfx/interface/goals/RDT/RDT_AVANTURE.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_PRETORIAN"
+		texturefile = "gfx/interface/goals/RDT/RDT_PRETORIAN.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_MEDIA_PROJECT"
+		texturefile = "gfx/interface/goals/RDT/RDT_MEDIA_PROJECT.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_BIL_RECRUIT"
+		texturefile = "gfx/interface/goals/RDT/RDT_BIL_RECRUIT.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_WGN_QUET"
+		texturefile = "gfx/interface/goals/RDT/RDT_WGN_QUET.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_WITH_WGN"
+		texturefile = "gfx/interface/goals/RDT/RDT_WITH_WGN.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_BK_FOR_WGN"
+		texturefile = "gfx/interface/goals/RDT/RDT_BK_FOR_WGN.png"
+	}
+	spriteType = {
+		name = "GFX_RDT_NEUTRAL"
+		texturefile = "gfx/interface/goals/RDT/RDT_NEUTRAL.png"
+	}
+	spriteType = {	
+		name = "GFX_RDT_CALL_PUTIN"
+		texturefile = "gfx/interface/goals/RDT/RDT_CALL_PUTIN.png"
+	}
+	spriteType = {	
+		name = "GFX_RDT_WITH_MO"
+		texturefile = "gfx/interface/goals/RDT/RDT_WITH_MO.png"
+	}
+	spriteType = {	
+		name = "GFX_RDT_DRG_IN_WGN"
+		texturefile = "gfx/interface/goals/RDT/RDT_DRG_IN_WGN.png"
+	}
+	spriteType = {	
+		name = "GFX_RDT_WGN_SOLDIERS"
+		texturefile = "gfx/interface/goals/RDT/RDT_WGN_SOLDIERS.png"
+	}
+	spriteType = {	
+		name = "GFX_RDT_KUBINKA3"
+		texturefile = "gfx/interface/goals/RDT/RDT_KUBINKA3.png"
+	}
+	spriteType = {	
+		name = "GFX_OPOLCHENIE_RDT"
+		texturefile = "gfx/interface/goals/RDT/OPOLCHENIE_RDT.png"
+	}
+}	

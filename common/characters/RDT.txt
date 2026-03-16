@@ -1,0 +1,68 @@
+characters = {
+	RDT_Alekseev = {
+		name = RDT_Alekseev
+		portraits = {
+			civilian = {
+				large = "GFX_Alekseev"
+			}
+		}
+		country_leader = {
+			expire = "1965.04.24"
+			ideology = oligarchy
+			traits = { retired_officer }
+		}
+		advisor={
+			slot = army_cic
+			idea_token = RDT_Alekseev_adv
+			ledger = army
+			allowed = {
+				original_tag = RDT
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	RDT_council_commanders_PMC = {
+		name = RDT_council_commanders_PMC
+		advisor={
+			slot = army_gs
+			idea_token = RDT_commanders_PMC
+			allowed = {
+				original_tag = RDT
+			}
+			available = {
+				
+			}
+			traits = {
+				army_chief_maneuver_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	RDT_Girkin = {
+		name = RDT_Girkin
+		portraits = {
+            army = {
+                small = "GFX_gen_girkin"
+                large = "GFX_gen_girkin"
+            }
+        }
+		corps_commander = {
+			traits = { trait_engineer media_personality harsh_leader war_hero reckless politically_connected inflexible_strategist urban_assault_specialist commando}
+			skill=5
+			attack_skill = 7
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}	
+}
+	

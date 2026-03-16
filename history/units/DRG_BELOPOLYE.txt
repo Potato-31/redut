@@ -1,0 +1,36 @@
+units = {
+	division = {
+		name = "1-ya ODSHBr imeni Gennadia Timchenko"
+		location = 1240
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "2-ya ODSHBr imeni Mihaila Ugoleva"
+		location = 3908
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "3-ya ODSHBr imeni Sergeya Alekseevicha"
+		location = 12754
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "4-ya ODSHBr imeni Vladimira Seliverstova"
+		location = 14702
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,107 @@
+division_template = {
+	name = "16 gv. obrspn. (part 10)"
+	is_locked = no
+	force_allow_recruiting = no
+	priority = 1
+	#division_names_group = UKR_MOT_01 # Группа названий для дивизий, необязательно
+	regiments = {
+		paratrooper = {
+			x = 0
+			y = 0
+		}
+		paratrooper = {
+			x = 0
+			y = 1
+		}
+		paratrooper = {
+			x = 0
+			y = 2
+		}
+		paratrooper = {
+			x = 1
+			y = 0
+		}
+		ifv_sov = {
+			x = 1
+			y = 1
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		signal_company = {
+			x = 0
+			y = 2
+		}
+		imv_recon = {
+			x = 0
+			y = 3
+		}
+		logistics_company = {
+			x = 0
+			y = 4
+		}
+		artillery = {
+			x = 0
+			y = 5
+		}
+		maintenance_company = {
+			x = 1
+			y = 0
+		}
+		atgm = {
+			x = 1
+			y = 1
+		}
+		mortar = {
+			x = 1
+			y = 2	
+		}
+		sniper = {
+			x = 1
+			y = 3	
+		}
+		sp_aa = {
+			x = 1
+			y = 4	
+		}
+	}
+}
+units = {
+	division = {
+		name = "45-ya otdel’naya gvardeyskaya ordenov Kutuzova i Aleksandra Nevskogo brigada spetsial’nogo naznacheniya part one"
+		location = 8171
+		division_template = "16 gv. obrspn. (part 10)"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+		officer = {
+			name = "Vadim Pankov"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+        }
+	}
+}
+units = {
+	division = {
+		name = "45-ya otdel’naya gvardeyskaya ordenov Kutuzova i Aleksandra Nevskogo brigada spetsial’nogo naznacheniya part two"
+		location = 8171
+		division_template = "16 gv. obrspn. (part 10)"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		officer = {
+			name = "Vadim Pankov"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+        }
+	}
+}

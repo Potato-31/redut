@@ -1,0 +1,1023 @@
+focus_tree = {
+	id = RDT
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RDT
+		}
+	}
+	focus = {
+		id = Kubinka
+		icon = GFX_kubinka
+		x = 22
+		y = 0
+		available = {
+			always = false
+		}
+	}
+	focus = {
+		id = borderRDT
+		icon = GFX_borderRDT
+		x = 22
+		y = 1
+		available = {
+			always = false
+		}
+		completion_reward = {
+			hidden_effect = {
+				news_event = {
+					id = redut.9003
+					days = 3
+				}
+			}
+		}
+	}
+	default = no
+	focus = {
+		id = RDT_CHVK
+		icon = GFX_RDT_CHVK
+		cost = 0.1
+		x = 16
+		y = 0
+		completion_reward = {
+			country_event = RDT.10
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_CHVK"
+			add_political_power = 50
+			add_war_support = 0.1
+		}
+
+	}
+	focus = {
+		id = RDT_COMMANDERS
+		icon = GFX_RDT_COMMANDERS
+		cost = 1
+		prerequisite = {
+			focus = RDT_CHVK
+		}
+		completion_reward = {
+			custom_effect_tooltip = RDT_commanders_custom
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_COMMANDERS"
+			hidden_effect = {
+				country_event = RDT.11
+			}
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = RDT_WAR_READY
+		icon = GFX_RDT_WAR_READY
+		cost = 1
+		x = 12
+		y = 2
+		prerequisite = {
+			focus = RDT_COMMANDERS
+		}
+		completion_reward = {
+			country_event = RDT.12
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_WAR_READY"
+			custom_effect_tooltip = RDT_WAR_READY_custom
+			hidden_effect = {
+				load_oob = desantniki
+			}
+		}
+	}
+	focus = {
+		id = RDT_MO_ARSENAL
+		icon = GFX_RDT_MO_ARSENAL
+		cost = 1
+		prerequisite = {
+			focus = RDT_WAR_READY
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_MO_ARSENAL"
+		}
+		x = 12
+		y = 3
+		completion_reward={
+			log = "[GetDateText]: [Root.GetName]: RDT_MO_ARSENAL"
+			add_equipment_to_stockpile = {
+				type = tank_sov_t55_equipment
+				variant_name = "Т-55"
+				amount = 50
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = imv_heavy_1_equipment
+				variant_name = "\"Выстрел\" с 30мм автопушкой"
+				amount = 500 #150
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = imv_light_3_equipment
+				variant_name = "Урал-6350"
+				amount = 800 #500
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = sp_artillery_tank_sov_t55_equipment
+				variant_name = "2С3 Акация"
+				amount = 60
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = sp_mlrs_imv_heavy_0_equipment
+				variant_name = "9К51М Торнадо-Г"
+				amount = 30
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = apc_sov_btr80_equipment
+				variant_name = "БТР-80"
+				amount = 50
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = ifv_sov_bmp1_equipment
+				variant_name = "БМП-1"
+				amount = 40
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = ifv_sov_bmp2_equipment
+				variant_name = "БМП-2"
+				amount = 30
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_ak74m_equipment
+				amount = 4000
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_ak74_equipment
+				amount = 1000
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = body_armor_6b5_equipment
+				amount = 8000
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = body_armor_6b3_equipment
+				amount = 8000
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = atgm_9k135_kornet_equipment
+				amount = 300
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = aa_9k338_igla_s_equipment
+				amount = 300
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = mortar_2b24_podnos_equipment
+				amount = 200
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = mortar_2b14_podnos_equipment
+				amount = 400
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = sov_artillery_2a65_equipment
+				amount = 40
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = grenade_launcher_rpg7_equipment
+				amount = 400
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = grenade_launcher_rpg26_aglen_equipment
+				amount = 200
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = uniform_vsr93_barviha_equipment
+				amount = 6000
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1		
+				amount = 500
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = engineering_equipment
+				amount = 500
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = arv_equipment
+				amount = 500
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = amv_equipment
+				amount = 500
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = sp_aa_mrv_tracked_2_equipment
+				version_name = "Бук-М1"
+				amount = 10
+			}
+			add_equipment_to_stockpile = {
+				type = arv_ifv_sov_bmp1_equipment
+				variant_name = "БРЭМ-2"
+				amount = 5
+				producer = RUS
+			}
+		}
+	}
+	focus = {
+		id = RDT_STARTKUBINKA
+		icon = GFX_RDT_STARTKUBINKA
+		cost = 1
+		prerequisite = {
+			focus = RDT_CHVK
+		}
+		completion_reward = {
+			add_political_power = 30
+			country_event = RDT.13
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_STARTKUBINKA"
+			add_ideas = RDT_council_idea
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = RDT_BARS
+		icon = GFX_RDT_BARS
+		cost = 1
+		prerequisite = {
+			focus = RDT_STARTKUBINKA
+		}
+		completion_reward = {
+			custom_effect_tooltip =  RDT_BARS_custom
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_BARS"
+			hidden_effect = {
+				load_oob = barsredut
+			}
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = RDT_SMO
+		icon = GFX_RDT_SMO
+		cost = 1
+		prerequisite = {
+			focus = RDT_BARS
+		}
+		completion_reward = {
+			custom_effect_tooltip = RDT_SMO_custom
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = RDT_START_SMO
+		icon = GFX_RDT_SMO
+		cost = 0.2
+		prerequisite = {
+			focus = RDT_SMO
+		}
+		available = {
+			RUS = {
+				has_war_with = UKR
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: RDT_START_SMO"
+			custom_effect_tooltip = RDT_start_SMO_custom
+			hidden_effect = {
+				country_event = RDT.15
+				country_event = {
+					id = RDT.14
+					days = 2
+				}
+				add_timed_idea = {
+					idea = RDT_PIZDA
+					days = 10
+				}
+			}
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = RDT_FUCK
+		icon = GFX_RDT_FUCK
+		cost = 2
+		prerequisite = {
+			focus = RDT_START_SMO
+		}
+		mutually_exclusive = {
+			focus = RDT_WIN
+		}
+		available = {
+			always = false
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_FUCK"
+			custom_effect_tooltip = RDT_FUCK_custom
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = RDT_XP
+		icon = GFX_RDT_XP
+		cost = 1
+		prerequisite = {
+			focus = RDT_CHVK
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_XP"
+			army_experience = 35
+			add_ideas = RDT_our_xp
+		}
+		x = 20
+		y = 1
+
+	}
+	focus = {
+		id = RDT_GRU
+		icon = GFX_RDT_GRU
+		cost = 1
+		prerequisite = {
+			focus = RDT_XP
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_GRU"
+			add_ideas = RDT_razvedka
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = RDT_WALK
+		icon = GFX_RDT_WALK
+		cost = 2
+		prerequisite = {
+			focus = RDT_GRU
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_WALK"
+			army_experience = 35
+			add_ideas = RDT_our_xp_2
+			hidden_effect = {
+				remove_ideas = RDT_our_xp
+			}
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = RDT_WIN
+		icon = GFX_RDT_WIN
+		cost = 2
+		prerequisite = {
+			focus = RDT_START_SMO
+		}
+		mutually_exclusive = {
+			focus = RDT_FUCK
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_WIN"
+			custom_effect_tooltip = RDT_WIN_custom
+		}
+		x = 21
+		y = 6
+
+	}
+	focus = {
+		id = RDT_KUBINKA3
+		icon = GFX_RDT_KUBINKA3
+		cost = 1
+		prerequisite = {
+			focus = RDT_WIN
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_KUBINKA3"
+			custom_effect_tooltip = RDT_KUBINKA3_custom
+			hidden_effect = {
+				country_event = {
+					id = RDT.17
+				}
+			}
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = RDT_MEDIA_PROJECT
+		icon = GFX_RDT_MEDIA_PROJECT
+		cost = 1
+		prerequisite = {
+			focus = RDT_KUBINKA3
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_MEDIA_PROJECT"
+			custom_effect_tooltip = RDT_recruit1
+			add_stability = 0.05
+			add_war_support = 0.05
+			hidden_effect = {
+				remove_ideas = RDT_manpower_1
+				add_ideas = RDT_manpower_2
+				country_event = {
+					id = RDT.1
+					days = 7
+				}
+			}
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = RDT_GREATESCHVK
+		icon = GFX_RDT_GREATESCHVK
+		cost = 2
+		prerequisite = {
+			focus = RDT_KUBINKA3
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_GREATESCHVK"
+			custom_effect_tooltip = RDT_NEWCHVK_custom
+			hidden_effect = {
+				load_oob = RDT_NEW_CHVK
+			}
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = RDT_GOSDUMA
+		icon = GFX_RDT_GOSDUMA
+		cost = 2
+		prerequisite = {
+			focus = RDT_GREATESCHVK
+		}
+		completion_reward = {
+			custom_effect_tooltip = RDT_GOSDUMA_custom
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = RDT_own_structure
+					add_idea = RDT_own_structure_2
+				}
+				news_event = {
+					id = redut.9002
+					days = 2
+				}
+			}
+		}
+		x = 21
+		y = 9
+
+	}
+	focus = {
+		id = RDT_NEW_DONATION
+		icon = GFX_RDT_NEW_DONATION
+		cost = 1
+		prerequisite = {
+			focus = RDT_KUBINKA3
+		}
+		completion_reward = {
+			custom_effect_tooltip = RDT_DONATION_custom
+			add_political_power = 70
+		}
+		x = 24
+		y = 8
+
+	}
+	focus = {
+		id = RDT_SIC
+		icon = GFX_RDT_SIC
+		cost = 1
+		prerequisite = {
+			focus = RDT_NEW_DONATION
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_SIC"
+			custom_effect_tooltip = RDT_SIC_custom
+			hidden_effect = {
+				set_research_slots =  3
+			}
+		}
+		x = 24
+		y = 9
+
+	}
+	focus = {
+		id = RDT_RUSSIAN_SPETS
+		icon = GFX_RDT_RUSSIAN_SPETS
+		cost = 2	
+		prerequisite = {
+			focus = RDT_SIC
+		}
+		prerequisite = {
+			focus = RDT_GOSDUMA
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_RUSSIAN_SPETS"
+			custom_effect_tooltip = RDT_SPETS_custom
+			add_political_power = 25
+			add_war_support = 0.05
+			hidden_effect = {
+				news_event= {
+					id = redut.9000
+					days = 3
+				}
+			}
+		}
+		x = 23
+		y = 10
+
+	}
+	focus = {
+		id = RDT_ITS_OVER
+		icon = GFX_RDT_ITS_OVER
+		cost = 1
+		prerequisite = {
+			focus = RDT_FUCK
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = RDT_PANIKA
+		icon = GFX_RDT_PANIKA
+		cost = 1
+		prerequisite = {
+			focus = RDT_ITS_OVER
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = RDT_LOS_DONATION
+		icon = GFX_RDT_LOS_DONATION
+		cost = 1
+		prerequisite = {
+			focus = RDT_ITS_OVER
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = RDT_WGN_SHADOW
+		icon = GFX_RDT_WGN_SHADOW
+		cost = 1
+		prerequisite = {
+			focus = RDT_ITS_OVER
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = RDT_MO_HAND
+		icon = GFX_RDT_MO_HAND
+		cost = 1
+		prerequisite = {
+			focus = RDT_WGN_SHADOW
+		}
+		prerequisite = {
+			focus = RDT_LOS_DONATION
+		}
+		prerequisite = {
+			focus = RDT_PANIKA
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = RDT_FECT
+		icon = GFX_RDT_FECT
+		cost = 1
+		prerequisite = {
+			focus = RDT_WGN_AMBITION
+		}
+		prerequisite = {
+			focus = RDT_JUR
+		}
+		prerequisite = {
+			focus = RDT_STROMZ
+		}
+		x = 11
+		y = 11
+
+	}
+	
+	focus = {
+		id = RDT_WGN_AMBITION
+		icon = GFX_RDT_WGN_AMBITION
+		cost = 1
+		prerequisite = {
+			focus = RDT_MO_HAND
+		}
+		x = 8
+		y = 10
+
+	}
+	focus = {
+		id = RDT_TROYAN_HORSE
+		icon = GFX_RDT_TROYAN_HORSE
+		cost = 1
+		prerequisite = {
+			focus = RDT_FECT
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = RDT_STROMZ
+		icon = GFX_OPOLCHENIE_RDT
+		cost = 1
+		prerequisite = {
+			focus = RDT_BIL_RECRUIT
+			focus = RDT_MO_HAND
+		}
+		available = {
+			OR = {
+				RUS = {
+					surrender_progress > 0.40
+					casualties > 100000
+				}
+				RUS = {
+					surrender_progress > 0.30
+					casualties > 150000
+				}
+				RUS = {
+					surrender_progress > 0.20
+					casualties > 200000
+				}
+				RUS = {
+					surrender_progress > 0.10
+					casualties > 250000
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_STROMZ"
+			custom_effect_tooltip = RDT_STROMZ_custom
+			add_political_power = -200
+			add_stability = -0.3
+			add_war_support = -0.2
+			load_oob = RDT_TRO
+		}
+		x = 14
+		y = 10
+
+	}
+	focus = {
+		id = RDT_JUR
+		icon = GFX_RDT_JUR
+		cost = 1
+		prerequisite = {
+			focus = RDT_MO_HAND
+		}
+		x = 11
+		y = 10
+
+	}
+	focus = {
+		id = RDT_BIL_RECRUIT
+		icon = GFX_RDT_BIL_RECRUIT
+		cost = 1
+		prerequisite = {
+			focus = RDT_MEDIA_PROJECT
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_BIL_RECRUIT"
+			custom_effect_tooltip = RDT_recruit2
+			add_stability = 0.05
+			add_war_support = 0.05
+			hidden_effect = {
+				remove_ideas = RDT_manpower_2
+				add_ideas = RDT_manpower_3
+			}
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = RDT_WGN_QUET
+		icon = GFX_RDT_WGN_QUET
+		cost = 2
+		prerequisite = {
+			focus = RDT_BIL_RECRUIT
+		}
+		completion_reward = {
+			country_event = {
+				id = RDT.4
+			}
+		}
+		x = 18
+		y = 11
+
+	}
+	focus = {
+		id = RDT_WITH_MO
+		icon = GFX_RDT_WITH_MO
+		cost = 1
+		prerequisite = {
+			focus = RDT_WGN_QUET
+		}
+		mutually_exclusive = {
+			focus = RDT_NEUTRAL
+			focus = RDT_WITH_WGN
+		}
+		available = {
+			always = false
+		}
+		x = 16
+		y = 12
+
+	}
+	focus = {
+		id = RDT_NEUTRAL
+		icon = GFX_RDT_NEUTRAL
+		cost = 1
+		prerequisite = {
+			focus = RDT_WGN_QUET
+		}
+		available = {
+			always = false
+		}
+		mutually_exclusive = {
+			focus = RDT_WITH_WGN
+			focus = RDT_WITH_MO
+		}
+		x = 18
+		y = 12
+
+	}
+	focus = {
+		id = RDT_WITH_WGN
+		icon = GFX_RDT_WITH_WGN
+		cost = 1
+		prerequisite = {
+			focus = RDT_WGN_QUET
+		}
+		mutually_exclusive = {
+			focus = RDT_NEUTRAL
+			focus = RDT_WITH_MO
+		}
+		available = {
+			always = false
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_WITH_WGN"
+		}
+		x = 20
+		y = 12
+
+	}
+	focus = {
+		id = RDT_DRG_IN_WGN
+		icon = GFX_RDT_DRG_IN_WGN
+		cost = 1
+		prerequisite = {
+			focus = RDT_WITH_MO
+		}
+		available = {
+			RDT = {
+				is_ai = no
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_DRG_IN_WGN"
+			add_political_power = 350
+			add_war_support = 0.05
+			WGN = {
+				add_timed_idea = {
+					idea = WGN_REDUT_LOLKEK
+					days = 60
+				}
+			}
+			news_event= {
+				id = redut.9004
+			}
+		}
+		x = 16
+		y = 13
+
+	}
+	focus = {
+		id = RDT_WGN_SOLDIERS
+		icon = GFX_RDT_WGN_SOLDIERS
+		cost = 1
+		prerequisite = {
+			focus = RDT_DRG_IN_WGN
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_WGN_SOLDIERS"
+			add_political_power = 150
+			add_war_support = 0.05
+			custom_effect_tooltip = RDT_RATIBOR_CUSTOM
+			hidden_effect = {
+				load_oob = RDT_WGN_RATIBOR
+				WGN = {
+					retire_character = alexander_kuznetsov
+					add_manpower = -5000
+				}
+				create_corps_commander = {
+					name = "Александр «Ратибор»"
+					portrait_path = "gfx/leaders/RDT/gen_ratibor.png"
+					traits = { trait_engineer war_hero reckless inflexible_strategist urban_assault_specialist commando}
+					skill=5
+					attack_skill = 6
+					defense_skill = 5
+					planning_skill = 3
+					logistics_skill = 3
+				}
+			}
+		}
+		x = 16
+		y = 14
+
+	}
+	focus = {
+		id = RDT_CALL_PUTIN
+		icon = GFX_RDT_CALL_PUTIN
+		cost = 1
+		prerequisite = {
+			focus = RDT_NEUTRAL
+		}
+		available = {
+			NOT = {
+				WGN = {
+					has_completed_focus = WGN_recruitmentcentresinrussia
+				}
+				WGN = {
+					has_completed_focus = WGN_socialmediaadcompany
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_CALL_PUTIN"
+			custom_effect_tooltip = RDT_CALL_PUTIN_custom
+			country_event = rdt.19
+		}
+		x = 18
+		y = 13
+
+	}
+	focus = {
+		id = RDT_BK_FOR_WGN
+		icon = GFX_RDT_BK_FOR_WGN
+		cost = 1
+		prerequisite = {
+			focus = RDT_WITH_WGN
+		}
+		available = {
+			RDT = {
+				is_ai = no
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_BK_FOR_WGN"
+			add_political_power = -300
+			custom_effect_tooltip = RDT_ammo
+		}
+		x = 20
+		y = 13
+
+	}
+	focus = {
+		id = RDT_WITH_AK
+		icon = GFX_RDT_WITH_AK
+		cost = 2
+		prerequisite = {
+			focus = RDT_RUSSIAN_SPETS
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_RUSSIAN_SPETS"
+			custom_effect_tooltip = RDT_AK_custom
+			add_political_power = 25
+			add_war_support = 0.05
+			hidden_effect = {
+				news_event= {
+					id = redut.9001
+					days = 2
+				}
+			}
+		}
+		x = 23
+		y = 11
+
+	}
+	focus = {
+		id = RDT_DRG_21
+		icon = GFX_RDT_DRG_21
+		cost = 1
+		prerequisite = {
+			focus = RDT_WITH_AK
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_DRG_21"
+			add_ideas = RDT_DRG21 
+		}
+		x = 23
+		y = 12
+
+	}
+	focus = {
+		id = RDT_RESERVS
+		icon = GFX_RDT_RESERVS
+		cost = 2
+		prerequisite = {
+			focus = RDT_WITH_AK
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_RESERVS"
+			add_timed_idea = {
+				idea = RDT_maneuvers
+				days = 10
+			}
+		}
+		x = 25
+		y = 12
+
+	}
+	focus = {
+		id = RDT_AVANTURE
+		icon = GFX_RDT_AVANTURE
+		cost = 1
+		prerequisite = {
+			focus = RDT_RESERVS
+		}
+		prerequisite = {
+			focus = RDT_DRG_21
+		}
+		completion_reward={
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_AVANTURE"
+			custom_effect_tooltip = RDT_AVANTURE_custom
+		}
+		x = 24
+		y = 13
+
+	}
+	focus = {
+		id = RDT_UKR_BORDERS
+		icon = GFX_RDT_UKR_BORDERS
+		cost = 1
+		prerequisite = {
+			focus = RDT_AVANTURE
+		}
+		x = 24
+		y = 14
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward={
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_UKR_BORDERS"
+			increase_escalation_by_20 = yes
+			custom_effect_tooltip = RDT_progrev
+		}
+
+	}
+	focus = {
+		id = RDT_PRETORIAN
+		icon = GFX_RDT_PRETORIAN
+		cost = 1
+		prerequisite = {
+			focus = RDT_UKR_BORDERS
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_SIC"
+			custom_effect_tooltip = RDT_best_idea_custom
+			add_ideas = RDT_best_idea
+		}
+		x = 24
+		y = 15
+
+	}
+}

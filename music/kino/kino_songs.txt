@@ -1,0 +1,198 @@
+
+music_station = "kino"
+
+music = {
+	song = "derzhava"
+
+}
+
+music = {
+	song = "desant_sturmuet_nebesa"
+
+}
+
+music = {
+	song = "fantom_grob"
+
+}
+
+music = {
+	song = "grachi_priliteli"
+
+}
+
+music = {
+	song = "kolychka"
+	
+}
+
+music = {
+	song = "lubo"
+	
+}
+
+music = {
+	song = "marsh_nebesnih_svyazistov"
+
+}
+
+music = {
+	song = "mozart_voennogo_dela"
+
+}
+
+music = {
+	song = "ne_znay_molitv"
+
+}
+
+music = {
+	song = "nevinosimih_poter"
+
+}
+
+music = {
+	song = "odinpatron"
+
+}
+
+music = {
+	song = "paintitblack"
+
+}
+
+music = {
+	song = "pamyat"
+
+}
+
+music = {
+	song = "pavshim_za_treti_rim"
+
+}
+
+music = {
+	song = "proklinaite"
+
+}
+
+music = {
+	song = "proshai_chechnya"
+
+}
+
+music = {
+	song = "pyat_svetoforov"
+
+}
+
+music = {
+	song = "ruski_passazir"
+
+}
+
+music = {
+	song = "seliger"
+
+}
+
+music = {
+	song = "sireni"
+
+}
+
+music = {
+	song = "soldatami_ne"
+
+}
+
+music = {
+	song = "tinaznachenbitgeroem"
+
+}
+
+music = {
+	song = "vrag"
+
+}
+music = {
+	song = "segodnya"
+
+}
+
+music = {
+	song = "CSN_blood"
+	
+}
+music = {
+	song = "CSN_russian"
+	
+}
+music = {
+	song = "kascad_alert"
+	
+}
+music = {
+	song = "kascad_razved"
+	
+}
+music = {
+	song = "kascad_sun"
+	
+}
+music = {
+	song = "hoi4mainthemeallies"
+	
+}
+music = {
+	song = "Airbone"
+	
+}
+music = {
+	song = "Chechnya_in_flames"
+	
+}
+music = {
+	song = "Machine_Gun_Hands"
+	
+}
+music = {
+	song = "Russia_Remember"
+	
+}
+music = {
+	song = "Vyatka_Homeland"
+	
+}
+music = {
+	song = "Empire"
+	
+}
+music = {
+	song = "Kiss_the_rails"
+	
+}
+music = {
+	song = "arktika_moyaimperia"
+	
+}
+music = {
+	song = "dablyat_esheneconec"
+	
+}
+music = {
+	song = "elizarov_anavoine"
+	
+}
+music = {
+	song = "elizarov_bairaktar"
+	
+}
+music = {
+	song = "elizarov_pesnyareservista"
+	
+}
+music = {
+	song = "orientir_russkayazemlya"
+	
+}

@@ -1,0 +1,80 @@
+﻿add_namespace = redut
+
+news_event = {
+	id = redut.9000
+	title = redut.9000.t
+	desc = redut.9000.d
+	picture = GFX_redut_event_9000
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = redut.9000.a
+		#log = "[GetDateText]: [This.GetName]: redut.9000.a executed"
+	}
+}
+
+news_event = {
+	id = redut.9001
+	title = redut.9001.t
+	desc = redut.9001.d
+	picture = GFX_redut_event_9001
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = redut.9001.a
+		#log = "[GetDateText]: [This.GetName]: redut.9001.a executed"
+	}
+}
+
+news_event = {
+	id = redut.9002
+	title = redut.9002.t
+	desc = redut.9002.d
+	picture = GFX_redut_event_9002
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = redut.9002.a
+		#log = "[GetDateText]: [This.GetName]: redut.9002.a executed"
+	}
+}
+
+news_event = {
+	id = redut.9003
+	title = redut.9003.t
+	desc = redut.9003.d
+	picture = GFX_redut_event_9003
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.9003.a
+		#log = "[GetDateText]: [This.GetName]: news.9003.a executed"
+	}
+}
+
+news_event = {
+	id = redut.9004
+	title = redut.9004.t
+	desc = redut.9004.d
+	picture = GFX_redut_event_9004
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = redut.9004.a
+		#log = "[GetDateText]: [This.GetName]: redut.9004.a executed"
+	}
+}
+
+
+
+################################

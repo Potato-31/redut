@@ -1,0 +1,18 @@
+RUS_REDUT_MP_DECISIONS = {
+	RDT_RDT_PUPPET = {
+		icon = GFX_RUS_CHVK_Redut
+		cost = 0
+		fire_only_once = yes
+		available = {
+			RDT = {
+				is_ai = yes
+			}
+		}	
+		complete_effect = {
+			puppet = RDT
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_RDT_PUPPET: remove_effect"
+		}
+	}
+}

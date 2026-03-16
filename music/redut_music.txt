@@ -1,0 +1,8 @@
+music_station = "war_songs"
+music = {
+	song = "hoi4mainthemeallies"
+	
+	chance = {
+		factor = 1
+	}
+}	

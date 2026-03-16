@@ -1,0 +1,799 @@
+﻿capital = 9
+
+oob = "RDT_2022"
+
+set_research_slots = 1
+
+set_stability = 0.60
+
+set_war_support = 0.5
+
+add_political_power = 0
+
+set_convoys = 30
+
+create_intelligence_agency = yes
+
+add_manpower = 7000
+
+set_popularities = {
+	democratic = 0
+	communism = 0
+	fascism = 0
+	neutrality = 100
+}
+
+add_ideas = {
+	only_government_media
+	militarized_police
+	strong_central_administration
+	security_bloated
+	educational_basic
+	social_deficit
+	rescure_deficit
+	mobilization_age_22_24
+	service_age_60
+	military_object
+	war_economy
+	limited_conscription
+	closed_economy
+	borders_closed
+	society_very_high
+	PMC_council
+	heritage_of_accomplishment
+	RDT_attack
+	RDT_SYR_resources
+	RDT_own_structure
+	RDT_manpower_1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2019.04.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_cosmetic_tag = RDT_game_start
+
+#Военные
+activate_advisor = RDT_Alekseev_adv
+activate_advisor = RDT_commanders_PMC
+recruit_character = RDT_council_commanders_PMC
+
+create_corps_commander = {
+	name = "Сергей Алексеевич"
+	portrait_path = "gfx/leaders/RDT/gen_kanchukov.png"
+	traits = { career_officer old_guard trait_engineer inflexible_strategist urban_assault_specialist  }
+	skill=4
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 8
+	logistics_skill = 7
+}
+
+create_corps_commander = {
+	name = "Владимир Селивёрстов"
+	portrait_path = "gfx/leaders/RDT/gen_selevestorov.png"
+	traits = { trait_engineer old_guard paratrooper trickster Ambusher }
+	skill=4
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+recruit_character = RDT_Alekseev
+
+create_field_marshal = {
+	name = "Владимир Алeксеев"
+	portrait_path = "gfx/leaders/RDT/gen_alekseev.png"
+	traits = { organizer trait_cautious thorough_planner offensive_doctrine logistics_wizard commando infantry_leader }
+	skill=6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 7
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Андрей Сердюков"	
+	portrait_path = "gfx/leaders/RDT/gen_serdykov.png"
+	traits = { brilliant_strategist career_officer trait_engineer paratrooper adaptable urban_assault_specialist improvisation_expert desert_fox }
+	skill=5
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Михаил Уголёв"
+	portrait_path = "gfx/leaders/RDT/gen_ugolev.png"
+	traits = { trait_engineer paratrooper inflexible_strategist Swamp_Fox }
+	skill=3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_equipment_variant_tank_sov_t_55 = yes
+create_equipment_variant_tank_sov_t_55a = yes
+create_equipment_variant_tank_sov_t_62 = yes
+create_equipment_variant_tank_sov_t_62m = yes
+create_equipment_variant_tank_sov_t_62mv = yes
+create_equipment_variant_tank_sov_t_62m_obr_21 = yes
+create_equipment_variant_tank_sov_t_62mv_obr_22 = yes
+create_equipment_variant_tank_sov_t_72 = yes
+create_equipment_variant_tank_sov_t_72a = yes
+create_equipment_variant_tank_sov_t_72b_obr_85 = yes
+create_equipment_variant_tank_sov_t_72b1 = yes
+create_equipment_variant_tank_sov_t_72b_obr_89 = yes
+create_equipment_variant_tank_sov_t_72ba = yes
+create_equipment_variant_tank_sov_t_72b3 = yes
+create_equipment_variant_tank_sov_t_72b3m = yes
+create_equipment_variant_tank_sov_t_64 = yes
+create_equipment_variant_tank_sov_t_64a = yes
+create_equipment_variant_tank_sov_t_64b = yes
+create_equipment_variant_tank_sov_t_64bv = yes
+create_equipment_variant_tank_sov_t_80 = yes
+create_equipment_variant_tank_sov_t_80b = yes
+create_equipment_variant_tank_sov_t_80bv = yes
+create_equipment_variant_tank_sov_t_80u = yes
+create_equipment_variant_tank_sov_t_80uk = yes
+create_equipment_variant_tank_sov_t_80ue = yes
+create_equipment_variant_tank_sov_t_80ue_1 = yes
+create_equipment_variant_tank_sov_t_80um1 = yes
+create_equipment_variant_tank_sov_t_80bvm = yes
+create_equipment_variant_tank_sov_t_90 = yes
+create_equipment_variant_tank_sov_t_90s = yes
+create_equipment_variant_tank_sov_t_90a = yes
+create_equipment_variant_tank_sov_t_90m_proryv_3 = yes
+create_equipment_variant_tank_sov_t_90ms = yes
+create_equipment_variant_tank_sov_obekt_640_chyornyy_oryol = yes
+create_equipment_variant_tank_sov_t_14_armata = yes
+create_equipment_variant_ifv_sov_t_15_barbaris = yes
+create_equipment_variant_imv_vystrel_s_kord = yes
+create_equipment_variant_imv_vystrel = yes
+create_equipment_variant_imv_vystrel_s_30mm_avtopushkoy = yes
+create_equipment_variant_imv_tigr = yes
+create_equipment_variant_imv_tigr_s_modulem_arbalet = yes
+create_equipment_variant_imv_spartak = yes
+create_equipment_variant_imv_tayfun_4kh4 = yes
+create_equipment_variant_imv_tayfun_4kh4_s_modulem_arbalet = yes
+create_equipment_variant_imv_light_ural_4350 = yes
+create_equipment_variant_imv_light_ural_5350 = yes
+create_equipment_variant_imv_light_ural_6350 = yes
+create_equipment_variant_imv_ural_4320 = yes
+create_equipment_variant_sp_artillery_2s9_nona_s = yes
+create_equipment_variant_sp_artillery_2s9_1m_nona_s = yes
+create_equipment_variant_sp_artillery_2s23_nona_svk = yes
+create_equipment_variant_sp_artillery_2s1_gvozdika = yes
+create_equipment_variant_sp_artillery_2s34_khosta = yes
+create_equipment_variant_sp_artillery_2s3_akatsiya = yes
+create_equipment_variant_sp_artillery_2s40_floks = yes
+create_equipment_variant_sp_tos_tos_2 = yes
+create_equipment_variant_sp_artillery_2s19_msta_s = yes
+create_equipment_variant_sp_artillery_2s19m1_msta_s = yes
+create_equipment_variant_sp_artillery_2s19m2_msta_s = yes
+create_equipment_variant_sp_artillery_2s5_giatsint_s = yes
+create_equipment_variant_sp_heavy_artillery_2s7_pion = yes
+create_equipment_variant_sp_heavy_artillery_2s7m_malka = yes
+create_equipment_variant_sp_heavy_artillery_2s4_tyulpan = yes
+create_equipment_variant_sp_artillery_2s35_koalitsiya_sv = yes
+create_equipment_variant_sp_mlrs_bm_21_grad = yes
+create_equipment_variant_sp_mlrs_9k51m_tornado_g = yes
+create_equipment_variant_sp_mlrs_9k57_uragan = yes
+create_equipment_variant_sp_mlrs_9k512_uragan_1m = yes
+create_equipment_variant_sp_mlrs_9k58_smerch = yes
+create_equipment_variant_sp_mlrs_9k515_tornado_s = yes
+create_equipment_variant_sp_atgm_9p149_shturm_s = yes
+create_equipment_variant_sp_atgm_9p157_khrizantema_s = yes
+create_equipment_variant_sp_atgm_9p163_3_kornet_d = yes
+create_equipment_variant_sp_atgm_9p162_kornet_t = yes
+create_equipment_variant_sp_tos_tos_1a_solntsepyok = yes
+create_equipment_variant_sp_aa_pantsir_s1 = yes
+create_equipment_variant_sp_aa_strela_10 = yes
+create_equipment_variant_sp_aa_tor_m1 = yes
+create_equipment_variant_sp_aa_osa = yes
+create_equipment_variant_sp_aa_tunguska = yes
+create_equipment_variant_sp_aa_pantsir_sm = yes
+create_equipment_variant_sp_aa_buk_m1 = yes
+create_equipment_variant_sp_aa_buk_m2 = yes
+create_equipment_variant_arv_brem_1 = yes
+create_equipment_variant_arv_brem_2 = yes
+create_equipment_variant_light_tank_sov_2s25_sprut_sd = yes
+create_equipment_variant_light_tank_sov_2s25m_sprut_sdm1 = yes
+create_equipment_variant_apc_btr_50 = yes
+create_equipment_variant_apc_btr_50p = yes
+create_equipment_variant_apc_btr_60 = yes
+create_equipment_variant_apc_btr_60p = yes
+create_equipment_variant_apc_btr_60pa = yes
+create_equipment_variant_apc_btr_60pb = yes
+create_equipment_variant_apc_btr_70 = yes
+create_equipment_variant_apc_btr_70di = yes
+create_equipment_variant_apc_btr_70v = yes
+create_equipment_variant_apc_btr_80 = yes
+create_equipment_variant_apc_btr_80a = yes
+create_equipment_variant_apc_btr_82a = yes
+create_equipment_variant_apc_btr_82am = yes
+create_equipment_variant_apc_btr_87 = yes
+create_equipment_variant_apc_btr_22 = yes
+create_equipment_variant_apc_btr_90_rostok = yes
+create_equipment_variant_apc_btr_90_krymsk = yes
+create_equipment_variant_apc_btr_90m = yes
+create_equipment_variant_apc_btr_k_16_bumerang = yes
+create_equipment_variant_apc_baykal = yes
+create_equipment_variant_apc_bmp_k_17 = yes
+create_equipment_variant_brdm_brdm_1 = yes
+create_equipment_variant_brdm_brdm_2 = yes
+create_equipment_variant_brdm_brdm_2u = yes
+create_equipment_variant_brdm_brdm_2ms = yes
+create_equipment_variant_apc_mt_lb = yes
+create_equipment_variant_apc_mt_lbvm = yes
+create_equipment_variant_apc_mt_lbvm_6mb = yes
+create_equipment_variant_ifv_sov_bmp_1 = yes
+create_equipment_variant_ifv_sov_bmp_1p = yes
+create_equipment_variant_ifv_sov_bmp_1d = yes
+create_equipment_variant_ifv_sov_bmp_1am_basurmanin = yes
+create_equipment_variant_ifv_sov_bmp_2 = yes
+create_equipment_variant_ifv_sov_bmp_2d = yes
+create_equipment_variant_ifv_sov_bmp_2m_berezhok = yes
+create_equipment_variant_ifv_sov_bmp_2_plamya = yes
+create_equipment_variant_ifv_sov_bmp_3 = yes
+create_equipment_variant_ifv_sov_bmp_3m = yes
+create_equipment_variant_ifv_sov_bmp_3_derivatsiya = yes
+create_equipment_variant_ifv_sov_bmp_3_dragun = yes
+create_equipment_variant_ifv_sov_bmp_3k_rys = yes
+create_equipment_variant_ifv_sov_kurganets_25 = yes
+create_equipment_variant_afv_sov_bmd_1 = yes
+create_equipment_variant_afv_sov_bmd_1p = yes
+create_equipment_variant_apc_btr_md_rakushka = yes
+create_equipment_variant_afv_sov_bmd_2 = yes
+create_equipment_variant_afv_sov_bmd_2m = yes
+create_equipment_variant_afv_sov_bmd_3 = yes
+create_equipment_variant_afv_sov_bmd_4 = yes
+create_equipment_variant_afv_sov_bmd_4m = yes
+create_equipment_variant_afv_sov_bmd_4m_sinitsa = yes
+create_equipment_variant_imv_light_gaz_3308_sadko = yes
+create_equipment_variant_imv_light_gaz_66_shishiga = yes
+create_equipment_variant_imv_light_kamaz_4310 = yes
+create_equipment_variant_imv_light_kamaz_6350 = yes
+create_equipment_variant_imv_light_kamaz_5385 = yes
+create_equipment_variant_imv_light_uaz_452 = yes
+create_equipment_variant_imv_light_uaz_469 = yes
+create_equipment_variant_imv_light_uaz_3163_patriot = yes
+create_equipment_variant_sp_atgm_9p148 = yes
+create_equipment_variant_sp_aa_buk_m3 = yes
+create_equipment_variant_bpmt_bmpt_terminator = yes
+create_equipment_variant_bpmt_bmpt_72_terminator_2 = yes
+create_equipment_variant_apc_btr_d = yes
+create_equipment_variant_missile_rus_R17 = yes
+create_equipment_variant_missile_rus_9K79 = yes
+create_equipment_variant_missile_rus_9M723 = yes
+create_equipment_variant_missile_rus_iskander1000 = yes
+
+
+set_technology = {
+	computers_0 = 1
+	computers_1 = 1
+	computers_2 = 1
+	computers_3 = 1
+	internet_0 = 1
+	internet_1 = 1
+	internet_2 = 1
+	internet_3 = 1
+	internet_4 = 1
+	development_of_ai_0 = 1
+	development_of_ai_1 = 1
+	development_of_ai_2 = 1
+	development_of_ai_3 = 1
+	radar_0 = 1
+	radar_1 = 1
+	radar_2 = 1
+	radar_3 = 1
+	radar_4 = 1
+	radar_5 = 1
+	radar_6 = 1
+	printers_0 = 1
+	printers_1 = 1
+	printers_2 = 1
+	printers_3 = 1
+	robotization_0 = 1
+	robotization_1 = 1
+	robotization_2 = 1
+	working_equipment_0 = 1
+	working_equipment_1 = 1
+	working_equipment_2 = 1
+	working_equipment_3 = 1
+	working_equipment_4 = 1
+	building_0 = 1
+	building_1 = 1
+	building_2 = 1
+	building_3 = 1
+	mining_0 = 1
+	mining_1 = 1
+	mining_2 = 1
+	mining_3 = 1
+	mining_4 = 1
+	road_construction_0 = 1
+	road_construction_1 = 1
+	road_construction_2 = 1
+	electronics_manufacturing_0 = 1
+	electronics_manufacturing_1 = 1
+	oil_refining_0 = 1
+	oil_refining_1 = 1
+	oil_refining_2 = 1
+	oil_refining_3 = 1
+	oil_refining_4 = 1
+	urbanization_0 = 1
+	urbanization_1 = 1
+	urbanization_2 = 1
+	unmanned_ifv_uran9 = 1
+	rus_sam_5B21 = 1
+	rus_sam_5B55P = 1
+	rus_sam_48Н6Е3 = 1
+	missile_rus_kh22 = 1
+	missile_rus_kh32 = 1
+	missile_rus_kh55 = 1
+	missile_rus_kh55cm = 1
+	missile_rus_kh555  = 1
+	missile_rus_kh101 = 1
+	missile_rus_kh47 = 1
+	missile_rus_R17 = 1
+	missile_rus_9K79 = 1
+	missile_rus_9M723 = 1
+	rus_sam_40Н6Е = 1
+	rus_sam_prometey = 1
+
+	rus_guidance_1 = 1
+ 
+	SOV_2022 = 1
+
+	
+	
+	
+	
+
+	infantry_weapons_sov_ww2 = 1
+	infantry_weapons_akm = 1
+	infantry_weapons_ak74 = 1
+	infantry_weapons_ak74m = 1
+	infantry_weapons_ak12 = 1
+	infantry_improvements_0 = 1
+	infantry_improvements_1 = 1
+	infantry_improvements_0 = 1
+	infantry_improvements_2 = 1
+	infantry_improvements_3 = 1
+	infantry_uniform_kzmp_beryozka = 1
+	infantry_uniform_vsr84_butan = 1
+	infantry_uniform_vsr93_barviha = 1
+	infantry_uniform_emr_cifra = 1
+	infantry_uniform_vkpo = 1
+	infantry_body_armor_6b1 = 1
+	infantry_body_armor_6b3 = 1
+	infantry_body_armor_6b5 = 1
+	infantry_body_armor_6b12 = 1
+	infantry_body_armor_improvement_0 = 1
+	infantry_body_armor_6b23 = 1
+	infantry_body_armor_ratnik = 1
+	infantry_body_armor_ratnik_2 = 1
+	infantry_grenade_launcher_rpg7 = 1
+	infantry_grenade_launcher_rpg18_muha = 1
+	infantry_grenade_launcher_rpg22_netto = 1
+	infantry_grenade_launcher_rpg26_aglen = 1
+	infantry_grenade_launcher_rpg26_shmel = 1
+	infantry_uniform_vsr98_flora = 1
+	infantry_grenade_launcher_rpg27_tavolga = 1
+	infantry_grenade_launcher_rpg28_klukva = 1
+	infantry_grenade_launcher_rpg30_kruk = 1
+	infantry_grenade_launcher_rpg30_shmel2 = 1
+	infantry_mortar_sov_ww2 = 1
+	infantry_mortar_2b9_vasilyok = 1
+	infantry_mortar_2b11 = 1
+	infantry_mortar_2b14_podnos = 1
+	infantry_mortar_2b24_podnos = 1
+	infantry_mortar_2b25_gall = 1
+	infantry_atgm_9k11_malutka = 1
+	infantry_atgm_9k111_fagot = 1
+	infantry_atgm_9k111_1_konkurs = 1
+	infantry_atgm_9k115_metis = 1
+	infantry_atgm_9k135_kornet = 1
+	infantry_aa_9k32_strela_2 = 1
+	infantry_aa_9k34_strela_3 = 1
+	infantry_aa_9k38_igla = 1
+	infantry_aa_9k338_igla_s = 1
+	infantry_aa_9k333_verba = 1
+	motorized_infantry = 1
+
+	tech_support = 1
+	tech_engineering = 1
+	tech_engineers = 1
+	tech_engineers2 = 1
+	communication_equipment = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_ARV = 1
+	tech_AMV = 1
+
+	tank_sov_t55 = 1
+
+	tank_sov_t62 = 1
+
+	tank_sov_t64 = 1
+
+	tank_sov_t72 = 1
+	bmpt_tank_sov_t72 = 1
+	sp_artillery_tank_sov_t72 = 1
+	
+	arv_tank_sov_t72 = 1
+
+	tank_sov_t80 = 1
+	sp_artillery_tank_sov_t80 = 1
+
+	tank_rus_t90 = 1
+	sp_artillery_tank_rus_t90 = 1
+
+	tank_rus_t14 = 1
+	ifv_heavy_rus_t14 = 1
+	arv_ifv_sov_bmp1 = 1
+	ifv_sov_bmp1 = 1
+	ifv_sov_bmp2 = 1
+	ifv_sov_bmp3 = 1
+	sp_atgm_ifv_sov_bmp3 = 1
+	ifv_rus_kurganetz25 = 1
+	afv_sov_bmd1 = 1
+	sp_artillery_afv_sov_bmd1 = 1
+	apc_afv_sov_bmd1 = 1
+	afv_sov_bmd2 = 1
+	afv_sov_bmd3 = 1
+	light_tank_afv_sov_bmd3 = 1
+	afv_rus_bmd4 = 1
+	apc_afv_rus_bmd4 = 1
+	apc_sov_btr50 = 1
+	apc_sov_btr60 = 1
+	apc_sov_btr70 = 1
+	apc_sov_btr80 = 1
+	apc_rus_btr16 = 1
+	apc_rus_btr22 = 1
+	apc_rus_btr87 = 1
+	apc_rus_btr90 = 1
+	sp_artillery_apc_sov_btr80 = 1
+	apc_sov_mtlb = 1
+	sp_aa_apc_sov_mtlb = 1
+	sp_atgm_apc_sov_mtlb = 1
+	sp_artillery_apc_sov_mtlb = 1
+	sp_mlrs_apc_sov_mtlb = 1
+	sov_brdm1 = 1
+	sov_brdm2 = 1
+	sp_atgm_sov_brdm2 = 1
+
+	transport1 = 1
+	transport2 = 1
+	transport3 = 1
+	transport4 = 1
+	CAS1 = 1
+	CAS2 = 1
+	CAS3 = 1
+	CASt1 = 1
+	CASt2 = 1
+	CASt3 = 1
+	CASt4 = 1
+	strategic_bomber1 = 1
+	strategic_bomber2 = 1 
+	strategic_bomber3 = 1
+	strategic_bomber4 = 1
+	strategic_bomber5 = 1
+	CAS0 = 1
+	fighter1 = 1
+	fighter2 = 1
+	fighter3 = 1
+	fighter4 = 1
+	fighter5 = 1
+	fighter6 = 1
+	fighter7 = 1
+	fighter8 = 1
+	fighter9 = 1
+	fightert1 = 1
+	fightert2 = 1
+	hel_strike1 = 1
+	hel_strike2 = 1
+	hel_strike3 = 1
+	hel_strike4 = 1
+	hel_strike5 = 1
+	hel_strike6 = 1
+	hel_strike7 = 1
+	hel_transport1 = 1
+	hel_transport2 = 1
+	hel_transport3 = 1
+	uav_strike1 = 1
+	uav_strike2 = 1
+	uav_recon1 = 1
+	uav_recon2 = 1
+	imv_civil_0 = 1
+	sp_aa_imv_civil_0 = 1
+	sp_atgm_imv_civil_0 = 1
+	sp_artillery_imv_civil_0 = 1
+	sp_mlrs_imv_civil_0 = 1
+	sp_tos_imv_civil_0 = 1
+	imv_civil_1 = 1
+	sp_aa_imv_civil_1 = 1
+	sp_atgm_imv_civil_1 = 1
+	sp_artillery_imv_civil_1 = 1
+	sp_mlrs_imv_civil_1 = 1
+	sp_tos_imv_civil_1 = 1
+	imv_civil_2 = 1
+	sp_aa_imv_civil_2 = 1
+	sp_atgm_imv_civil_2 = 1
+	sp_artillery_imv_civil_2 = 1
+	sp_mlrs_imv_civil_2 = 1
+	sp_tos_imv_civil_2 = 1	
+	imv_civil_3 = 1
+	sp_aa_imv_civil_3 = 1
+	sp_atgm_imv_civil_3 = 1
+	sp_artillery_imv_civil_3 = 1
+	sp_mlrs_imv_civil_3 = 1
+	sp_tos_imv_civil_3 = 1		
+	imv_civil_4 = 1
+	sp_aa_imv_civil_4 = 1
+	sp_atgm_imv_civil_4 = 1
+	sp_artillery_imv_civil_4 = 1
+	sp_mlrs_imv_civil_4 = 1
+	sp_tos_imv_civil_4 = 1			
+	imv_medium_0 = 1
+	sp_aa_imv_medium_0 = 1
+	sp_atgm_imv_medium_0 = 1
+	sp_artillery_imv_medium_0 = 1
+	sp_mlrs_imv_medium_0 = 1
+	sp_tos_imv_medium_0 = 1
+	imv_light_0 = 1
+	sp_aa_imv_light_0 = 1
+	sp_atgm_imv_light_0 = 1
+	sp_artillery_imv_light_0 = 1
+	sp_mlrs_imv_light_0 = 1
+	sp_tos_imv_light_0 = 1	
+	imv_light_1 = 1
+	sp_aa_imv_light_1 = 1
+	sp_atgm_imv_light_1 = 1
+	sp_artillery_imv_light_1 = 1
+	sp_mlrs_imv_light_1 = 1
+	sp_tos_imv_light_1 = 1
+	imv_light_2 = 1
+	sp_aa_imv_light_2 = 1
+	sp_atgm_imv_light_2 = 1
+	sp_artillery_imv_light_2 = 1
+	sp_mlrs_imv_light_2 = 1
+	sp_tos_imv_light_2 = 1
+	imv_light_3 = 1
+	sp_aa_imv_light_3 = 1
+	sp_atgm_imv_light_3 = 1
+	sp_artillery_imv_light_3 = 1
+	sp_mlrs_imv_light_3 = 1
+	sp_tos_imv_light_3 = 1	
+	imv_light_4 = 1
+	sp_aa_imv_light_4 = 1
+	sp_atgm_imv_light_4 = 1
+	sp_artillery_imv_light_4 = 1
+	sp_mlrs_imv_light_4 = 1
+	sp_tos_imv_light_4 = 1		
+	imv_medium_1 = 1
+	sp_aa_imv_medium_1 = 1
+	sp_atgm_imv_medium_1 = 1
+	sp_artillery_imv_medium_1 = 1
+	sp_mlrs_imv_medium_1 = 1
+	sp_tos_imv_medium_1 = 1
+	imv_medium_2 = 1
+	sp_aa_imv_medium_2 = 1
+	sp_atgm_imv_medium_2 = 1
+	sp_artillery_imv_medium_2 = 1
+	sp_mlrs_imv_medium_2 = 1
+	sp_tos_imv_medium_2 = 1
+	imv_medium_3 = 1
+	sp_aa_imv_medium_3 = 1
+	sp_atgm_imv_medium_3 = 1
+	sp_artillery_imv_medium_3 = 1
+	sp_mlrs_imv_medium_3 = 1
+	sp_tos_imv_medium_3 = 1
+	imv_medium_4 = 1
+	sp_aa_imv_medium_4 = 1
+	sp_atgm_imv_medium_4 = 1
+	sp_artillery_imv_medium_4 = 1
+	sp_mlrs_imv_medium_4 = 1
+	sp_tos_imv_medium_4 = 1
+	imv_heavy_0 = 1
+	sp_aa_imv_heavy_0 = 1
+	sp_atgm_imv_heavy_0 = 1
+	sp_artillery_imv_heavy_0 = 1
+	sp_mlrs_imv_heavy_0 = 1
+	sp_tos_imv_heavy_0 = 1
+	imv_heavy_1 = 1
+	sp_aa_imv_heavy_1 = 1
+	sp_atgm_imv_heavy_1 = 1
+	sp_artillery_imv_heavy_1 = 1
+	sp_mlrs_imv_heavy_1 = 1
+	sp_tos_imv_heavy_1 = 1
+	imv_heavy_2 = 1
+	sp_aa_imv_heavy_2 = 1
+	sp_atgm_imv_heavy_2 = 1
+	sp_artillery_imv_heavy_2 = 1
+	sp_mlrs_imv_heavy_2 = 1
+	sp_tos_imv_heavy_2 = 1
+	imv_heavy_3 = 1
+	sp_aa_imv_heavy_3 = 1
+	sp_atgm_imv_heavy_3 = 1
+	sp_artillery_imv_heavy_3 = 1
+	sp_mlrs_imv_heavy_3 = 1
+	sp_tos_imv_heavy_3 = 1
+	imv_heavy_4 = 1
+	sp_aa_imv_heavy_4 = 1
+	sp_atgm_imv_heavy_4 = 1
+	sp_artillery_imv_heavy_4 = 1
+	sp_mlrs_imv_heavy_4 = 1
+	sp_tos_imv_heavy_4 = 1
+	mrv_wheeled_0 = 1
+	sp_aa_mrv_wheeled_0 = 1
+	sp_atgm_mrv_wheeled_0 = 1
+	sp_artillery_mrv_wheeled_0 = 1
+	sp_mlrs_mrv_wheeled_0 = 1
+	sp_tos_mrv_wheeled_0 = 1
+	mrv_wheeled_1 = 1
+	sp_aa_mrv_wheeled_1 = 1
+	sp_atgm_mrv_wheeled_1 = 1
+	sp_artillery_mrv_wheeled_1 = 1
+	sp_mlrs_mrv_wheeled_1 = 1
+	sp_tos_mrv_wheeled_1 = 1
+	mrv_wheeled_2 = 1
+	sp_aa_mrv_wheeled_2 = 1
+	sp_atgm_mrv_wheeled_2  = 1
+	sp_artillery_mrv_wheeled_2 = 1
+	sp_mlrs_mrv_wheeled_2 = 1
+	sp_tos_mrv_wheeled_2 = 1
+	mrv_wheeled_3 = 1
+	sp_aa_mrv_wheeled_3 = 1
+	sp_atgm_mrv_wheeled_3 = 1
+	sp_artillery_mrv_wheeled_3 = 1
+	sp_mlrs_mrv_wheeled_3 = 1
+	sp_tos_mrv_wheeled_3 = 1
+	mrv_wheeled_4 = 1
+	sp_aa_mrv_wheeled_4 = 1
+	sp_atgm_mrv_wheeled_4 = 1
+	sp_artillery_mrv_wheeled_4 = 1
+	sp_mlrs_mrv_wheeled_4 = 1
+	sp_tos_mrv_wheeled_4 = 1
+	mrv_tracked_0 = 1
+	sp_aa_mrv_tracked_0 = 1
+	sp_atgm_mrv_tracked_0 = 1
+	sp_artillery_mrv_tracked_0 = 1
+	sp_mlrs_mrv_tracked_0 = 1
+	sp_tos_mrv_tracked_0 = 1
+	sp_tos_tank_sov_t72 = 1
+	mrv_tracked_1 = 1
+	sp_aa_mrv_tracked_1 = 1
+	sp_atgm_mrv_tracked_1 = 1
+	sp_artillery_mrv_tracked_1 = 1
+	sp_mlrs_mrv_tracked_1 = 1
+	sp_tos_mrv_tracked_1 = 1
+	mrv_tracked_2 = 1
+	sp_aa_mrv_tracked_2 = 1
+	sp_atgm_mrv_tracked_2  = 1
+	sp_artillery_mrv_tracked_2 = 1
+	sp_heavy_artillery_mrv_tracked_2 = 1
+	sp_mlrs_mrv_tracked_2 = 1
+	sp_tos_mrv_tracked_2 = 1
+	mrv_tracked_3 = 1
+	sp_aa_mrv_tracked_3 = 1
+	sp_atgm_mrv_tracked_3 = 1
+	sp_artillery_mrv_tracked_3 = 1
+	sp_mlrs_mrv_tracked_3 = 1
+	sp_tos_mrv_tracked_3 = 1
+	mrv_tracked_4 = 1
+	sp_aa_mrv_tracked_4 = 1
+	sp_atgm_mrv_tracked_4 = 1
+	sp_artillery_mrv_tracked_4 = 1
+	sp_mlrs_mrv_tracked_4 = 1
+	sp_tos_mrv_tracked_4 = 1
+	rus_artillery_d1 = 1
+	rus_artillery_d74 = 1
+	rus_artillery_d20 = 1
+	rus_artillery_m46 = 1
+	rus_artillery_d30 = 1
+	rus_artillery_2a36 = 1
+	rus_artillery_2a65 = 1
+	rus_artillery_2a88 = 1
+	#Old Doctrines
+	#ussr_legacy = 1
+	#massed_artillery = 1
+	#over_mechanized = 1
+	#vdv_cult = 1
+	#dysfunctional_general_staff = 1
+	#basic_doctrines = 1
+	#basic_infantry_expertise = 1
+	#basic_special_forces_expertise = 1
+	#paratroopers_t1_1 = 1
+	#
+}
+
+#Doctrines
+set_grand_doctrine = ussr_legacy
+set_sub_doctrine = over_mechanized
+set_sub_doctrine = massed_artillery
+set_sub_doctrine = dysfunctional_general_staff
+set_sub_doctrine = vdv_cult
+set_sub_doctrine = basic_special_forces_expertise
+add_mastery = {
+	amount = 280
+	sub_doctrine = basic_special_forces_expertise
+}
+
+# 2022.04.15 Start Date politics
+2022.04.01 = {
+
+	# Россия - общее
+
+	add_to_war = {
+		targeted_alliance = RUS
+		enemy = UKR
+		hostility_reason = asked_to_join
+	}
+	
+	set_global_flag = startdate_2022_04_15 
+	
+	RUS = { add_to_faction = RDT }
+
+	set_oob = RDT_2022_04_15
+
+	set_stability = 1 # Изменить на более реальные цифры
+	set_war_support = 1 # Изменить на более реальные цифры
+	army_experience = 50
+	add_command_power = 100
+	add_political_power = 350 # Изменить на более реальные цифры
+	add_manpower = 5000 #по факту 2500
+
+	set_sub_doctrine = arty_preparation_focus
+	add_mastery = {
+		amount = 110
+		sub_doctrine = arty_preparation_focus
+	}
+	set_sub_doctrine = entrenchment_focus
+	add_mastery = {
+		amount = 180
+		sub_doctrine = entrenchment_focus
+	}
+	set_sub_doctrine = active_tank_use
+	add_mastery = {
+		amount = 100
+		sub_doctrine = active_tank_use
+	}
+	add_mastery = {
+		amount = 50
+		sub_doctrine = basic_special_forces_expertise
+	}
+	
+	set_popularities = {
+		democratic = 0
+		fascism = 10
+		communism = 0
+		neutrality = 90
+	} # Изменить на более реальные цифры
+
+	
+	unlock_national_focus = RDT_CHVK
+	unlock_national_focus = RDT_COMMANDERS
+	unlock_national_focus = RDT_WAR_READY
+	unlock_national_focus = RDT_MO_ARSENAL
+	unlock_national_focus = RDT_STARTKUBINKA
+	unlock_national_focus = RDT_BARS
+	unlock_national_focus = RDT_SMO
+	unlock_national_focus = RDT_XP
+	unlock_national_focus = RDT_GRU
+	unlock_national_focus = RDT_WALK
+	unlock_national_focus = RDT_START_SMO
+	unlock_national_focus = borderRDT
+}

@@ -1,0 +1,88 @@
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_country_event_5100"
+		texturefile = "gfx/event_pictures/country_event_5100.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5101"
+		texturefile = "gfx/event_pictures/country_event_5101.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5102"
+		texturefile = "gfx/event_pictures/country_event_5102.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5103"
+		texturefile = "gfx/event_pictures/country_event_5103.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5104"
+		texturefile = "gfx/event_pictures/country_event_5104.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5105"
+		texturefile = "gfx/event_pictures/country_event_5105.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5106"
+		texturefile = "gfx/event_pictures/country_event_5106.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5107"
+		texturefile = "gfx/event_pictures/country_event_5107.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5108"
+		texturefile = "gfx/event_pictures/country_event_5108.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5109"
+		texturefile = "gfx/event_pictures/country_event_5109.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5110"
+		texturefile = "gfx/event_pictures/country_event_5110.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5111"
+		texturefile = "gfx/event_pictures/country_event_5111.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5112"
+		texturefile = "gfx/event_pictures/country_event_5112.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5113"
+		texturefile = "gfx/event_pictures/country_event_5113.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5114"
+		texturefile = "gfx/event_pictures/country_event_5114.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_5115"
+		texturefile = "gfx/event_pictures/country_event_5115.dds"
+	}
+	###############
+	spriteType = {
+		name = "GFX_redut_event_9000"
+		texturefile = "gfx/event_pictures/redut_event_9000.dds"
+	}
+	spriteType = {
+		name = "GFX_redut_event_9001"
+		texturefile = "gfx/event_pictures/redut_event_9001.dds"
+	}
+		spriteType = {
+		name = "GFX_redut_event_9002"
+		texturefile = "gfx/event_pictures/redut_event_9002.dds"
+	}
+	spriteType = {
+		name = "GFX_redut_event_9003"
+		texturefile = "gfx/event_pictures/redut_event_9003.dds"
+	}
+	spriteType = {
+		name = "GFX_redut_event_9004"
+		texturefile = "gfx/event_pictures/redut_event_9004.dds"
+	}
+}

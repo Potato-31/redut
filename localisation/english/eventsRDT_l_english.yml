@@ -1,0 +1,109 @@
+﻿l_english:
+
+
+#новости редута -> redut news
+super.14.t: "Operational Border Breakthrough"
+
+news.1000: "test1000"
+news.1000.t: "PMC Redut Reports Capture of Ukrainian Border Guards"
+news.1000.d: "The press service of PMC Redut informed the media about extensive 'infiltration' actions into the border territory of Ukraine. According to Vladimir Alekseev, more than a thousand Ukrainian soldiers were captured in the Kharkiv, Sumy, and Chernihiv regions. The PMC leader himself called on the soldiers of the Armed Forces of Ukraine (AFU) to lay down their arms, as previously demanded by Russian President Vladimir Putin. Experts also note: the PMC's activity in the border areas is extremely high. New provocations are possible in the near future, or even more significant 'actions' on the territory of Ukraine itself."
+news.1000.a: "..."
+
+news.1001: "test1001"
+news.1001.t: "Indiscriminate Shooting in Ukraine"
+news.1001.d: "Ukrainian media report indiscriminate shooting in border urban-type settlements late at night. Soldiers without identification marks fired chaotically at residential buildings and checkpoints. After numerous provocations, the unknown individuals disappeared into the forests. The SBU announced an interception plan. Ukrainian sources claim that Redut fighters participated in the war crimes. 'The level of cruelty, the sheer depravity, was higher than in Bucha. Russia will answer for these war crimes before the public, before the entire civilized world. We will not leave this incident unresolved,' states the Office of the President of Ukraine. Footage from the scene does not clarify who is behind this 'action.' Russian military correspondents have already called these reports lies, a provocation aimed at dehumanizing the Russian Armed Forces. The PMC's press service denied its involvement in the past events. Whatever the case, all of this is hell on earth."
+news.1001.a: "No comment.."
+
+news.1002: "test1001"
+news.1002.t: "Fire at Ammunition Depots"
+news.1002.d: "Information about a fire at Wagner depots began appearing online very recently, although the event was impossible to miss. The detonation of ammunition caused a widespread rumble throughout the European regions of the Russian Federation, including the SMO zone. The MoD reports the 'incident' was minor and 'did not affect the storage bases of the RF Armed Forces'. The main detonation occurred in the Krasnodar Krai territory, where the base in Kubinka also suffered from explosions. Russian military correspondents agree that what happened was 'sabotage by the AFU, which undoubtedly intended to weaken this PMC.' The press service of PMC Wagner has not yet provided any official comments."
+news.1002.a: "The main thing is that Kolbasnya isn't hurt.."
+
+news.1003: "test1001"
+news.1003.t: "Russian State Duma Adopts Law 'On PMCs'"
+news.1003.d: "The State Duma recently adopted the law 'On PMCs', which was widely discussed back in the 2010s. The new bill lacks clauses allowing PMCs to trade weapons and conduct 'alternative conflict resolution'. Such clauses were in the initial version of the PMC bill, and it was they that drew the most criticism from specialists. But years later, the role of PMCs in modern realities has changed. As in the past, the bill was initiated by the 'A Just Russia - For Truth' faction. Almost all deputies adopted the bill, with only 4 abstaining. The FSB will regulate mercenaries. PMC Redut became the first organization of its kind to be officially recognized by the state. The future fate of other 'organizations' is shrouded in darkness. Evgeny Viktorovich has not made any comments on this matter."
+news.1003.a: "Reality is changing"
+
+news.1004: "test1004"
+news.1004.t: "Russian Mercenaries Spotted in Kyiv Oblast"
+news.1004.d: "This evening, the first photos of PMC Redut in Kyiv Oblast began circulating online. Columns of this 'organization' stopped in the settlement of Ivankiv, intending to subsequently continue moving towards Borodyanka - Hostomel - Stari Petrivtsi. As it turned out, Redut's sabotage and reconnaissance groups (DRGs) were in the forests of Kyiv Oblast shortly before the start of the SMO. Ukrainian media concur that these groups cleared mines in the nearby border area and mapped strongpoints and AFU temporary deployment points (PDPs). Analysts note that the mercenaries are trying to penetrate the main city limits, blocking all pockets of resistance along the way and continuing their movement towards the Kyiv agglomeration. Volodymyr Zelenskyy reported a 'foiled assassination attempt' on his life, as well as the detention of Redut mercenaries attempting to enter the city."
+news.1004.a: "PMC who?.."
+
+#гиркин редут -> girkin redut
+RDT.1: "test2"
+RDT.1.t: "An Unexpected Meeting.."
+RDT.1.d: "After our extensive information campaign, a certain well-known individual arrived at our headquarters. He stroked his graying mustache, holding a 'black' pass in his hand. Vladimir Alekseev was sitting in his office, planning future operations. However, the routine was disrupted by the former militiaman. The officers escorted the distinguished guest to the command headquarters, where the head of the PMC was seated. Vladimir said a few words. Only the hero of the DNR and the hero of Russia remained in the office. Girkin put down his pass and extended his hand. Alekseev shook it. A fleeting silence was broken by Girkin's words: 'I want to serve with you...'"
+RDT.1.a: "'Igor, you are now a commander in our ranks, but without a political future.'"
+RDT.1.b: "'Your connection with Akhmetov warrants the rank of private, nothing more.'"
+
+RDT.2: "test2"
+RDT.2.t: "The Fate of the Club of Angry Patriots"
+RDT.2.d: "After Girkin joined the 'organization', many supporters of the CAP (Club of Angry Patriots) ceased active political activity. We reached some agreements with the militant wing of E.V. Limonov's The Other Russia. New interbrigades will be assembled directly by us. We will be fully involved in the new agreements, fully participate in their provision. The main condition of our cooperation is the reduction of political actions and demonstrations, to which the National Bolsheviks (Natsbols) agreed. We are ready to provide you with the best conditions, 'Everything for the front, everything for victory'."
+RDT.2.a: "The interbrigades will become the basis for units"
+RDT.2.b: "The Natsbols will become our mobilization reserve"
+
+RDT.3: "test2"
+RDT.3.t: "A Small Polemic"
+RDT.3.d: "Igor Strelkov unleashed criticism against our leadership. He claimed he 'not only didn't take Akhmetov's money, but never even saw it'. 'Mikhail, you are a paid paramilitary mutt who only fights for money, I cannot align with you.' After a brief verbal altercation, Girkin slammed the door and left, returning to where he came from."
+RDT.3.a: "'Good riddance.'"
+
+RDT.4: "test2"
+RDT.4.t: "Our Position on PMC Wagner"
+RDT.4.d: "The Slavonic Corps became the basis for change. The creation of PMC Wagner destroyed our place in the sun. Once the largest association under our careful leadership, we became a shadow compared to the successes of the 'musicians'. But now we are fully back in the game. PMC Redut is currently not just a PMC, but a public organization. Our voice is considered not only in the legislative and executive systems of the state, but also in public opinion. The Special Military Operation became a starting mechanism for many initiatives, not just ours. The long-standing conflict between Sergey Kozhugetovich [Shoigu] and Evgeny Viktorovich [Prigozhin] has entered its most active phase. The recruitment of prisoners by the Wagner group has been replaced by full government competence. The amount of ammunition issued to this PMC is decreasing daily. The exhausting meat grinder of Ukrainian units has turned into a general lethargic slumber. We are witnessing a general political struggle that will clearly lead to the victory of a certain side. On the one hand, we should help the state, because Wagner is a direct competitor for us, but on the other hand... Won't we become the state's next target?... The RF MoD might consider our objective criticism an obstacle that shouldn't exist. Or maybe it won't, Vladimir Alekseev. We never know the full inside story..."
+RDT.4.a: "We will side with the RF MoD"
+RDT.4.b: "We will take a neutral position"
+RDT.4.c: "We will side with the orchestra"
+
+
+
+#редут говняк -> redut govnyak
+RDT.10: "test1"
+RDT.10.t: "The Current Reality of Our PMC"
+RDT.10.d: "PMC Redut is one of the oldest private military companies, originating back in 2003. Currently, we can state that Redut is in a period of decline, as over the past few decades, we haven't achieved any large-scale goals. We fought against terrorism, participated in local operations worldwide, but we never participated in a full-scale war. We have extensive military experience behind us, starting from the Afghan campaign and ending with operations in Syria. A turning point in our history has come, forcing us to participate in combined arms operations. Together with the RF MoD, our PMC will take part in the special military operation, which is about to begin any minute now. The scale of the future conflict and the main direction of attack are still unknown to us, but whatever happens, we need to bring our troops to appropriate combat readiness."
+RDT.10.a: "Well then, let's push harder..."
+
+RDT.11: "test2"
+RDT.11.t: "Assessment of the Upcoming Operation"
+RDT.11.d: "Our general staff gathered at night to discuss the conduct of the upcoming 'event'. This 'process' consists of nicely drawn arrows by higher command. It seems this war will be neither small nor victorious. The burden falls on us to help Russia overcome this difficult situation. Our fighters will go through fire and water, through dreams and nightmares. As command, we have one task left: to choose the necessary tactics for our personnel. We have tried many infantry doctrines. But only your decision, Vladimir Alekseev, will form the basis for further actions."
+RDT.11.a: "Only through a breakthrough strike will we achieve our goals."
+RDT.11.b: "Emphasis on operational planning is the key to success."
+RDT.11.c: "Our task is to cover the flanks of the RF Armed Forces in static defense."
+
+
+
+RDT.12.t: "Personnel Readiness Check"
+RDT.12.d: "The orderly saw the lit sign, then reported to the company duty officer. One call, one nod. -Company, rise, COMBAT ALERT, COMBAT ALERT, COMBAT ALERT, COMBAT ALERT. A frantic bustle began, lasting several minutes. The military unit turned into a fortress, where everyone was ready for further action. Vladimir Alekseev will arrive any minute for an announcement. The officers realize with horror that this is not a drill, not a routine readiness check. This is a real alert. A combat alert."
+RDT.12.a: "A difficult life awaits us..."
+
+RDT.13.t: "Emergency Meeting of High Command"
+RDT.13.d: "The Redut Commanders' Council convened within 3 hours. The round table allowed for quick adaptation to the extraordinary situation. There was an inexplicable tremor in everyone's voice, but only Vladimir Alekseev kept himself composed. His voice didn't waver, and his clear, monotonous bass addressed the entire board. The general's iron fist maintained uncompromising resolve in future decisions. 'So it shall be,' repeated the heroes of the new Russia, fully aware of their situation. We will not encounter flowers on our path.."
+RDT.13.a: "A strong will is the key to success."
+
+RDT.14.t: "Our Communications are Fucked!"
+RDT.14.d: "It turned out that the RF Armed Forces are not ready for a strategic operation in terms of communication means. We have almost completely lost contact with the center, let alone communication with other units outside our command. For now, only the TA-57 and TA-88 [field telephones] are working without problems. Deripaska promised to resolve this issue as soon as possible, but unfortunately, we remain in place for the coming days.."
+RDT.14.a: "What kind of dumbass bought a shitload of Chinese radios without repeaters?!"
+
+RDT.15.t: "Our Columns Have Left Their Starting Positions"
+RDT.15.d: "The Special Military Operation has begun right now. Our columns have left their starting positions and moved towards their designated targets. The Plenum of PMC Redut will fully cooperate with the RF Armed Forces to end the conflict. Vladimir Alekseev, according to our data, the first line of Ukrainian defense has been broken. Within a few days, the entire situation on the front will become clear to us, but for now, we can state the fact of extremely rapid advancement of Russian troops. Our fighters are already beginning to storm the first forest belts and fortified areas."
+RDT.15.a: "Forward, lads, for the Motherland!"
+
+RDT.16.t: "Border Service of the FSB of Russia"
+RDT.16.d: "Our operations cannot be fully conducted without informing the Border Service. Vladimir Alekseev took full care of this by talking with Vladimir Kulishov and Alexander Bortnikov. Now we have carte blanche to pass through the border zone, and our 'specialists' will not be inspected by the FSB."
+RDT.16.a: "The road is open, comrades"
+
+RDT.17.t: "Meeting at the General Staff of the RF Armed Forces"
+RDT.17.d: "Cameras recorded an open meeting attended by previously unmentioned individuals. Vladimir Alekseev and several generals sat opposite the RF Armed Forces General Staff. Gerasimov listened to reports from junior officers while the head of Redut prepared for his speech at a closed meeting. The speech will address soldier provisions, the old officer corps, the introduction of drones, and the transition to a network-centric doctrine."
+RDT.17.a: "Everyone reckons with Redut now"
+
+RDT.18.t: "Igor Ivanovich Proposes Reorganizing PMC Redut"
+RDT.18.d: "Only a short time has passed since the former military commandant of Donetsk joined our structure. His military figure is controversial, but now he is an integral part of the organization. The basis of his reform plan is network-centric warfare, strict discipline, increased aviation sorties, and a return to deep defense to concentrate large forces. Girkin's ideas were detailed meticulously, with such scrupulousness that some generals found it nauseating. It should be noted that some ideas resonated with the plenum."
+RDT.18.a: "Your ideas are necessary, Igor Ivanovich"
+RDT.18.b: "We cannot begin the reorganization, Igor Ivanovich"
+
+RDT.19.t: "A Call to the Kremlin"
+RDT.19.d: "Vladimir Alekseev picked up the phone that connected him directly with key state figures. He could call almost anyone: the Chairman of the State Duma, the Chairman of the Government, the Minister of Defence, and many other officials. A short dial tone, and Vladimir Alekseev connected with the President of the Russian Federation. A brief greeting ended with a sharp outlining of the problem: the 'personal offense between two prominent figures of Russia'. The first person of Russia listened attentively, asking clarifying questions. The head of Redut answered all questions clearly and distinctly, presenting the most objective picture of the situation. -Vladimir Vladimirovich, I can provide you with all the necessary documents during a personal meeting. Will you have time?"
+RDT.19.a: "-Of course, Vladimir Alekseev"
+
+RDT.20.t: "Girkin's Reforms Have Yielded Results"
+RDT.20.d: "50 days of reforms were not in vain, although we faced significant difficulties during this period. We have now eliminated many past shortcomings in organization, excessive centralization, discipline, and the ideological component. Now all our employees know they are fighting not for money, but for Great Russia. For their families, for their children, for relatives and loved ones. They are now driven not by a simple desire for profit, but by the concrete idea of the Motherland. And they are ready to fight for it to the end, to the last drop of blood."
+RDT.20.a: "Now we are ready to carry out further tasks"

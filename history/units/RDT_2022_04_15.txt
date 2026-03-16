@@ -1,0 +1,470 @@
+division_template = {
+	name = "SSO PATRIOT (part 10)"
+	is_locked = no
+	force_allow_recruiting = yes
+	priority = 1
+	#division_names_group = UKR_MOT_01 # Группа названий для дивизий, необязательно
+	regiments = {
+		spetsnaz = { x = 0 y = 0 }
+		spetsnaz = { x = 0 y = 1 }
+		spetsnaz = { x = 0 y = 2 }
+		spetsnaz = { x = 0 y = 3 }
+		spetsnaz = { x = 0 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 4 }
+		artillery = { x = 0 y = 5 }		
+		maintenance_company = { x = 1 y = 0 }		
+		sniper = { x = 1 y = 1 }		
+		atgm = { x = 1 y = 2 }	
+		mortar = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	name = "ODSHBr Redut (full 10)"
+	template_counter = 2
+	is_locked = no
+	force_allow_recruiting = no
+	priority = 2
+	#division_names_group = UKR_MOT_01 # Группа названий для дивизий, необязательно
+	regiments = {
+		spetsnaz = { x = 0 y = 0 }
+		spetsnaz = { x = 0 y = 1 }
+		spetsnaz = { x = 0 y = 2 }
+		apc = { x = 1 y = 0 }
+		apc = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 4 }
+		artillery = { x = 0 y = 5 }		
+		maintenance_company = { x = 1 y = 0 }		
+		sniper = { x = 1 y = 1 }		
+		atgm = { x = 1 y = 2 }	
+		mortar = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "Otryad «Volki»"
+		location = 6369
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		officer = {
+			name = "Davor Savich"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+	division = {
+		name = "60-y otdel’nyy motostrelkovyy spetsial’nyy batal’on «Veterany»"
+		location = 8723
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		officer = {
+			name = "Aleksandr Tuterev"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+
+units = {
+	division = {
+		name = "Otryad «Huligani»"
+		location = 4794
+		division_template = "SSO PATRIOT (part 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		officer = {
+			name = "Denis Kudrin"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+units = {
+	division = {
+		name = "Otryad «Morpehi»"
+		location = 15502
+		division_template = "SSO PATRIOT (part 10)"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		officer = {
+			name = "Ivan Ivanov"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+units = {
+	division = {
+		name = "Otryad «Topori»"
+		location = 18665
+		division_template = "SSO PATRIOT (part 10)"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+		officer = {
+			name = "Ivan Ivanov"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+units = {
+	division = {
+		name = "Otryad «Ris`»"
+		location = 17519
+		division_template = "SSO PATRIOT (part 10)"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		officer = {
+			name = "«Ilim»"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+units = {
+	division = {
+		name = "Otryad «Tigr»"
+		location = 4189
+		division_template = "SSO PATRIOT (part 10)"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		officer = {
+			name = "Aleskey «Black»"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+units = {
+	division = {
+		name = "Otryad «Irbis»"
+		location = 15376
+		division_template = "SSO PATRIOT (part 10)"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+		officer = {
+			name = "«Huligan»"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+units = {
+	division = {
+		name = "Otryad «Kluni»"
+		location = 7885
+		division_template = "SSO PATRIOT (part 10)"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+		officer = {
+			name = "Ivan «Kluni»"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+units = {
+	division = {
+		name = "Otryad «Buran»"
+		location = 7885
+		division_template = "SSO PATRIOT (part 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		officer = {
+			name = "«Miron»"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+units = {
+	division = {
+		name = "45-ya otdel’naya gvardeyskaya ordenov Kutuzova i Aleksandra Nevskogo brigada spetsial’nogo naznacheniya part one"
+		location = 8171
+		division_template = "16 gv. obrspn. (part 10)"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+		officer = {
+			name = "Vadim Pankov"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+units = {
+	division = {
+		name = "45-ya otdel’naya gvardeyskaya ordenov Kutuzova i Aleksandra Nevskogo brigada spetsial’nogo naznacheniya part two"
+		location = 8171
+		division_template = "16 gv. obrspn. (part 10)"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		officer = {
+			name = "Vadim Pankov"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+#десантники
+division_template = {
+	name = "16 gv. obrspn. (part 10)"
+	is_locked = no
+	force_allow_recruiting = no
+	priority = 1
+	#division_names_group = UKR_MOT_01 # Группа названий для дивизий, необязательно
+	regiments = {
+		paratrooper = {
+			x = 0
+			y = 0
+		}
+		paratrooper = {
+			x = 0
+			y = 1
+		}
+		paratrooper = {
+			x = 0
+			y = 2
+		}
+		paratrooper = {
+			x = 1
+			y = 0
+		}
+		ifv_sov = {
+			x = 1
+			y = 1
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		signal_company = {
+			x = 0
+			y = 2
+		}
+		imv_recon = {
+			x = 0
+			y = 3
+		}
+		logistics_company = {
+			x = 0
+			y = 4
+		}
+		artillery = {
+			x = 0
+			y = 5
+		}
+		maintenance_company = {
+			x = 1
+			y = 0
+		}
+		atgm = {
+			x = 1
+			y = 1
+		}
+		mortar = {
+			x = 1
+			y = 2	
+		}
+		sniper = {
+			x = 1
+			y = 3	
+		}
+		sp_aa = {
+			x = 1
+			y = 4	
+		}
+	}
+}
+units = {
+	division = {
+		name = "45-ya otdel’naya gvardeyskaya ordenov Kutuzova i Aleksandra Nevskogo brigada spetsial’nogo naznacheniya part one"
+		location = 2637
+		division_template = "16 gv. obrspn. (part 10)"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+		officer = {
+			name = "Vadim Pankov"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+units = {
+	division = {
+		name = "45-ya otdel’naya gvardeyskaya ordenov Kutuzova i Aleksandra Nevskogo brigada spetsial’nogo naznacheniya part two"
+		location = 1916
+		division_template = "16 gv. obrspn. (part 10)"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+		officer = {
+			name = "Vadim Pankov"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+division_template = {
+	name = "BARS-1 (part 10)"
+	template_counter = 19
+	is_locked = no
+	force_allow_recruiting = no
+	priority = 1
+	#division_names_group = UKR_MOT_01 # Группа названий для дивизий, необязательно
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 0
+			y = 3
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		signal_company = {
+			x = 0
+			y = 2
+		}
+		recon = {
+			x = 0
+			y = 3
+		}
+		logistics_company = {
+			x = 0
+			y = 4
+		}
+		artillery = {	
+			x = 0
+			y = 5
+		}
+		maintenance_company = {
+			x = 1
+			y = 0
+		}
+		atgm = {
+			x = 1
+			y = 1
+		}
+		mortar = {
+			x = 1
+			y = 2	
+		}
+	}
+}
+units = {
+	division = {
+		name = "1-y otryad BARS Zvezda"
+		location = 11433
+		division_template = "BARS-1 (part 10)"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		officer = {
+			name = "Ivan Ivanov"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}
+units = {
+	division = {
+		name = "2-y otryad BARS Legion RA"
+		location = 10372
+		division_template = "BARS-1 (part 10)"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		officer = {
+			name = "Ivan Ivanov"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+			infantry_ak12_equipment= { owner = "RUS" version_name = "АК-12К" amount = 1000 }
+        }
+	}
+}

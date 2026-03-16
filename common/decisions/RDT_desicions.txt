@@ -1,0 +1,1046 @@
+RDT_osnovades = {
+	
+	RDT_prohod_RBZ = {
+		icon = GFX_RUS_CHVK_Redut
+		fire_only_once = yes
+		days_remove = 1
+
+		visible = {
+	        original_tag = RDT
+	    }
+
+		available = {
+			country_exists = RBZ
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_prohod_RBZ: complete_effect"
+		    country_event = RDT.16
+		}
+
+	}
+
+	RDT_gp_SVO_kiev_offensive = {
+		icon = GFX_RUS_CHVK_Redut
+		cost = 40
+		fire_only_once = yes
+		
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = REDUT_SVO_kharkiv_offensive
+					has_country_flag = REDUT_SVO_kiev_offensive
+					has_country_flag = REDUT_SVO_mariupol_offensive
+					has_country_flag = REDUT_SVO_avdeevka_offensive
+					has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+					has_country_flag = REDUT_SVO_Sumy_offensive
+					has_country_flag = REDUT_SVO_chernigov_offensive
+				}
+			}
+			NOT = { has_global_flag = startdate_2022_04_15 }
+			has_completed_focus = RDT_SMO
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				tooltip = SVO_choosing_plan_trigger_tt
+				NOT = {
+			    	OR = {
+						has_country_flag = REDUT_SVO_kharkiv_offensive
+						has_country_flag = REDUT_SVO_kiev_offensive
+						has_country_flag = REDUT_SVO_mariupol_offensive
+						has_country_flag = REDUT_SVO_avdeevka_offensive
+						has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+						has_country_flag = REDUT_SVO_Sumy_offensive
+						has_country_flag = REDUT_SVO_chernigov_offensive
+					}
+				}
+			}
+			RUS = {
+				has_war_with = UKR
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 68
+				state = 73
+				state = 86
+				state = 104
+				state = 94
+				state = 95
+				state = 83
+				state = 960
+				state = 951
+				state = 952
+			}
+			highlight_color_while_active = 3
+   			highlight_color_before_active = 2
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_kiev_offensive: complete_effect"
+		    set_country_flag = REDUT_SVO_kiev_offensive
+			complete_national_focus = borderRDT
+		}
+
+	    remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_kiev_offensive"
+			68 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			73 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			86 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			104 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			94 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			95 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			83 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			960 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			951 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			952 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+	    }
+	}
+	RDT_gp_SVO_chernigov_offensive = {
+		icon = GFX_RUS_CHVK_Redut
+		cost = 40
+		fire_only_once = yes
+		
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = REDUT_SVO_kharkiv_offensive
+					has_country_flag = REDUT_SVO_kiev_offensive
+					has_country_flag = REDUT_SVO_mariupol_offensive
+					has_country_flag = REDUT_SVO_avdeevka_offensive
+					has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+					has_country_flag = REDUT_SVO_Sumy_offensive
+					has_country_flag = REDUT_SVO_chernigov_offensive
+				}
+			}
+			NOT = { has_global_flag = startdate_2022_04_15 }
+			has_completed_focus = RDT_SMO
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				tooltip = SVO_choosing_plan_trigger_tt
+				NOT = {
+			    	OR = {
+						has_country_flag = REDUT_SVO_kharkiv_offensive
+						has_country_flag = REDUT_SVO_kiev_offensive
+						has_country_flag = REDUT_SVO_mariupol_offensive
+						has_country_flag = REDUT_SVO_avdeevka_offensive
+						has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+						has_country_flag = REDUT_SVO_Sumy_offensive
+						has_country_flag = REDUT_SVO_chernigov_offensive
+					}
+				}
+			}
+			RUS = {
+				has_war_with = UKR
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 950
+				state = 949
+				state = 948
+				state = 957
+				state = 56
+				state = 57
+				state = 60
+				state = 954
+				state = 953
+				state = 946
+				state = 947
+				state = 958
+				state = 956
+				state = 955
+				state = 952
+				state = 951
+				state = 59
+				state = 959
+				state = 945
+				state = 66
+			}
+			highlight_color_while_active = 3
+   			highlight_color_before_active = 2
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_kiev_offensive: complete_effect"
+		    set_country_flag = REDUT_SVO_chernigov_offensive
+		}
+
+	    remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_kiev_offensive"
+			950 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			949 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			948 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			56 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			57 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			60 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			954 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			953 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			946 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			947 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			958 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			956 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			955 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			952 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			951 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			59 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			959 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			945 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			66 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+	    }
+	}
+	RDT_gp_SVO_Sumy_offensive = {
+		icon = GFX_RUS_CHVK_Redut
+		cost = 40
+		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 943
+				state = 944	
+				state = 72
+				state = 939
+				state = 940
+				state = 937
+				state = 938
+				state = 89
+				state = 941
+				state = 942
+				state = 935
+				state = 101
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = REDUT_SVO_kharkiv_offensive
+					has_country_flag = REDUT_SVO_kiev_offensive
+					has_country_flag = REDUT_SVO_mariupol_offensive
+					has_country_flag = REDUT_SVO_avdeevka_offensive
+					has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+					has_country_flag = REDUT_SVO_Sumy_offensive
+					has_country_flag = REDUT_SVO_chernigov_offensive
+				}
+			}
+			NOT = { has_global_flag = startdate_2022_04_15 }
+			has_completed_focus = RDT_SMO
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				tooltip = SVO_choosing_plan_trigger_tt
+				NOT = {
+			    	OR = {
+						has_country_flag = REDUT_SVO_kharkiv_offensive
+						has_country_flag = REDUT_SVO_kiev_offensive
+						has_country_flag = REDUT_SVO_mariupol_offensive
+						has_country_flag = REDUT_SVO_avdeevka_offensive
+						has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+						has_country_flag = REDUT_SVO_Sumy_offensive
+						has_country_flag = REDUT_SVO_chernigov_offensive
+					}
+				}
+			}
+			RUS = {
+				has_war_with = UKR
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_mariupol_offensive: complete_effect"
+		    set_country_flag = REDUT_SVO_Sumy_offensive
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_mariupol_offensive"
+			943 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			944 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			72 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			939 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			940 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			937 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			938 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			89 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			941 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			942 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			935 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			101 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+	    }
+	}
+	RDT_gp_SVO_kharkiv_offensive = {
+		icon = GFX_RUS_CHVK_Redut
+		cost = 40
+		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 936
+				state = 926
+				state = 928
+				state = 100
+				state = 922
+				state = 103
+				state = 927
+				state = 923
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = REDUT_SVO_kharkiv_offensive
+					has_country_flag = REDUT_SVO_kiev_offensive
+					has_country_flag = REDUT_SVO_mariupol_offensive
+					has_country_flag = REDUT_SVO_avdeevka_offensive
+					has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+					has_country_flag = REDUT_SVO_Sumy_offensive
+					has_country_flag = REDUT_SVO_chernigov_offensive
+				}
+			}
+			NOT = { has_global_flag = startdate_2022_04_15 }
+			has_completed_focus = RDT_SMO	
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				tooltip = SVO_choosing_plan_trigger_tt
+				NOT = {
+			    	OR = {
+						has_country_flag = REDUT_SVO_kharkiv_offensive
+						has_country_flag = REDUT_SVO_kiev_offensive
+						has_country_flag = REDUT_SVO_mariupol_offensive
+						has_country_flag = REDUT_SVO_avdeevka_offensive
+						has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+						has_country_flag = REDUT_SVO_Sumy_offensive
+						has_country_flag = REDUT_SVO_chernigov_offensive
+					}
+				}
+			}
+			RUS = {
+				has_war_with = UKR
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_kharkiv_offensive: complete_effect"
+		    set_country_flag = REDUT_SVO_kharkiv_offensive
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_kharkiv_offensive"
+			936 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			926 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			928 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			100 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			922 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			103 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			927 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			923 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+	    }
+	}
+	RDT_gp_SVO_bahmut_slavyansk_offensive = {
+		icon = GFX_RUS_CHVK_Redut
+		cost = 40
+		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 165
+				state = 908
+				state = 890
+				state = 913
+				state = 910
+				state = 906
+				state = 149
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = REDUT_SVO_kharkiv_offensive
+					has_country_flag = REDUT_SVO_kiev_offensive
+					has_country_flag = REDUT_SVO_mariupol_offensive
+					has_country_flag = REDUT_SVO_avdeevka_offensive
+					has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+					has_country_flag = REDUT_SVO_Sumy_offensive
+					has_country_flag = REDUT_SVO_chernigov_offensive
+				}
+			}
+			NOT = { has_global_flag = startdate_2022_04_15 }
+			has_completed_focus = RDT_SMO
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				tooltip = SVO_choosing_plan_trigger_tt
+				NOT = {
+			    	OR = {
+						has_country_flag = REDUT_SVO_kharkiv_offensive
+						has_country_flag = REDUT_SVO_kiev_offensive
+						has_country_flag = REDUT_SVO_mariupol_offensive
+						has_country_flag = REDUT_SVO_avdeevka_offensive
+						has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+						has_country_flag = REDUT_SVO_Sumy_offensive
+						has_country_flag = REDUT_SVO_chernigov_offensive
+					}
+				}
+			}
+			RUS = {
+				has_war_with = UKR
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_mariupol_offensive: complete_effect"
+		    set_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_mariupol_offensive"
+			165 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			908 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			890 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			913 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			910 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			906 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			149 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+	    }
+	}	
+	RDT_gp_SVO_avdeevka_offensive = {
+		icon = GFX_RUS_CHVK_Redut
+		cost = 40
+		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 893
+				state = 715
+				state = 182
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = REDUT_SVO_kharkiv_offensive
+					has_country_flag = REDUT_SVO_kiev_offensive
+					has_country_flag = REDUT_SVO_mariupol_offensive
+					has_country_flag = REDUT_SVO_avdeevka_offensive
+					has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+					has_country_flag = REDUT_SVO_Sumy_offensive
+					has_country_flag = REDUT_SVO_chernigov_offensive
+				}
+			}
+			NOT = { has_global_flag = startdate_2022_04_15 }
+			has_completed_focus = RDT_SMO
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				tooltip = SVO_choosing_plan_trigger_tt
+				NOT = {
+			    	OR = {
+						has_country_flag = REDUT_SVO_kharkiv_offensive
+						has_country_flag = REDUT_SVO_kiev_offensive
+						has_country_flag = REDUT_SVO_mariupol_offensive
+						has_country_flag = REDUT_SVO_avdeevka_offensive
+						has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+						has_country_flag = REDUT_SVO_Sumy_offensive
+						has_country_flag = REDUT_SVO_chernigov_offensive
+					}
+				}
+			}
+			RUS = {
+				has_war_with = UKR
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_avdeevka_offensive: complete_effect"
+		    set_country_flag = REDUT_SVO_avdeevka_offensive
+		}
+	    remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_avdeevka_offensive"
+			182 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+	    }
+	}
+	RDT_gp_SVO_mariupol_offensive = {
+		icon = GFX_RUS_CHVK_Redut
+		cost = 40
+		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 237
+				state = 213
+				state = 708
+				state = 709
+				state = 710
+				state = 712
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = REDUT_SVO_kharkiv_offensive
+					has_country_flag = REDUT_SVO_kiev_offensive
+					has_country_flag = REDUT_SVO_mariupol_offensive
+					has_country_flag = REDUT_SVO_avdeevka_offensive
+					has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+					has_country_flag = REDUT_SVO_Sumy_offensive
+					has_country_flag = REDUT_SVO_chernigov_offensive
+				}
+			}
+			NOT = { has_global_flag = startdate_2022_04_15 }
+			has_completed_focus = RDT_SMO
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				tooltip = SVO_choosing_plan_trigger_tt
+				NOT = {
+			    	OR = {
+						has_country_flag = REDUT_SVO_kharkiv_offensive
+						has_country_flag = REDUT_SVO_kiev_offensive
+						has_country_flag = REDUT_SVO_mariupol_offensive
+						has_country_flag = REDUT_SVO_avdeevka_offensive
+						has_country_flag = REDUT_SVO_bahmut_slavyansk_offensive
+						has_country_flag = REDUT_SVO_Sumy_offensive
+						has_country_flag = REDUT_SVO_chernigov_offensive
+					}
+				}
+			}
+			RUS = {
+				has_war_with = UKR
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_mariupol_offensive: complete_effect"
+		    set_country_flag = REDUT_SVO_mariupol_offensive
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_mariupol_offensive"
+			237 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			213 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			708 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			709 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			710 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			712 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+	    }
+	}	
+}
+
+RDT_DRG = {
+	RDT_DRG_TAVOLSHANKA = {
+		icon = GFX_RUS_CHVK_Redut
+		fire_only_once = yes
+		
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = RDT_DRG_VOLCHANSK
+					has_country_flag = RDT_DRG_TAVOLSHANKA
+					has_country_flag = RDT_DRG_PISAREVKA
+					has_country_flag = RDT_DRG_BELOPOLYE
+					has_country_flag = RDT_DRG_SEMENOVKA	
+					has_country_flag = RDT_DRG_PRIPYAT
+				}
+			}
+			has_completed_focus = RDT_AVANTURE
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				NOT = {
+			    	OR = {
+						has_country_flag = RDT_DRG_VOLCHANSK
+						has_country_flag = RDT_DRG_TAVOLSHANKA
+						has_country_flag = RDT_DRG_PISAREVKA
+						has_country_flag = RDT_DRG_BELOPOLYE
+						has_country_flag = RDT_DRG_SEMENOVKA	
+						has_country_flag = RDT_DRG_PRIPYAT
+					}
+				}
+			}
+			has_completed_focus = RDT_UKR_BORDERS
+		}
+		highlight_states = {
+			highlight_provinces = { 11991 18748 18744 18745 }
+			highlight_color_while_active = 3
+   			highlight_color_before_active = 2
+		}
+				complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
+			country_event = { id = super.20 days = 2 }
+			set_country_flag = RDT_DRG_VOLCHANSK
+		}
+		remove_effect = {
+			hidden_effect = {
+				load_oob = DRG_TAVOL
+			}
+		}
+	}
+
+	RDT_DRG_VOLCHANSK = {
+		icon = GFX_RUS_CHVK_Redut
+		fire_only_once = yes
+		
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = RDT_DRG_VOLCHANSK
+					has_country_flag = RDT_DRG_TAVOLSHANKA
+					has_country_flag = RDT_DRG_PISAREVKA
+					has_country_flag = RDT_DRG_BELOPOLYE
+					has_country_flag = RDT_DRG_SEMENOVKA	
+					has_country_flag = RDT_DRG_PRIPYAT
+				}
+			}
+			has_completed_focus = RDT_AVANTURE
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				NOT = {
+			    	OR = {
+						has_country_flag = RDT_DRG_VOLCHANSK
+						has_country_flag = RDT_DRG_TAVOLSHANKA
+						has_country_flag = RDT_DRG_PISAREVKA
+						has_country_flag = RDT_DRG_BELOPOLYE
+						has_country_flag = RDT_DRG_SEMENOVKA	
+						has_country_flag = RDT_DRG_PRIPYAT
+					}
+				}
+			}
+			has_completed_focus = RDT_UKR_BORDERS
+		}
+		highlight_states = {
+			highlight_provinces = { 12438 18381 7702 11898 }
+			highlight_color_while_active = 3
+   			highlight_color_before_active = 2
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
+			country_event = { id = super.20 days = 2 }
+			set_country_flag = RDT_DRG_VOLCHANSK
+		}
+		remove_effect = {
+			hidden_effect = {
+				load_oob = DRG_VOLCH
+			}
+		}
+	}
+
+	RDT_DRG_PISAREVKA = {
+		icon = GFX_RUS_CHVK_Redut
+		fire_only_once = yes
+		
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = RDT_DRG_VOLCHANSK
+					has_country_flag = RDT_DRG_TAVOLSHANKA
+					has_country_flag = RDT_DRG_PISAREVKA
+					has_country_flag = RDT_DRG_BELOPOLYE
+					has_country_flag = RDT_DRG_SEMENOVKA	
+					has_country_flag = RDT_DRG_PRIPYAT
+				}
+			}
+			has_completed_focus = RDT_AVANTURE
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				NOT = {
+			    	OR = {
+						has_country_flag = RDT_DRG_VOLCHANSK
+						has_country_flag = RDT_DRG_TAVOLSHANKA
+						has_country_flag = RDT_DRG_PISAREVKA
+						has_country_flag = RDT_DRG_BELOPOLYE
+						has_country_flag = RDT_DRG_SEMENOVKA	
+						has_country_flag = RDT_DRG_PRIPYAT
+					}
+				}
+			}
+			has_completed_focus = RDT_UKR_BORDERS
+		}
+		highlight_states = {
+			highlight_provinces = { 6736 10309 1675 14971}
+			highlight_color_while_active = 3
+   			highlight_color_before_active = 2
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
+			country_event = { id = super.20 days = 2 }
+			set_country_flag = RDT_DRG_PISAREVKA
+		}
+		remove_effect = {
+			hidden_effect = {
+				load_oob = DRG_PISERVKA
+			}
+		}
+	}
+
+	RDT_DRG_BELOPOLYE = {
+		icon = GFX_RUS_CHVK_Redut
+		fire_only_once = yes
+		
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = RDT_DRG_VOLCHANSK
+					has_country_flag = RDT_DRG_TAVOLSHANKA
+					has_country_flag = RDT_DRG_PISAREVKA
+					has_country_flag = RDT_DRG_BELOPOLYE
+					has_country_flag = RDT_DRG_SEMENOVKA	
+					has_country_flag = RDT_DRG_PRIPYAT
+				}
+			}
+			has_completed_focus = RDT_AVANTURE
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				NOT = {
+			    	OR = {
+						has_country_flag = RDT_DRG_VOLCHANSK
+						has_country_flag = RDT_DRG_TAVOLSHANKA
+						has_country_flag = RDT_DRG_PISAREVKA
+						has_country_flag = RDT_DRG_BELOPOLYE
+						has_country_flag = RDT_DRG_SEMENOVKA	
+						has_country_flag = RDT_DRG_PRIPYAT
+					}
+				}
+			}
+			has_completed_focus = RDT_UKR_BORDERS
+		}
+		highlight_states = {
+			highlight_provinces = { 1240 3908 12754 14702 }
+			highlight_color_while_active = 3
+   			highlight_color_before_active = 2
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
+			country_event = { id = super.20 days = 2 }
+			set_country_flag = RDT_DRG_BELOPOLYE
+		}
+		remove_effect = {
+			hidden_effect = {
+				load_oob = DRG_BELOPOLYE
+			}
+		}
+	}
+
+	RDT_DRG_SEMENOVKA = {
+		icon = GFX_RUS_CHVK_Redut
+		fire_only_once = yes
+		
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = RDT_DRG_VOLCHANSK
+					has_country_flag = RDT_DRG_TAVOLSHANKA
+					has_country_flag = RDT_DRG_PISAREVKA
+					has_country_flag = RDT_DRG_BELOPOLYE
+					has_country_flag = RDT_DRG_SEMENOVKA	
+					has_country_flag = RDT_DRG_PRIPYAT			
+				}
+			}
+			has_completed_focus = RDT_AVANTURE
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				NOT = {
+			    	OR = {
+						has_country_flag = RDT_DRG_VOLCHANSK
+						has_country_flag = RDT_DRG_TAVOLSHANKA
+						has_country_flag = RDT_DRG_PISAREVKA
+						has_country_flag = RDT_DRG_BELOPOLYE
+						has_country_flag = RDT_DRG_SEMENOVKA	
+						has_country_flag = RDT_DRG_PRIPYAT
+						has_country_flag = RDT_DRG_REPKI
+					}
+				}
+			}
+			has_completed_focus = RDT_UKR_BORDERS
+		}
+		highlight_states = {
+			highlight_provinces = { 18914 7875 16701 4709 }
+			highlight_color_while_active = 3
+   			highlight_color_before_active = 2
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
+			country_event = { id = super.20 days = 2 }
+			set_country_flag = RDT_DRG_SEMENOVKA
+		}
+		remove_effect = {
+			hidden_effect = {
+				load_oob = DRG_SEMENOVKA
+			}
+		}
+	}
+
+	RDT_DRG_REPKI = {
+		icon = GFX_RUS_CHVK_Redut
+		fire_only_once = yes
+		
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = RDT_DRG_VOLCHANSK
+					has_country_flag = RDT_DRG_TAVOLSHANKA
+					has_country_flag = RDT_DRG_PISAREVKA
+					has_country_flag = RDT_DRG_BELOPOLYE
+					has_country_flag = RDT_DRG_SEMENOVKA	
+					has_country_flag = RDT_DRG_PRIPYAT
+					has_country_flag = RDT_DRG_REPKI
+				}
+			}
+			has_completed_focus = RDT_AVANTURE
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				NOT = {
+			    	OR = {
+						has_country_flag = RDT_DRG_VOLCHANSK
+						has_country_flag = RDT_DRG_TAVOLSHANKA
+						has_country_flag = RDT_DRG_PISAREVKA
+						has_country_flag = RDT_DRG_BELOPOLYE
+						has_country_flag = RDT_DRG_SEMENOVKA	
+						has_country_flag = RDT_DRG_PRIPYAT
+						has_country_flag = RDT_DRG_REPKI
+					}
+				}
+			}
+			has_completed_focus = RDT_UKR_BORDERS
+		}
+		highlight_states = {
+			highlight_provinces = { 4430 3577 10457 7761 }
+			highlight_color_while_active = 3
+   			highlight_color_before_active = 2
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
+			country_event = { id = super.20 days = 2 }
+			set_country_flag = RDT_DRG_REPKI
+		}
+		remove_effect = {
+			hidden_effect = {
+				load_oob = DRG_REPKI
+			}
+		}
+	}
+
+	RDT_DRG_PRIPYAT = {
+		icon = GFX_RUS_CHVK_Redut
+		fire_only_once = yes
+		
+		visible = {
+	        original_tag = RDT
+			NOT = {
+			    OR = {
+					has_country_flag = RDT_DRG_VOLCHANSK
+					has_country_flag = RDT_DRG_TAVOLSHANKA
+					has_country_flag = RDT_DRG_PISAREVKA
+					has_country_flag = RDT_DRG_BELOPOLYE
+					has_country_flag = RDT_DRG_SEMENOVKA	
+					has_country_flag = RDT_DRG_PRIPYAT
+					has_country_flag = RDT_DRG_REPKI	
+				}
+			}
+			has_completed_focus = RDT_AVANTURE
+	    }
+
+		available = {
+			original_tag = RDT
+			custom_trigger_tooltip = {
+				NOT = {
+			    	OR = {
+						has_country_flag = RDT_DRG_VOLCHANSK
+						has_country_flag = RDT_DRG_TAVOLSHANKA
+						has_country_flag = RDT_DRG_PISAREVKA
+						has_country_flag = RDT_DRG_BELOPOLYE
+						has_country_flag = RDT_DRG_SEMENOVKA	
+						has_country_flag = RDT_DRG_PRIPYAT
+						has_country_flag = RDT_DRG_REPKI	
+					}
+				}
+			}
+			has_completed_focus = RDT_UKR_BORDERS
+		}
+		highlight_states = {
+			highlight_provinces = { 14666 5760 9062	1123 }
+			highlight_color_while_active = 3
+   			highlight_color_before_active = 2
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
+			country_event = { id = super.20 days = 2 }
+			set_country_flag = RDT_DRG_PRIPYAT
+		}
+		remove_effect = {
+			hidden_effect = {
+				load_oob = DRG_PRIPYAT
+			}
+		}
+	}
+}

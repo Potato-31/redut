@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	SpriteType = { 
+		name = "GFX_ideology_RDT_neutrality_group"
+		texturefile = "gfx/interface/ideologies/redut_icon.dds"
+	}
+}

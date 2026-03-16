@@ -1,0 +1,100 @@
+division_template = {
+	name = "BARS-1 (part 10)"
+	template_counter = 19
+	is_locked = no
+	force_allow_recruiting = no
+	priority = 1
+	#division_names_group = UKR_MOT_01 # Группа названий для дивизий, необязательно
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 0
+			y = 3
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		signal_company = {
+			x = 0
+			y = 2
+		}
+		recon = {
+			x = 0
+			y = 3
+		}
+		logistics_company = {
+			x = 0
+			y = 4
+		}
+		artillery = {	
+			x = 0
+			y = 5
+		}
+		maintenance_company = {
+			x = 1
+			y = 0
+		}
+		atgm = {
+			x = 1
+			y = 1
+		}
+		mortar = {
+			x = 1
+			y = 2	
+		}
+	}
+}
+units = {
+	division = {
+		name = "1-y otryad BARS Zvezda"
+		location = 8171
+		division_template = "BARS-1 (part 10)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		officer = {
+			name = "Ivan Ivanov"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+        }
+	}
+}
+units = {
+	division = {
+		name = "2-y otryad BARS Legion RA"
+		location = 8171
+		division_template = "BARS-1 (part 10)"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		officer = {
+			name = "Ivan Ivanov"
+		}
+		force_equipment_variants = {
+			imv_medium_1_equipment = { owner = "RUS" version_name = "\"Тигр\" с модулем \"Арбалет\"" amount = 36 }
+			imv_light_3_equipment = { owner = "RUS" version_name = "Урал-6350" amount = 31 }
+        }
+	}
+}

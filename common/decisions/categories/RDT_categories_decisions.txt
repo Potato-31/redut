@@ -1,0 +1,56 @@
+RDT_budget_category = {
+	icon = GFX_RUS_genshtab_redoubt_decision
+
+	allowed = {
+		original_tag = RDT
+	}
+
+	visible = {
+		original_tag = RDT
+	}
+}
+
+RDT_osnovades = {
+	icon = GFX_RUS_genshtab_redoubt_decision
+	allowed = {
+		original_tag = RDT
+	}
+
+	visible = {
+		original_tag = RDT
+	}
+}
+
+RDT_DRG = {
+	icon = GFX_RUS_genshtab_redoubt_decision
+	allowed = {
+		original_tag = RDT
+	}
+
+	visible = {
+		original_tag = RDT
+	}
+}
+
+RUS_REDUT_MP_DECISIONS = {
+	icon = GFX_RUS_GRU_military_depotss
+	allowed = {
+		original_tag = RUS
+	}
+
+	visible = {
+		original_tag = RUS
+	}
+}
+
+WGN_REDUT_MP_DECISIONS = {
+	icon = GFX_RUS_GRU_military_depotss
+	allowed = {
+		original_tag = WGN
+	}
+
+	visible = {
+		original_tag = WGN
+	}
+}
+

@@ -1,0 +1,14 @@
+﻿l_russian:
+rdt_n: "ЧВК «Редут»"
+      #######
+### RDT PART ###
+      #######
+RDT_neutrality_party: "ЧВК «Редут»"
+RDT_neutrality_party_long: "Частная Военная Компания «Редут»"
+RDT_communism_party: "ЧВК «Редут»"
+RDT_communism_party_long: "Частная Военная Компания «Редут»"
+RDT_fascism_party: "§R«ДОБРОКОР»§!"
+RDT_fascism_party_long: "Добровольческий штурмовой корпус"
+RDT_democratic_party: "ЧВК «Редут»"
+RDT_democratic_party_long: "Частная Военная Компания «Редут»"
+Party_Forbidden_name: "§R<ЗАПРЕЩЕНА>§!"

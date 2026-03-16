@@ -1,0 +1,80 @@
+WGN_REDUT_MP_DECISIONS = {
+	WGN_order_ammo_Redut = {
+		icon = GFX_RUS_CHVK_Redut
+		days_remove = 30
+		cost = 50
+		fire_only_once = no
+		available = {
+			RDT = {
+				has_completed_focus = RDT_BK_FOR_WGN
+			}
+			custom_trigger_tooltip = {
+				tooltip = WGN_RDT_have_ammo
+				#Высчитываем, сколько место осталось у Украины на складах
+				set_temp_variable = {
+					ammo_needed = ammunition_free_space
+				}
+				#Ограничиваем максимумом в 200к
+				clamp_temp_variable = {
+					var = ammo_needed
+					min = 0
+					max = 100
+				}
+				RUS = {
+					check_variable = {
+						ammunition_variable > ammo_needed
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = WGN_RDT_have_enough_ammo
+				RUS = {
+					check_variable = {
+						ammunition_variable > 100
+					}
+				}
+			}
+		}
+		#  visible = {
+		#     UKR_can_sell_weapons_trigger = yes
+		# }
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				has_equipment = {
+					infantry_equipment < 1
+				}
+				factor = 50
+			}
+			modifier = {
+				has_manpower < 10000
+				factor = 0				#need to up conscription laws
+			}
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision WGN_order_ammo_Redut: remove_effect"
+			#Высчитываем, сколько место осталось у Украины на складах
+			set_temp_variable = {
+				ammo_needed = ammunition_free_space
+			}
+			#Ограничиваем максимумом в 200к
+			clamp_temp_variable = {
+				var = ammo_needed
+				min = 0
+				max = 100
+			}
+			#Передаём боеприпасы
+			add_to_variable = {
+				ammunition_variable = ammo_needed
+			}
+			NTO = {
+				subtract_from_variable = {
+					ammunition_variable = ammo_needed
+				}
+			}
+			custom_effect_tooltip = WGN_ammo_supply_from_RDT_tt
+		}
+	}
+}

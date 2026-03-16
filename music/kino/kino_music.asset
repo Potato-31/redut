@@ -1,0 +1,232 @@
+#Kino
+music = {
+	name = "derzhava"
+	file = "derzhava.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "desant_sturmuet_nebesa"
+	file = "desant_sturmuet_nebesa.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "fantom_grob"
+	file = "fantom_grob.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "grachi_priliteli"
+	file = "grachi_priliteli.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "kolychka"
+	file = "kolychka.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "lubo"
+	file = "lubo.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "marsh_nebesnih_svyazistov"
+	file = "marsh_nebesnih_svyazistov.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "mozart_voennogo_dela"
+	file = "mozart_voennogo_dela.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "ne_znay_molitv"
+	file = "ne_znay_molitv.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "nevinosimih_poter"
+	file = "nevinosimih_poter.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "odinpatron"
+	file = "odinpatron.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "paintitblack"
+	file = "paintitblack.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "pamyat"
+	file = "pamyat.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "pavshim_za_treti_rim"
+	file = "pavshim_za_treti_rim.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "proklinaite"
+	file = "proklinaite.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "proshai_chechnya"
+	file = "proshai_chechnya.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "pyat_svetoforov"
+	file = "pyat_svetoforov.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "ruski_passazir"
+	file = "ruski_passazir.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "seliger"
+	file = "seliger.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "sireni"
+	file = "sireni.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "soldatami_ne"
+	file = "soldatami_ne.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "tinaznachenbitgeroem"
+	file = "tinaznachenbitgeroem.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "vrag"
+	file = "vrag.ogg"
+	volume = 0.65
+}
+music = {
+	name = "segodnya"
+	file = "segodnya.ogg"
+	volume = 0.65
+}
+#redut
+music = {
+	name = "CSN_blood"
+	file = "CSN_blood.ogg"
+	volume = 0.3
+}
+music = {
+	name = "CSN_russian"
+	file = "CSN_russian.ogg"
+	volume = 0.6
+}
+music = {
+	name = "kascad_alert"
+	file = "kascad_alert.ogg"
+	volume = 0.5
+}
+music = {
+	name = "kascad_razved"
+	file = "kascad_razved.ogg"
+	volume = 0.7
+}
+#новые
+music = {
+	name = "Airbone"
+	file = "Airbone.ogg"
+	volume = 0.5
+}
+music = {
+	name = "Chechnya_in_flames"
+	file = "Chechnya_in_flames.ogg"
+	volume = 0.5
+}
+music = {
+	name = "Machine_Gun_Hands"
+	file = "Machine_Gun_Hands.ogg"
+	volume = 0.5
+}
+music = {
+	name = "Russia_Remember"
+	file = "Russia_Remember.ogg"
+	volume = 0.5
+}
+music = {
+	name = "Vyatka_Homeland"
+	file = "Vyatka_Homeland.ogg"
+	volume = 0.5
+}
+music = {
+	name = "Empire"
+	file = "Empire.ogg"
+	volume = 0.5
+}
+music = {
+	name = "Kiss_the_rails"
+	file = "Kiss_the_rails.ogg"
+	volume = 0.5
+}
+music = {
+	name = "arktika_moyaimperia"
+	file = "arktika_moyaimperia.ogg"
+	volume = 0.5
+}
+music = {
+	name = "dablyat_esheneconec"
+	file = "dablyat_esheneconec.ogg"
+	volume = 0.5
+}
+music = {
+	name = "elizarov_anavoine"
+	file = "elizarov_anavoine.ogg"
+	volume = 0.5
+}
+music = {
+	name = "elizarov_bairaktar"
+	file = "elizarov_bairaktar.ogg"
+	volume = 0.5
+}
+music = {
+	name = "elizarov_pesnyareservista"
+	file = "elizarov_pesnyareservista.ogg"
+	volume = 0.5
+}
+music = {
+	name = "orientir_russkayazemlya"
+	file = "orientir_russkayazemlya.ogg"
+	volume = 0.5
+}
+
+

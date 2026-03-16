@@ -1,0 +1,12 @@
+﻿l_english:
+    rdt_n: "PMC «Redut»"
+    ### RDT PART ###
+    RDT_neutrality_party: "PMC «Redut»"
+    RDT_neutrality_party_long: "Private Military Company «Redut»"
+    RDT_communism_party: "PMC «Redut»"
+    RDT_communism_party_long: "Private Military Company «Redut»"
+    RDT_fascism_party: "PMC «Zvezda»"
+    RDT_fascism_party_long: "Private Military Company «Zvezda»"
+    RDT_democratic_party: "PMC «Redut»"
+    RDT_democratic_party_long: "Private Military Company «Redut»"
+    Party_Forbidden_name: "§R<PROHIBITED>§!"

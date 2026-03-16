@@ -1,0 +1,69 @@
+spriteTypes = {	
+
+	###REDUT
+	SpriteType = {
+		name = "GFX_idea_maneuvers"
+		texturefile = "gfx/interface/ideas/maneuvers.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_DRG21"
+		texturefile = "gfx/interface/ideas/DRG21.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_thebest"
+		texturefile = "gfx/interface/ideas/thebest.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_contractic"
+		texturefile = "gfx/interface/ideas/contractic.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 18
+	}
+	spriteType = {
+		name = "GFX_idea_council"
+		texturefile = "gfx/interface/ideas/council.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_attack"
+		texturefile = "gfx/interface/ideas/attack.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SYR"
+		texturefile = "gfx/interface/ideas/SYR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_structure"
+		texturefile = "gfx/interface/ideas/structure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RDT_our_xp"
+		texturefile = "gfx/interface/ideas/RDT_our_xp.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RDT_razvedka"
+		texturefile = "gfx/interface/ideas/razvedka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RDT_PIZDA"
+		texturefile = "gfx/interface/ideas/PIZDA.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RDT_girkin_1"
+		texturefile = "gfx/interface/ideas/RDT_girkin_1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RDT_girkin_2"
+		texturefile = "gfx/interface/ideas/RDT_girkin_2.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 18
+	}
+} 

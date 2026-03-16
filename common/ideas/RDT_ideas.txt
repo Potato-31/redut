@@ -1,0 +1,576 @@
+ideas = {
+	country = {
+
+		WGN_REDUT_LOLKEK = {
+			allowed = {
+				always = no
+			}
+
+			picture = WGN_shell_hunger
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+			army_org_factor = -0.2
+			stability_factor = -0.4
+			planning_speed = -0.2
+			political_power_gain = -1.5
+			army_defence_factor = -0.2
+			army_attack_factor = -0.2
+			breakthrough_factor = -0.3
+			max_fuel_factor = -0.2
+			experience_loss_factor = 0.4
+			}
+		}
+
+		RDT_girkin_deck = {
+			allowed = {
+				always = no
+			}
+
+			picture = RDT_girkin_1
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+			army_org_factor = -0.2
+			stability_factor = -0.1
+			planning_speed = -0.4
+			army_defence_factor = -0.1
+			army_attack_factor = -0.1
+			breakthrough_factor = -0.2
+			experience_loss_factor = 0.6
+			experience_gain_army_factor = 0.1
+			}
+		}
+
+		RDT_girkin_deck2 = {
+			allowed = {
+				always = no
+			}
+
+			picture = RDT_girkin_2
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+			stability_factor = 0.1
+			army_defence_factor = 0.05
+			army_attack_factor = 0.05
+			breakthrough_factor = 0.05
+			experience_gain_army_factor = 0.05
+			}
+		}
+		
+		RDT_council_idea = {
+			allowed = {
+				always = no
+			}
+
+			picture = council
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+			army_org_factor = 0.1
+			air_cas_present_factor = 0.15
+			}
+		}	
+
+		RDT_our_xp = {
+			allowed = {
+				always = no
+			}
+
+			picture = RDT_our_xp
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+			dig_in_speed_factor = 0.05
+			max_dig_in_factor = 0.05
+			land_night_attack = 0.1
+			equipment_capture_factor = 0.1
+			}
+		}
+
+		RDT_our_xp_2 = {
+			allowed = {
+				always = no
+			}
+
+			picture = RDT_our_xp
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+			dig_in_speed_factor = 0.10
+			max_dig_in_factor = 0.10
+			land_night_attack = 0.3
+			equipment_capture_factor = 0.15
+			
+			}
+		}
+
+		RDT_attack = {
+			allowed = {
+				always = no
+			}
+
+			picture = attack
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				experience_loss_factor = -0.1
+				supply_consumption_factor = -0.1
+				initiative_factor = 0.1
+			}
+		}
+
+		RDT_attack_shock = {
+			allowed = {
+				always = no
+			}
+
+			picture = attack
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				org_loss_when_moving = 0.2
+				experience_loss_factor = 0.4
+				supply_consumption_factor = 0.3
+				initiative_factor = 0.1
+				army_attack_factor = 0.1
+				breakthrough_factor = 0.15
+				army_morale_factor = -0.1
+			}
+		}
+
+		RDT_attack_with_defense = {
+			allowed = {
+				always = no
+			}
+
+			picture = attack
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				experience_loss_factor = -0.1
+				supply_consumption_factor = -0.1
+				initiative_factor = 0.1
+				org_loss_when_moving = 0.25
+				max_dig_in_factor = 0.3
+				dig_in_speed_factor = 0.10
+				army_defence_factor = 0.15
+				planning_speed = -0.15
+			}
+		}
+
+		RDT_attack_planning = {
+			allowed = {
+				always = no
+			}
+
+			picture = attack
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				experience_loss_factor = -0.1
+				supply_consumption_factor = -0.1
+				initiative_factor = 0.1
+				org_loss_when_moving = 0.1
+				planning_speed = -0.15
+				max_planning = 0.1
+			}
+		}
+
+		RDT_SYR_resources = {
+			allowed = {
+				always = no
+			}
+
+			picture = SYR
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				country_resource_oil = 20
+				max_fuel_factor = 0.1
+			}
+		}
+		
+		RDT_SYR_resources_2 = {
+			allowed = {
+				always = no
+			}
+
+			picture = SYR
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				country_resource_oil = 80
+				max_fuel_factor = 0.2
+			}
+		}
+		
+		RDT_PIZDA = {
+			allowed = {
+				always = no
+			}
+
+			picture = PIZDA
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				army_defence_factor = -0.1
+				army_attack_factor = -0.4
+				breakthrough_factor = -0.3
+				recon_factor = -0.2
+				coordination_bonus = -0.3
+				initiative_factor = -0.2
+			}
+		}
+		
+		RDT_razvedka = {
+			allowed = {
+				always = no
+			}
+			picture = razvedka
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1			
+			modifier = {
+				recon_factor = 0.20
+				coordination_bonus = 0.1
+			}
+		}
+		
+		RDT_win_or_die = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = WGN_win_or_die_1
+			
+			removal_cost = -1			
+			
+			modifier = {
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+				breakthrough_factor = 0.1
+				surrender_limit = 1
+				air_attack_factor = 0.1
+			}
+		}
+		
+		RDT_win_or_die_1 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = WGN_win_or_die_1
+			
+			removal_cost = -1			
+			
+			modifier = {
+				army_defence_factor = 0.15
+				army_attack_factor = 0.1
+				breakthrough_factor = 0.15
+				surrender_limit = 1
+				air_attack_factor = 0.1
+				army_org_factor = 0.05
+				experience_loss_factor = 0.25
+			}
+		}
+
+		RDT_own_structure = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = structure
+			
+			removal_cost = -1			
+			
+			modifier = {
+				drift_defence_factor = 0.3
+				neutrality_drift = 0.1
+				political_power_gain = -2
+				surrender_limit = 1
+				army_speed_factor = 0.1
+				army_morale_factor = 0.1
+				planning_speed = -0.4
+				max_planning = 0.2
+				special_forces_cap = 1
+				experience_gain_army_factor = 0.3
+				land_doctrine_cost_factor = -0.6
+				ammunition_capacity_k = 10000
+				daily_ammunition_gain = 500
+				hidden_modifier = {
+					army_leader_cost_factor = 1
+					promote_cost_factor = 1000
+					army_leader_start_level = 1
+					army_leader_start_logistics_level = 1
+					send_volunteer_size = -100
+				}
+			}
+		}
+
+		RDT_own_structure_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = structure
+			
+			removal_cost = -1			
+			
+			modifier = {
+				drift_defence_factor = 0.3
+				neutrality_drift = 0.1
+				political_power_gain = -1.8
+				surrender_limit = 1
+				army_speed_factor = 0.1
+				army_morale_factor = 0.1
+				planning_speed = -0.4
+				max_planning = 0.2
+				special_forces_cap = 1
+				experience_gain_army_factor = 0.3
+				land_doctrine_cost_factor = -0.6
+				ammunition_capacity_k = 10000
+				hidden_modifier = {
+					army_leader_cost_factor = 1
+					promote_cost_factor = 1000
+					army_leader_start_level = 1
+					army_leader_start_logistics_level = 1
+					send_volunteer_size = -100
+				}
+			}
+		}
+
+		RDT_own_structure_3 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = structure
+			
+			removal_cost = -1			
+			
+			modifier = {
+				drift_defence_factor = 0.3
+				neutrality_drift = 0.1
+				political_power_gain = -1.75
+				surrender_limit = 1
+				army_speed_factor = 0.1
+				army_morale_factor = 0.1
+				planning_speed = -0.4
+				max_planning = 0.2
+				special_forces_cap = 1
+				experience_gain_army_factor = 0.3
+				land_doctrine_cost_factor = -0.6
+				ammunition_capacity_k = 10000
+				hidden_modifier = {
+					army_leader_cost_factor = 1
+					promote_cost_factor = 1000
+					army_leader_start_level = 1
+					army_leader_start_logistics_level = 1
+					send_volunteer_size = -100
+				}
+			}
+		}
+
+		RDT_DRG21 = { 
+			allowed = {
+				always = no
+			}
+
+			picture = DRG21
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				no_supply_grace = 24
+				attrition = -0.1
+				intel_from_combat_factor = 0.1
+			}
+		}
+
+		RDT_maneuvers = { 
+			allowed = {
+				always = no
+			}
+
+			picture = maneuvers
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				army_speed_factor = 0.8
+				army_defence_factor = -0.3
+				army_attack_factor = -0.4
+				org_loss_when_moving = 0.5
+			}
+		}
+
+		RDT_best_idea = { 
+			allowed = {
+				always = no
+			}
+
+			picture = thebest
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				war_support_factor = 0.1
+				stability_factor = 0.1
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+		RDT_manpower_1 = {
+			allowed = {
+				always = no
+			}
+
+			picture = contractic
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				weekly_manpower = 200
+			}
+		}
+		RDT_manpower_2 = {
+			allowed = {
+				always = no
+			}
+
+			picture = contractic
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				weekly_manpower = 300
+			}	
+		}
+		RDT_manpower_3 = {
+			allowed = {
+				always = no
+			}
+
+			picture = contractic
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				weekly_manpower = 350
+			}
+		}
+	}
+}

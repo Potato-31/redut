@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_div_templRDT_70_large"
+		textureFile = "gfx/interface/counters/division_templates_large/custom_templateRDT_70.dds"
+	}
+	spriteType = {
+		name = "GFX_div_templRDT_70_small"
+		textureFile = "gfx/interface/counters/division_templates_large/custom_templateRDT_70_small.dds"
+	}
+	spriteType = {
+		name = "GFX_div_templRDT_69_large"
+		textureFile = "gfx/interface/counters/division_templates_large/custom_templateRDT_69.dds"
+	}
+	spriteType = {
+		name = "GFX_div_templRDT_69_small"
+		textureFile = "gfx/interface/counters/division_templates_large/custom_templateRDT_69_small.dds"
+	}
+}

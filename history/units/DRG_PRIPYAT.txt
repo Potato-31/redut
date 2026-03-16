@@ -1,0 +1,36 @@
+units = {
+	division = {
+		name = "1-ya ODSHBr imeni gruppirovki Dolg"
+		location = 14666
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "2-ya ODSHBr imeni Vladimira Putina"
+		location = 5760
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "3-ya ODSHBr imeni gruppirovki Monolit"
+		location = 9062
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "4-ya ODSHBr imeni Dmitriya Medvedeva"
+		location = 1123
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

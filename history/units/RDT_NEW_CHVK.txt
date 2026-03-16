@@ -1,0 +1,114 @@
+division_template = {
+	name = "RSB-GROUP (full 10)"
+	is_locked = no
+	force_allow_recruiting = no
+	priority = 2
+	#division_names_group = UKR_MOT_01 # Группа названий для дивизий, необязательно
+	regiments = {
+		ifv_sov = {
+			x = 0
+			y = 0
+		}
+		ifv_sov = {
+			x = 0
+			y = 1
+		}
+		ifv_sov = {
+			x = 0
+			y = 2
+		}
+		towed_art = {
+			x = 1
+			y = 0
+		}
+		towed_art = {
+			x = 1
+			y = 1
+		}
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 4 }
+		artillery = { x = 0 y = 5 }		
+		maintenance_company = { x = 1 y = 0 }		
+		sniper = { x = 1 y = 1 }		
+		atgm = { x = 1 y = 2 }	
+		mortar = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "1-ya brigada RSB-GROUP"
+		location = 8171
+		division_template = "RSB-GROUP (full 10)"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "2-ya brigada RSB-GROUP"
+		location = 8171
+		division_template = "RSB-GROUP (full 10)"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "3-ya brigada RSB-GROUP"
+		location = 8171	
+		division_template = "RSB-GROUP (full 10)"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "4-ya brigada RSB-GROUP"
+		location = 8171
+		division_template = "RSB-GROUP (full 10)"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "5-ya brigada RSB-GROUP"
+		location = 8171
+		division_template = "RSB-GROUP (full 10)"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "6-ya brigada RSB-GROUP"
+		location = 8171
+		division_template = "RSB-GROUP (full 10)"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "1-ya brigada ENOT (part 10)"
+		location = 8171
+		division_template = "SSO PATRIOT (part 10)"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "2-ya brigada ENOT (part 10)"
+		location = 8171
+		division_template = "SSO PATRIOT (part 10)"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}

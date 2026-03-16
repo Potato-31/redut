@@ -1,0 +1,36 @@
+units = {
+	division = {
+		name = "1-ya ODSHBr imeni Olega Salukova"
+		location = 18914
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "2-ya ODSHBr imeni Aleksandra Lapina"
+		location = 7875
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "3-ya ODSHBr imeni Mihaila Alekseeva"
+		location = 4709
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "4-ya ODSHBr imeni Serdukova"
+		location = 16701
+		division_template = "ODSHBr Redut (full 10)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
