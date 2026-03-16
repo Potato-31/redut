@@ -309,10 +309,6 @@ focus_tree = {
 					id = RDT.14
 					days = 2
 				}
-				add_timed_idea = {
-					idea = RDT_PIZDA
-					days = 10
-				}
 			}
 		}
 		x = 16

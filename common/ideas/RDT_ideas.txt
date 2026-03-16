@@ -572,5 +572,21 @@ ideas = {
 				weekly_manpower = 350
 			}
 		}
+		RDT_ammunition_debuff = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1			
+			
+			modifier = {
+				breakthrough_factor = -0.4
+				max_planning = -0.05
+			}
+		}
 	}
 }

@@ -1,5 +1,5 @@
-add_namespace = rdt
-add_namespace = rdt_hidden
+add_namespace = RDT
+add_namespace = RDT_hidden
 #Встреча с Гиркиным
 country_event = {
 	id = RDT.1
@@ -224,6 +224,10 @@ country_event = {
 	
 	option = {
 		name = RDT.14.a
+		add_timed_idea = {
+			idea = RDT_PIZDA
+			days = 10
+		}
 	}
 }
 #Вступление в войну
@@ -333,5 +337,23 @@ country_event = {
 			idea = RDT_girkin_deck2
 		}
 		add_political_power = 50
+	}
+}
+#Сокращение боеприпасов
+country_event = {
+	id = RDT.21
+	title = RDT.21.t
+	desc = RDT.21.d
+	fire_only_once = yes
+	trigger = {
+		has_global_flag = RUS_WGN_Shell_def_started
+	}
+	option = {
+		name = RDT.21.a
+		log = "[GetDateText]: [This.GetName]: RDT.21.a executed"
+		add_timed_idea = {
+			idea = RDT_ammunition_debuff
+			days = 365
+		}
 	}
 }
