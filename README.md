@@ -17,8 +17,8 @@
 Стоит начать с того, что на данный момент мод имеет лишь альтернативную (анхист ветку), которая подходит для MP партий по East Showdown. Собственно, он и работает в связке с ребалансом.
 
 
-![Discord East Showdown](https://discord.gg/XQ7DcFtW)
+[Discord East Showdown](https://discord.gg/XQ7DcFtW)
 
-![Steam East Showdown Redut Submod](https://steamcommunity.com/sharedfiles/filedetails/?id=3357751387)
+[Steam East Showdown Redut Submod](https://steamcommunity.com/sharedfiles/filedetails/?id=3357751387)
 
-![Steam East Showdown MP Rebalance](https://steamcommunity.com/sharedfiles/filedetails/?id=3240258896)
+[Steam East Showdown MP Rebalance](https://steamcommunity.com/sharedfiles/filedetails/?id=3240258896)
