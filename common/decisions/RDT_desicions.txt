@@ -20,6 +20,7 @@ RDT_osnovades = {
 
 	}
 
+	#ограничение на бк
 	RDT_SMO_ammunition = {
 		icon = GFX_RUS_general_staff
 		is_good = no
@@ -38,7 +39,7 @@ RDT_osnovades = {
 		complete_effect = {
 			add_timed_idea = {
 				idea = RDT_ammunition_debuff
-				days = 365
+				days = 270
 			}
 		}	
 	}
