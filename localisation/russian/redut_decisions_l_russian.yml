@@ -1,8 +1,11 @@
 ﻿l_russian:
 
+
+#
+RDT_SMO_ammunition: "«On measures to optimize the expenditure of ammunition in the context of the special military operation»"
+
 #Чуть-чуть фикс вагнера
-WGN_REDUT_MP_DECISIONS: "Приёмка в «Редуте»"
-WGN_buy_Polevoi_SAU_2C1: "Приобрести САУ 2С1" 
+WGN_REDUT_MP_DECISIONS: "Acceptance at «Redut»"
 #РЕДУТ
 RDT_gp_SVO_kiev_offensive: "Наша цель - мать городов русских, Киев!" 
 RDT_gp_SVO_kharkiv_offensive: "Наша цель - колыбель русской весны, Харьков!"

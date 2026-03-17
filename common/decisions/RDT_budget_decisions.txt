@@ -370,7 +370,7 @@ RDT_budget_category = {
 			add_equipment_to_stockpile = {
 				type = arv_tank_sov_t72_equipment
 				variant_name = "БРЭМ-1"
-				amount = 15
+				amount = 30
 				producer = RUS
 			}
 		}
@@ -400,7 +400,7 @@ RDT_budget_category = {
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = engineering_equipment_0	
-				amount = 700
+				amount = 500
 				producer = RUS
 			}
 		}
@@ -415,7 +415,7 @@ RDT_budget_category = {
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = arv_equipment_0	
-				amount = 700
+				amount = 500
 				producer = RUS
 			}
 		}
@@ -430,7 +430,7 @@ RDT_budget_category = {
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = amv_equipment_0	
-				amount = 700
+				amount = 500
 				producer = RUS
 			}
 		}
@@ -445,7 +445,7 @@ RDT_budget_category = {
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = grenade_launcher_rpg30_kruk_equipment	
-				amount = 700
+				amount = 500
 				producer = RUS
 			}
 		}
@@ -460,7 +460,7 @@ RDT_budget_category = {
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = aa_9k333_verba_equipment	
-				amount = 700
+				amount = 500
 				producer = RUS
 			}
 		}
@@ -521,7 +521,7 @@ RDT_budget_category = {
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = support_equipment_1
-				amount = 700
+				amount = 500
 				producer = RUS
 			}
 			add_equipment_to_stockpile = {
@@ -541,7 +541,7 @@ RDT_budget_category = {
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = train_equipment_1
-				amount = 20
+				amount = 10
 				producer = RUS
 			}
 		}
@@ -616,7 +616,7 @@ RDT_budget_category = {
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = uniform_vkpo_equipment
-				amount = 3000
+				amount = 2500
 				producer = RUS
 			}
 		}
@@ -631,7 +631,7 @@ RDT_budget_category = {
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = body_armor_ratnik_2_equipment
-				amount = 3000
+				amount = 2500
 				producer = RUS
 			}
 		}

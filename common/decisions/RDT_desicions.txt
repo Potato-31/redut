@@ -20,6 +20,29 @@ RDT_osnovades = {
 
 	}
 
+	RDT_SMO_ammunition = {
+		icon = GFX_RUS_general_staff
+		is_good = no
+		days_mission_timeout = 255
+		selectable_mission = no
+		fire_only_once = yes
+
+		activation = {
+			RUS = { has_completed_focus = RUS_SMO }
+		}
+
+		available = {
+			RUS = { has_completed_focus = RUS_wartime_economics }
+		}
+
+		complete_effect = {
+			add_timed_idea = {
+				idea = RDT_ammunition_debuff
+				days = 365
+			}
+		}	
+	}
+
 	RDT_gp_SVO_kiev_offensive = {
 		icon = GFX_RUS_CHVK_Redut
 		cost = 40
@@ -60,6 +83,11 @@ RDT_osnovades = {
 			}
 			RUS = {
 				has_war_with = UKR
+			}
+			RUS = {
+				NOT = {
+					has_completed_focus = RUS_Blitzkrieg_has_stalled
+				}
 			}
 		}
 
@@ -160,6 +188,11 @@ RDT_osnovades = {
 			}
 			RUS = {
 				has_war_with = UKR
+			}
+			RUS = {
+				NOT = {
+					has_completed_focus = RUS_Blitzkrieg_has_stalled
+				}
 			}
 		}
 
@@ -314,6 +347,11 @@ RDT_osnovades = {
 			RUS = {
 				has_war_with = UKR
 			}
+			RUS = {
+				NOT = {
+					has_completed_focus = RUS_Blitzkrieg_has_stalled
+				}
+			}
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_mariupol_offensive: complete_effect"
@@ -414,6 +452,11 @@ RDT_osnovades = {
 			RUS = {
 				has_war_with = UKR
 			}
+			RUS = {
+				NOT = {
+					has_completed_focus = RUS_Blitzkrieg_has_stalled
+				}
+			}
 		}
 
 		complete_effect = {
@@ -502,6 +545,11 @@ RDT_osnovades = {
 			RUS = {
 				has_war_with = UKR
 			}
+			RUS = {
+				NOT = {
+					has_completed_focus = RUS_Blitzkrieg_has_stalled
+				}
+			}
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_mariupol_offensive: complete_effect"
@@ -581,6 +629,11 @@ RDT_osnovades = {
 			RUS = {
 				has_war_with = UKR
 			}
+			RUS = {
+				NOT = {
+					has_completed_focus = RUS_Blitzkrieg_has_stalled
+				}
+			}
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RDT_gp_SVO_avdeevka_offensive: complete_effect"
@@ -644,6 +697,11 @@ RDT_osnovades = {
 			}
 			RUS = {
 				has_war_with = UKR
+			}
+			RUS = {
+				NOT = {
+					has_completed_focus = RUS_Blitzkrieg_has_stalled
+				}
 			}
 		}
 		complete_effect = {

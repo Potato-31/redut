@@ -16,6 +16,6 @@ dependencies={
 }
 picture="thumbnail.png"
 name="East Showdown Redut Submod"
-supported_version="1.17.4.1"
+supported_version="1.17.*"
 path="E:/redut"
 remote_file_id="3357751387"
