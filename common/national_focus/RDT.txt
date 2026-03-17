@@ -993,12 +993,30 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = {
+			OR = {
+				# Россия - игрок
+				AND = {
+					RUS = {
+						exists = yes
+						is_ai = no
+						has_completed_focus = RUS_resumption_of_active_offensive_actions
+					}
+				}
+				# Россия - ИИ
+				AND = {
+					RUS = {
+						exists = yes
+						is_ai = yes
+					}
+				}
+			}
+		}	
 		completion_reward={
 			log = "[GetDateText]: [Root.GetName]: Focus RDT_UKR_BORDERS"
 			increase_escalation_by_20 = yes
 			custom_effect_tooltip = RDT_progrev
 		}
-
 	}
 	focus = {
 		id = RDT_PRETORIAN
