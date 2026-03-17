@@ -1,6 +1,8 @@
 ﻿l_english:
+
+RDT_SMO_ammunition: "«On measures to optimize the expenditure of ammunition in the context of the special military operation»"
 #A little Wagner fix
-WGN_buy_Polevoi_SAU_2C1: "Purchase SAU 2S1"
+WGN_REDUT_MP_DECISIONS: "Acceptance at «Redut»"
 #REDUT
 RDT_gp_SVO_kiev_offensive: "Our goal is the mother of Russian cities, Kyiv!"
 RDT_gp_SVO_kharkiv_offensive: "Our goal is the cradle of the Russian Spring, Kharkiv!"
