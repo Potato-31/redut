@@ -776,7 +776,7 @@ RDT_DRG = {
 		}
 				complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
-			country_event = { id = super.20 days = 2 }
+			country_event = { id = RDT_super.20 days = 2 }
 			set_country_flag = RDT_DRG_VOLCHANSK
 		}
 		remove_effect = {
@@ -828,7 +828,7 @@ RDT_DRG = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
-			country_event = { id = super.20 days = 2 }
+			country_event = { id = RDT_super.20 days = 2 }
 			set_country_flag = RDT_DRG_VOLCHANSK
 		}
 		remove_effect = {
@@ -880,7 +880,7 @@ RDT_DRG = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
-			country_event = { id = super.20 days = 2 }
+			country_event = { id = RDT_super.20 days = 2 }
 			set_country_flag = RDT_DRG_PISAREVKA
 		}
 		remove_effect = {
@@ -932,7 +932,7 @@ RDT_DRG = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
-			country_event = { id = super.20 days = 2 }
+			country_event = { id = RDT_super.20 days = 2 }
 			set_country_flag = RDT_DRG_BELOPOLYE
 		}
 		remove_effect = {
@@ -985,7 +985,7 @@ RDT_DRG = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
-			country_event = { id = super.20 days = 2 }
+			country_event = { id = RDT_super.20 days = 2 }
 			set_country_flag = RDT_DRG_SEMENOVKA
 		}
 		remove_effect = {
@@ -1039,7 +1039,7 @@ RDT_DRG = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
-			country_event = { id = super.20 days = 2 }
+			country_event = { id = RDT_super.20 days = 2 }
 			set_country_flag = RDT_DRG_REPKI
 		}
 		remove_effect = {
@@ -1093,7 +1093,7 @@ RDT_DRG = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SVO_full_scale_invasion_timeout: complete_effect"
-			country_event = { id = super.20 days = 2 }
+			country_event = { id = RDT_super.20 days = 2 }
 			set_country_flag = RDT_DRG_PRIPYAT
 		}
 		remove_effect = {

@@ -1,0 +1,25 @@
+add_namespace = RDT_super
+
+country_event = {
+    id = RDT_super.20
+    title = RDT_super.20.t
+    desc = RDT_super.20.d
+    picture = GFX_report_event_diplomatic_message
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    hidden = yes
+
+
+    immediate = {
+        name = RDT_super.20.a
+        log = "[GetDateText]: [This.GetName]: RDT_super.20.a executed"
+
+        set_global_flag = RDT_kiev_se
+        set_global_flag = Super_Event_Visible
+
+        play_song = "RDT_kiev"
+    }
+}
