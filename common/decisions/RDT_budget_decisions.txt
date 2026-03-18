@@ -337,7 +337,7 @@ RDT_budget_category = {
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = apc_sov_btr80_equipment
-				variant_name = "БТР-80"
+				variant_name = "БТР-82АМ"
 				amount = 75
 				producer = RUS
 			}
@@ -414,7 +414,7 @@ RDT_budget_category = {
 		}
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = arv_equipment_0	
+				type = arv_equipment	
 				amount = 500
 				producer = RUS
 			}
@@ -429,7 +429,7 @@ RDT_budget_category = {
 		}
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = amv_equipment_0	
+				type = amv_equipment
 				amount = 500
 				producer = RUS
 			}
@@ -546,21 +546,6 @@ RDT_budget_category = {
 			}
 		}
 	}
-	RDT_buy_convoys = {
-		icon = generic_formable_nations
-        cost = 10
-        days_remove = 7
-		ai_will_do = {
-			factor = 40
-		}
-		remove_effect = {
-			add_equipment_to_stockpile = {
-				type = convoy_1
-				amount = 10
-				producer = RUS
-			}
-		}
-	}
 	RDT_buy_ammunition = {
 		icon = generic_formable_nations
         cost = 10
@@ -571,39 +556,6 @@ RDT_budget_category = {
 		remove_effect = {
 		    custom_effect_tooltip = RDT_ammo_add_2
 			add_to_variable = { ammunition_variable = 10 }
-		}
-	}
-	RDT_buy_t72b3 = {
-		icon = generic_formable_nations
-        cost = 50
-        days_remove = 7
-		ai_will_do = {
-			factor = 40
-		}
-
-		remove_effect = {
-			add_equipment_to_stockpile = {
-				type = tank_sov_t72_equipment
-				variant_name = "Т-72Б3"
-				amount = 15
-				producer = RUS
-			}
-		}
-	}
-	RDT_buy_t80bvm = {
-		icon = generic_formable_nations
-        cost = 50
-        days_remove = 7
-		ai_will_do = {
-			factor = 40
-		}
-		remove_effect = {
-			add_equipment_to_stockpile = {
-				type = tank_sov_t80_equipment
-				version_name = "Т-80БВ"
-				amount = 15
-				producer = RUS
-			}
 		}
 	}
 	RDT_buy_uniform = {

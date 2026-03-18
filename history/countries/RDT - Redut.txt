@@ -12,8 +12,6 @@ add_political_power = 0
 
 set_convoys = 30
 
-create_intelligence_agency = yes
-
 add_manpower = 7000
 
 set_popularities = {

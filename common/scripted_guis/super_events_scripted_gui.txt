@@ -241,8 +241,8 @@ scripted_gui = {
 		}
 
 		triggers = {
-			Super_Event_RDT_kiev_visible = {
-				has_global_flag = RDT_kiev_se
+			Super_Event_RUS_gazmanov_dead_visible = {
+				has_global_flag = RUS_gazmanov_dead
 			}
 		}
 		
@@ -420,6 +420,13 @@ scripted_gui = {
 				}
 				if = {
 					limit = {
+						has_global_flag = RUS_gazmanov_dead
+					}
+					clr_global_flag = RUS_gazmanov_dead
+
+				}
+				if = {
+					limit = {
 						has_global_flag = UKR_liberate_Crimea
 					}
 					clr_global_flag = UKR_liberate_Crimea
@@ -510,11 +517,11 @@ scripted_gui = {
 				}
 				
 				if = {
-					limit = {
-						has_global_flag = RDT_kiev_se
-					}
-					clr_global_flag = RDT_kiev_se
-				}
+                    limit = {
+                        has_global_flag = RDT_kiev_se
+                    }
+                    clr_global_flag = RDT_kiev_se
+                }
 				
 				if = {
 					limit = {
