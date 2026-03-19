@@ -1,0 +1,24 @@
+# ONLY INFANTRY VEHICLE: CARS, TRUCKS, LIGHT armORED CAR, RECON  VEHICLE, APC and IFV ENTITY
+# !!!! not set scale! scale set on _vehicles.gfx !!!!
+
+	### DUMMY VEHICLE NO ANIMATION
+	
+entity = {
+	name = "bmp2_entity"
+	pdxmesh = "bmp2_mesh"
+		
+	# model hasn't animation
+	state = { name = "idle"				}
+	state = { name = "retreat"		event = { trigger_once = yes sound = { soundeffect = "mechanized_unit_move_animation" } } }
+	state = { name = "training"			}
+	state = { name = "death"			}
+	state = { name = "support_attack"	}
+	state = { name = "attack"			}
+	state = { name = "defend"			}
+	state = { name = "move"			event = { trigger_once = yes sound = { soundeffect = "mechanized_unit_move_animation" } } }
+}	
+
+entity = {
+	name = "RDT_ifv_sov_entity"
+	clone = "bmp2_entity"
+}
