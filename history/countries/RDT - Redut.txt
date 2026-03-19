@@ -782,6 +782,17 @@ add_mastery = {
 	} # Изменить на более реальные цифры
 
 	
+	add_ideas = {
+		RDT_razvedka
+		RDT_attack_planning
+		RDT_council_idea
+		RDT_our_xp_2 
+	}
+
+	remove_ideas = {
+		RDT_attack
+	}
+
 	unlock_national_focus = RDT_CHVK
 	unlock_national_focus = RDT_COMMANDERS
 	unlock_national_focus = RDT_WAR_READY
