@@ -806,3 +806,81 @@ add_mastery = {
 	unlock_national_focus = RDT_START_SMO
 	unlock_national_focus = borderRDT
 }
+
+
+# 2022.04.15 Start Date politics
+2022.09.01 = {
+
+	# Россия - общее
+
+	add_to_war = {
+		targeted_alliance = RUS
+		enemy = UKR
+		hostility_reason = asked_to_join
+	}
+	
+	set_global_flag = startdate_2022_09_01 
+	
+	RUS = { add_to_faction = RDT }
+
+	set_oob = RDT_2022_09_01
+
+	set_stability = 1 # Изменить на более реальные цифры
+	set_war_support = 1 # Изменить на более реальные цифры
+	army_experience = 50
+	add_command_power = 100
+	add_political_power = 200 # Изменить на более реальные цифры
+	add_manpower = 4000 #по факту 2500
+
+	set_sub_doctrine = arty_preparation_focus
+	add_mastery = {
+		amount = 110
+		sub_doctrine = arty_preparation_focus
+	}
+	set_sub_doctrine = entrenchment_focus
+	add_mastery = {
+		amount = 180
+		sub_doctrine = entrenchment_focus
+	}
+	set_sub_doctrine = active_tank_use
+	add_mastery = {
+		amount = 100
+		sub_doctrine = active_tank_use
+	}
+	add_mastery = {
+		amount = 50
+		sub_doctrine = basic_special_forces_expertise
+	}
+	
+	set_popularities = {
+		democratic = 0
+		fascism = 20
+		communism = 0
+		neutrality = 80
+	} # Изменить на более реальные цифры
+
+	
+	add_ideas = {
+		RDT_razvedka
+		RDT_attack_planning
+		RDT_council_idea
+		RDT_our_xp_2 
+	}
+
+	remove_ideas = {
+		RDT_attack
+	}
+
+	unlock_national_focus = RDT_CHVK
+	unlock_national_focus = RDT_COMMANDERS
+	unlock_national_focus = RDT_WAR_READY
+	unlock_national_focus = RDT_MO_ARSENAL
+	unlock_national_focus = RDT_STARTKUBINKA
+	unlock_national_focus = RDT_BARS
+	unlock_national_focus = RDT_SMO
+	unlock_national_focus = RDT_XP
+	unlock_national_focus = RDT_GRU
+	unlock_national_focus = RDT_WALK
+	unlock_national_focus = RDT_START_SMO
+	unlock_national_focus = borderRDT
+}

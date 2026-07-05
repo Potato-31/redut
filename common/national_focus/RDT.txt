@@ -485,6 +485,10 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = RDT_DONATION_custom
 			add_political_power = 70
+			swap_ideas = {
+				remove_idea = standard_funding
+				add_idea = large_military_budget
+			}
 		}
 		x = 24
 		y = 8
