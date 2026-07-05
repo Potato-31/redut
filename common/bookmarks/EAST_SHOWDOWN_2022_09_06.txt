@@ -1,45 +1,45 @@
 bookmarks = {
 	bookmark = {
-		name = "EAST_SHOWDOWN_2022_04_15_NAME"
-		desc = "EAST_SHOWDOWN_2022_04_15_DESC"
-		date = 2022.04.15.1
-		picture = "GFX_select_date_2022_04_15"
+		name = "EAST_SHOWDOWN_2022_09_06_NAME"
+		desc = "EAST_SHOWDOWN_2022_09_06_DESC"
+		date = 2022.09.06.1
+		picture = "GFX_select_date_2022_09_06"
 		default_country = "UKR"
 		default = yes		
 		"UKR"={
-			history = "UKR_EAST_SHOWDOWN_2022_04_15_DESC"
+			history = "UKR_EAST_SHOWDOWN_2022_09_06_DESC"
 			ideology = democratic
 			version = base_game
 
 			ideas = {
-				UKR_zaluzhniu_doc_1
+				UKR_ukrainizacia_2
 				United_country_idea
-				UKR_Legal_successors_of_the_Cossacks_idea
+				UKR_Defenders_of_the_Motherland_idea
 			}
 			focuses = {
-			    War
-				Maintain_the_countrys_economy
+			    Counter_Step_Guard
+				Crimea_bridge_should_be_destoyed
 			}	
 		}
 		
 		"RUS"={
-			history = "RUS_EAST_SHOWDOWN_2022_04_15_DESC"
+			history = "RUS_EAST_SHOWDOWN_2022_09_06_DESC"
 			ideology = neutrality
 			version = base_game
 			
 			ideas = {
-				RUS_disruption_of_the_operation
-				RUS_SAN_1
-				weak_ideology
+				RUS_Russian_world_showcases_idea
+				RUS_Nationalization_property_of_the_departed_companies_idea
+				RUS_covert_mobilization
 			}
 			focuses = {
-			    RUS_Mobilization_of_Industry
-				RUS_forced_measures
+			    RUS_Rally_society_around_the_president
+				RUS_begin_partial_mobilization
 			}
 		}
 		"NTO"={
 			minor = yes
-			history = "NTO_EAST_SHOWDOWN_2022_04_15_DESC"
+			history = "NTO_EAST_SHOWDOWN_2022_09_06_DESC"
 			ideology = democratic
 			version = base_game
 
@@ -50,12 +50,12 @@ bookmarks = {
 			}
 			focuses = {
 				nto_the_giant_awakens
-				nto_sign_lend_lease_to_ukr #nto_expansion_of_the_international_legion
+				nto_sending_ifv_and_apc
 			}
 		}
 		"POL"={
 			minor = yes
-			history = "POL_EAST_SHOWDOWN_2022_04_15_DESC"
+			history = "POL_EAST_SHOWDOWN_2022_09_06_DESC"
 			ideology = democratic
 			version = base_game
 
@@ -71,7 +71,7 @@ bookmarks = {
 		}
 		"HUN"={
 			minor = yes
-			history = "HUN_EAST_SHOWDOWN_2022_04_15_DESC"
+			history = "HUN_EAST_SHOWDOWN_2022_09_06_DESC"
 			ideology = democratic
 			version = base_game
 
@@ -84,7 +84,7 @@ bookmarks = {
 		}
 		"BLR"={
 			minor = yes
-			history = "BLR_EAST_SHOWDOWN_2022_04_15_DESC"
+			history = "BLR_EAST_SHOWDOWN_2022_09_06_DESC"
 			ideology = neutrality
 			version = base_game
 
@@ -100,39 +100,39 @@ bookmarks = {
 		}
 		"DPR"={
 			minor = yes
-			history = "DPR_EAST_SHOWDOWN_2022_04_15_DESC"
+			history = "DPR_EAST_SHOWDOWN_2022_09_06_DESC"
 			ideology = fascism
 			version = base_game
 
 			ideas = {
 				DNB_russian_military_advisers
-				DNB_unsurrendered_republic
-				ukrainian_shellings
+				DPR_showcase_russian_world_spirit
+				DPR_students_in_the_army
 			}
 			focuses = {
-				DPR_Lessons_from_the_first_months
-				DPR_we_must_be_in_safe
+				DPR_Expansion_of_the_NM_DPR
+				DPR_modernization_of_PM
 			}
 		}
 		"LPR"={
 			minor = yes
-			history = "LPR_EAST_SHOWDOWN_2022_04_15_DESC"
+			history = "LPR_EAST_SHOWDOWN_2022_09_06_DESC"
 			ideology = fascism
 			version = base_game
 
 			ideas = {
 				DNB_russian_military_advisers
-				DNB_unsurrendered_republic
-				ukrainian_shellings
+				DPR_showcase_russian_world_spirit
+				DPR_students_in_the_army
 			}
 			focuses = {
+				LPR_lugansk_volunteers
 				LPR_army_reforms
-				LPR_economic_policy
 			}
 		}
 		"RDT"={
 			minor = yes
-			history = "RDT_EAST_SHOWDOWN_2022_04_15_DESC"
+			history = "RDT_EAST_SHOWDOWN_2022_09_06_DESC"
 			ideology = neutrality
 			version = base_game
 
@@ -143,12 +143,11 @@ bookmarks = {
 			}
 			focuses = {
 				RDT_FUCK
-				RDT_WIN
 			}
 		}
 		"CHE"={
 			minor = yes
-			history = "CHE_EAST_SHOWDOWN_2022_04_15_DESC"
+			history = "CHE_EAST_SHOWDOWN_2022_09_06_DESC"
 			ideology = neutrality
 			version = base_game
 
@@ -164,18 +163,18 @@ bookmarks = {
 		}
 		"WGN"={
 			minor = yes
-			history = "WGN_EAST_SHOWDOWN_2022_04_15_DESC"
+			history = "WGN_EAST_SHOWDOWN_2022_09_06_DESC"
 			ideology = fascism
 			version = base_game
-			
+
 			ideas = {
 				WGN_Codex
 				WGN_own_structure
 				WGN_african_resources_2
 			}
 			focuses = {
-				WGN_contractwithmotherland
-				WGN_calltowar
+				WGN_symbolicadcompany
+				WGN_umbrellaproject
 			}
 		}
 		
