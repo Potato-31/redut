@@ -17,11 +17,11 @@ division_template = {
 			x = 0
 			y = 2
 		}
-		towed_art = {
+		MRLS = {
 			x = 1
 			y = 0
 		}
-		towed_art = {
+		MRLS = {
 			x = 1
 			y = 1
 		}
@@ -47,6 +47,9 @@ units = {
 		division_template = "RSB-GROUP (full 10)"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1
+		force_equipment_variants = { 
+			sp_mlrs_mrv_wheeled_1_equipment = { owner = "RUS" version_name = "9К515 Торнадо-С" amount = 12 }
+		}
 	}
 }
 units = {
@@ -56,6 +59,9 @@ units = {
 		division_template = "RSB-GROUP (full 10)"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
+		force_equipment_variants = { 
+			sp_mlrs_mrv_wheeled_1_equipment = { owner = "RUS" version_name = "9К515 Торнадо-С" amount = 12 }
+		}
 	}
 }
 units = {
@@ -65,6 +71,9 @@ units = {
 		division_template = "RSB-GROUP (full 10)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
+		force_equipment_variants = { 
+			sp_mlrs_mrv_wheeled_1_equipment = { owner = "RUS" version_name = "9К515 Торнадо-С" amount = 12 }
+		}
 	}
 }
 units = {
@@ -74,6 +83,9 @@ units = {
 		division_template = "RSB-GROUP (full 10)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
+		force_equipment_variants = { 
+			sp_mlrs_mrv_wheeled_1_equipment = { owner = "RUS" version_name = "9К515 Торнадо-С" amount = 12 }
+		}
 	}
 }
 units = {
@@ -83,6 +95,9 @@ units = {
 		division_template = "RSB-GROUP (full 10)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
+		force_equipment_variants = { 
+			sp_mlrs_mrv_wheeled_1_equipment = { owner = "RUS" version_name = "9К515 Торнадо-С" amount = 12 }
+		}
 	}
 }
 units = {
@@ -92,6 +107,9 @@ units = {
 		division_template = "RSB-GROUP (full 10)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
+		force_equipment_variants = { 
+			sp_mlrs_mrv_wheeled_1_equipment = { owner = "RUS" version_name = "9К515 Торнадо-С" amount = 12 }
+		}
 	}
 }
 units = {
@@ -101,6 +119,9 @@ units = {
 		division_template = "SSO PATRIOT (part 10)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
+		force_equipment_variants = { 
+			sp_mlrs_mrv_wheeled_1_equipment = { owner = "RUS" version_name = "9К515 Торнадо-С" amount = 12 }
+		}
 	}
 }
 units = {
@@ -110,5 +131,8 @@ units = {
 		division_template = "SSO PATRIOT (part 10)"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
+		force_equipment_variants = { 
+			sp_mlrs_mrv_wheeled_1_equipment = { owner = "RUS" version_name = "9К515 Торнадо-С" amount = 12 }
+		}
 	}
 }

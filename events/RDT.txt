@@ -126,15 +126,8 @@ country_event = {
 		hidden_effect = {
 			remove_ideas = RDT_attack
 		}
-		add_doctrine_cost_reduction = {
-			name = entrenchment_focus
-			cost_reduction = 0.5
-			uses = 1
-			technology = sso_t1_2
-		}
 		add_ideas = {
 			bold_attack_spirit
-			grand_battleplan_army_spirit
 			victory_or_death_spirit
 		}
 	}
@@ -143,24 +136,6 @@ country_event = {
 		add_ideas = RDT_attack_planning
 		hidden_effect = {
 			remove_ideas = RDT_attack
-		}
-		add_doctrine_cost_reduction = {
-			name = entrenchment_focus
-			cost_reduction = 0.5
-			uses = 1
-			technology = elastic_defense_focus
-		}
-		add_doctrine_cost_reduction = {
-			name = entrenchment_focus
-			cost_reduction = 0.5
-			uses = 1
-			technology = sso_t1_2
-		}
-		add_doctrine_cost_reduction = {
-			name = entrenchment_focus
-			cost_reduction = 0.5
-			uses = 1
-			technology = sso_t1_1
 		}
 		add_ideas = {
 			meticulous_preparation_spirit
@@ -173,12 +148,6 @@ country_event = {
 		add_ideas = RDT_attack_with_defense
 		hidden_effect = {
 			remove_ideas = RDT_attack
-		}
-		add_doctrine_cost_reduction = {
-			name = entrenchment_focus
-			cost_reduction = 0.7
-			uses = 1
-			technology = entrenchment_focus
 		}
 		add_ideas = {
 			superior_firepower_academy_spirit

@@ -506,6 +506,7 @@ RDT_osnovades = {
 				state = 910
 				state = 906
 				state = 149
+				state = 900
 			}
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
@@ -577,6 +578,9 @@ RDT_osnovades = {
 				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
 			}
 			149 = {
+				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
+			}
+			900 = {
 				add_dynamic_modifier = { modifier = RDT_offensive_modifier scope = RDT days = 35}
 			}
 	    }
