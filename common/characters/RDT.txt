@@ -27,6 +27,90 @@ characters = {
 			}
 		}
 	}
+	RDT_Alekseev_dobrokor = {
+		name = RDT_Alekseev
+		portraits = {
+			civilian = {
+				large = "GFX_Alekseev"
+			}
+		}
+		country_leader = {
+			expire = "1965.04.24"
+			ideology = left_nationalism
+			traits = { retired_officer }
+		}
+		advisor={
+			slot = army_cic
+			idea_token = RDT_Alekseev_adv
+			ledger = army
+			allowed = {
+				original_tag = RDT
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	RDT_Alekseev_Com = {
+		name = RDT_Alekseev
+		portraits = {
+			civilian = {
+				large = "GFX_Alekseev"
+			}
+		}
+		country_leader = {
+			expire = "1965.04.24"
+			ideology = socialism
+			traits = { retired_officer }
+		}
+		advisor={
+			slot = army_cic
+			idea_token = RDT_Alekseev_adv
+			ledger = army
+			allowed = {
+				original_tag = RDT
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	RDT_Alekseev_D = {
+		name = RDT_Alekseev
+		portraits = {
+			civilian = {
+				large = "GFX_Alekseev"
+			}
+		}
+		country_leader = {
+			expire = "1965.04.24"
+			ideology = controlled_democracy
+			traits = { retired_officer }
+		}
+		advisor={
+			slot = army_cic
+			idea_token = RDT_Alekseev_adv
+			ledger = army
+			allowed = {
+				original_tag = RDT
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
 	RDT_council_commanders_PMC = {
 		name = RDT_council_commanders_PMC
 		advisor={

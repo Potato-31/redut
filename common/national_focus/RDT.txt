@@ -315,6 +315,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RDT_FUCK"
 			custom_effect_tooltip = RDT_FUCK_custom
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
 		}
 		x = 11
 		y = 6

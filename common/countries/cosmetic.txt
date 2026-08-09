@@ -78,6 +78,8 @@ POL_Falanga_fascism = {
 
 	
 }
+
+
 POL_Communism = {
 	#color = rgb { 141 10 97 }
 	#color_ui  = rgb { 141 10 97 }

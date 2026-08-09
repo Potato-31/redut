@@ -58,6 +58,9 @@ set_cosmetic_tag = RDT_game_start
 activate_advisor = RDT_Alekseev_adv
 activate_advisor = RDT_commanders_PMC
 recruit_character = RDT_council_commanders_PMC
+recruit_character = RDT_Alekseev_dobrokor
+recruit_character = RDT_Alekseev_Com
+recruit_character = RDT_Alekseev_D
 
 create_corps_commander = {
 	name = "Сергей Алексеевич"
