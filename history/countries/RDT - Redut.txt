@@ -273,7 +273,6 @@ create_equipment_variant_apc_btr_d = yes
 create_equipment_variant_missile_rus_R17 = yes
 create_equipment_variant_missile_rus_9K79 = yes
 create_equipment_variant_missile_rus_9M723 = yes
-create_equipment_variant_missile_rus_iskander1000 = yes
 
 
 set_technology = {

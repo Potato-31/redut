@@ -29,7 +29,6 @@
 RDT_offensive_modifier = {
 
 	enable = { always = yes }
-	icon = GFX_map_plan_attack_modifier
 
 	army_attack_factor = 0.1
 	army_defence_factor = 0.15
