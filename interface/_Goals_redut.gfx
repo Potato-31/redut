@@ -153,4 +153,8 @@ spriteTypes = {
 		name = "GFX_OPOLCHENIE_RDT"
 		texturefile = "gfx/interface/goals/RDT/OPOLCHENIE_RDT.png"
 	}
+	spriteType = {	
+		name = "GFX_RDT_OPERATION_STREAM2"
+		texturefile = "gfx/interface/goals/RDT/RDT_OPERATION_STREAM2.png"
+	}
 }	

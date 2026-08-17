@@ -5,4 +5,10 @@
  RDT: "ЧВК «Редут»"
  RDT_DEF: "Частная Военная Компания «Редут»"
  RDT_ADJ: "Редутовск."
+ DOBROKOR_RDT_fascism: "Доброкор"
+ DOBROKOR_RDT_fascism_DEF: "Добровольческий корпус"
+ DOBROKOR_RDT_fascism_ADJ: "Доброкоровск."
+ DOBROKOR_RDT: "Доброкор"
+ DOBROKOR_RDT_DEF: "Добровольческий корпус"
+ DOBROKOR_RDT_ADJ: "Доброкоровск."
 

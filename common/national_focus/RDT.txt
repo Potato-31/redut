@@ -7,10 +7,11 @@ focus_tree = {
 			tag = RDT
 		}
 	}
+	continuous_focus_position = { x = 1200 y = 100 }
 	focus = {
 		id = Kubinka
 		icon = GFX_kubinka
-		x = 22
+		x = 30
 		y = 0
 		available = {
 			always = false
@@ -19,7 +20,7 @@ focus_tree = {
 	focus = {
 		id = borderRDT
 		icon = GFX_borderRDT
-		x = 22
+		x = 30
 		y = 1
 		available = {
 			always = false
@@ -38,7 +39,7 @@ focus_tree = {
 		id = RDT_CHVK
 		icon = GFX_RDT_CHVK
 		cost = 0.1
-		x = 16
+		x = 25
 		y = 0
 		completion_reward = {
 			country_event = RDT.10
@@ -62,7 +63,7 @@ focus_tree = {
 				country_event = RDT.11
 			}
 		}
-		x = 12
+		x = 23
 		y = 1
 
 	}
@@ -70,7 +71,7 @@ focus_tree = {
 		id = RDT_WAR_READY
 		icon = GFX_RDT_WAR_READY
 		cost = 1
-		x = 12
+		x = 23
 		y = 2
 		prerequisite = {
 			focus = RDT_COMMANDERS
@@ -94,7 +95,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RDT_MO_ARSENAL"
 		}
-		x = 12
+		x = 23
 		y = 3
 		completion_reward={
 			log = "[GetDateText]: [Root.GetName]: RDT_MO_ARSENAL"
@@ -236,7 +237,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus RDT_STARTKUBINKA"
 			add_ideas = RDT_council_idea
 		}
-		x = 16
+		x = 25
 		y = 1
 
 	}
@@ -254,7 +255,7 @@ focus_tree = {
 				load_oob = barsredut
 			}
 		}
-		x = 16
+		x = 25
 		y = 2
 
 	}
@@ -268,7 +269,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = RDT_SMO_custom
 		}
-		x = 16
+		x = 25
 		y = 3
 
 	}
@@ -295,33 +296,8 @@ focus_tree = {
 				}
 			}
 		}
-		x = 16
+		x = 25
 		y = 4
-
-	}
-	focus = {
-		id = RDT_FUCK
-		icon = GFX_RDT_FUCK
-		cost = 2
-		prerequisite = {
-			focus = RDT_START_SMO
-		}
-		mutually_exclusive = {
-			focus = RDT_WIN
-		}
-		available = {
-			always = false
-		}
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus RDT_FUCK"
-			custom_effect_tooltip = RDT_FUCK_custom
-			set_politics = {
-				ruling_party = fascism
-				elections_allowed = no
-			}
-		}
-		x = 11
-		y = 6
 
 	}
 	focus = {
@@ -336,7 +312,7 @@ focus_tree = {
 			army_experience = 35
 			add_ideas = RDT_our_xp
 		}
-		x = 20
+		x = 27
 		y = 1
 
 	}
@@ -351,7 +327,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus RDT_GRU"
 			add_ideas = RDT_razvedka
 		}
-		x = 20
+		x = 27
 		y = 2
 
 	}
@@ -370,7 +346,7 @@ focus_tree = {
 				remove_ideas = RDT_our_xp
 			}
 		}
-		x = 20
+		x = 27
 		y = 3
 
 	}
@@ -388,7 +364,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus RDT_WIN"
 			custom_effect_tooltip = RDT_WIN_custom
 		}
-		x = 21
+		x = 40
 		y = 6
 
 	}
@@ -408,7 +384,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 21
+		x = 40
 		y = 7
 
 	}
@@ -433,7 +409,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 18
+		x = 37
 		y = 8
 
 	}
@@ -451,7 +427,7 @@ focus_tree = {
 				load_oob = RDT_NEW_CHVK
 			}
 		}
-		x = 21
+		x = 40
 		y = 8
 
 	}
@@ -475,7 +451,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 21
+		x = 40
 		y = 9
 
 	}
@@ -494,7 +470,7 @@ focus_tree = {
 				add_idea = large_military_budget
 			}
 		}
-		x = 24
+		x = 43
 		y = 8
 
 	}
@@ -512,7 +488,7 @@ focus_tree = {
 				set_research_slots =  3
 			}
 		}
-		x = 24
+		x = 43
 		y = 9
 
 	}
@@ -538,109 +514,8 @@ focus_tree = {
 				}
 			}
 		}
-		x = 23
-		y = 10
-
-	}
-	focus = {
-		id = RDT_ITS_OVER
-		icon = GFX_RDT_ITS_OVER
-		cost = 1
-		prerequisite = {
-			focus = RDT_FUCK
-		}
-		x = 11
-		y = 7
-
-	}
-	focus = {
-		id = RDT_PANIKA
-		icon = GFX_RDT_PANIKA
-		cost = 1
-		prerequisite = {
-			focus = RDT_ITS_OVER
-		}
-		x = 14
-		y = 8
-
-	}
-	focus = {
-		id = RDT_LOS_DONATION
-		icon = GFX_RDT_LOS_DONATION
-		cost = 1
-		prerequisite = {
-			focus = RDT_ITS_OVER
-		}
-		x = 11
-		y = 8
-
-	}
-	focus = {
-		id = RDT_WGN_SHADOW
-		icon = GFX_RDT_WGN_SHADOW
-		cost = 1
-		prerequisite = {
-			focus = RDT_ITS_OVER
-		}
-		x = 8
-		y = 8
-
-	}
-	focus = {
-		id = RDT_MO_HAND
-		icon = GFX_RDT_MO_HAND
-		cost = 1
-		prerequisite = {
-			focus = RDT_WGN_SHADOW
-		}
-		prerequisite = {
-			focus = RDT_LOS_DONATION
-		}
-		prerequisite = {
-			focus = RDT_PANIKA
-		}
-		x = 11
-		y = 9
-
-	}
-	focus = {
-		id = RDT_FECT
-		icon = GFX_RDT_FECT
-		cost = 1
-		prerequisite = {
-			focus = RDT_WGN_AMBITION
-		}
-		prerequisite = {
-			focus = RDT_JUR
-		}
-		prerequisite = {
-			focus = RDT_STROMZ
-		}
-		x = 11
+		x = 40
 		y = 11
-
-	}
-	
-	focus = {
-		id = RDT_WGN_AMBITION
-		icon = GFX_RDT_WGN_AMBITION
-		cost = 1
-		prerequisite = {
-			focus = RDT_MO_HAND
-		}
-		x = 8
-		y = 10
-
-	}
-	focus = {
-		id = RDT_TROYAN_HORSE
-		icon = GFX_RDT_TROYAN_HORSE
-		cost = 1
-		prerequisite = {
-			focus = RDT_FECT
-		}
-		x = 11
-		y = 12
 
 	}
 	focus = {
@@ -649,7 +524,6 @@ focus_tree = {
 		cost = 1
 		prerequisite = {
 			focus = RDT_BIL_RECRUIT
-			focus = RDT_MO_HAND
 		}
 		available = {
 			OR = {
@@ -679,19 +553,8 @@ focus_tree = {
 			add_war_support = -0.2
 			load_oob = RDT_TRO
 		}
-		x = 14
-		y = 10
-
-	}
-	focus = {
-		id = RDT_JUR
-		icon = GFX_RDT_JUR
-		cost = 1
-		prerequisite = {
-			focus = RDT_MO_HAND
-		}
-		x = 11
-		y = 10
+		x = 37
+		y = 11
 
 	}
 	focus = {
@@ -711,7 +574,7 @@ focus_tree = {
 				add_ideas = RDT_manpower_3
 			}
 		}
-		x = 18
+		x = 37
 		y = 9
 
 	}
@@ -727,7 +590,7 @@ focus_tree = {
 				id = RDT.4
 			}
 		}
-		x = 18
+		x = 33
 		y = 11
 
 	}
@@ -745,7 +608,7 @@ focus_tree = {
 		available = {
 			always = false
 		}
-		x = 16
+		x = 31
 		y = 12
 
 	}
@@ -763,7 +626,7 @@ focus_tree = {
 			focus = RDT_WITH_WGN
 			focus = RDT_WITH_MO
 		}
-		x = 18
+		x = 33
 		y = 12
 
 	}
@@ -784,7 +647,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RDT_WITH_WGN"
 		}
-		x = 20
+		x = 35
 		y = 12
 
 	}
@@ -814,7 +677,7 @@ focus_tree = {
 				id = redut.9004
 			}
 		}
-		x = 16
+		x = 31
 		y = 13
 
 	}
@@ -848,7 +711,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 16
+		x = 31
 		y = 14
 
 	}
@@ -874,8 +737,8 @@ focus_tree = {
 			custom_effect_tooltip = RDT_CALL_PUTIN_custom
 			country_event = rdt.19
 		}
-		x = 18
-		y = 13
+		x = 33
+		y = 14
 
 	}
 	focus = {
@@ -895,8 +758,8 @@ focus_tree = {
 			add_political_power = -300
 			custom_effect_tooltip = RDT_ammo
 		}
-		x = 20
-		y = 13
+		x = 35
+		y = 14
 
 	}
 	focus = {
@@ -918,8 +781,8 @@ focus_tree = {
 				}
 			}
 		}
-		x = 23
-		y = 11
+		x = 40
+		y = 12
 
 	}
 	focus = {
@@ -932,9 +795,13 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RDT_DRG_21"
 			add_ideas = RDT_DRG21 
+			swap_ideas = {
+				remove_idea = infrastructure_basic
+				add_idea = WGN_rescue_extended
+			}
 		}
-		x = 23
-		y = 12
+		x = 43
+		y = 13
 
 	}
 	focus = {
@@ -951,8 +818,8 @@ focus_tree = {
 				days = 10
 			}
 		}
-		x = 25
-		y = 12
+		x = 37
+		y = 13
 
 	}
 	focus = {
@@ -969,8 +836,8 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus RDT_AVANTURE"
 			custom_effect_tooltip = RDT_AVANTURE_custom
 		}
-		x = 24
-		y = 13
+		x = 40
+		y = 14
 
 	}
 	focus = {
@@ -980,8 +847,8 @@ focus_tree = {
 		prerequisite = {
 			focus = RDT_AVANTURE
 		}
-		x = 24
-		y = 14
+		x = 40
+		y = 15
 		ai_will_do = {
 			factor = 1
 		}
@@ -1021,9 +888,994 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus RDT_SIC"
 			custom_effect_tooltip = RDT_best_idea_custom
 			add_ideas = RDT_best_idea
+			swap_ideas = {
+				remove_idea = limited_conscription
+				add_idea = volunteer_only
+			}
+			swap_ideas = {
+				remove_idea = large_military_budget
+				add_idea = huge_military_budget
+			}
 		}
-		x = 24
+		x = 40
+		y = 16
+
+	}
+	focus = {
+		id = RDT_FUCK
+		icon = GFX_RDT_FUCK
+		cost = 2
+		prerequisite = {
+			focus = RDT_START_SMO
+		}
+		mutually_exclusive = {
+			focus = RDT_WIN
+		}
+		available = {
+			always = false
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_FUCK"
+			custom_effect_tooltip = RDT_FUCK_custom
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			swap_ideas = {
+				remove_idea = security_bloated
+				add_idea = security_meager
+			}
+			swap_ideas = {
+				remove_idea = infrastructure_basic
+				add_idea = infrastructure_deficit
+			}
+			swap_ideas = {
+				remove_idea = rescue_basic
+				add_idea = rescue_deficit
+			}
+			swap_ideas = {
+				remove_idea = standard_funding
+				add_idea = minimal_military_budget
+			}
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = RDT_INTERUNIT_COMMUNICATION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_GENERAL_STAFF_PANIC
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = RDT_GENERAL_STAFF_PANIC
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_FUCK
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = RDT_OLIGARCHS_APPEAL
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_GENERAL_STAFF_PANIC
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = RDT_BUSINESS_UNITS_CURATION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_OLIGARCHS_APPEAL
+		}
+		x = 3
+		y = 9
+
+	}
+	focus = {
+		id = RDT_UAV_INVESTMENT_NEW
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_BUSINESS_UNITS_CURATION
+		}
+		x = 1
+		y = 10
+
+	}
+	focus = {
+		id = RDT_NEW_TRAINING_CENTERS_NEW
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_BUSINESS_UNITS_CURATION
+		}
+		x = 3
+		y = 10
+
+	}
+	focus = {
+		id = RDT_RESTRUCTURING_FUNDING_NEW
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_OLIGARCHS_APPEAL
+		}
+		x = 5
+		y = 9
+
+	}
+	focus = {
+		id = RDT_FOREIGN_EXPANSION_NEW
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_RESTRUCTURING_FUNDING_NEW
+		}
+		x = 5
+		y = 10
+
+	}
+	focus = {
+		id = RDT_AFRICAN_CORPS_SUPPORT_NEW
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_FOREIGN_EXPANSION_NEW
+		}
+		prerequisite = {
+			focus = RDT_NEW_TRAINING_CENTERS_NEW
+		}
+		x = 4
+		y = 11
+
+	}
+	focus = {
+		id = RDT_EPOCHAL_COLLAPSE
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_GENERAL_STAFF_PANIC
+		}
+		mutually_exclusive = {
+			focus = RDT_COMPLETE_REORGANIZATION
+		}
+		available = {
+			always = false
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_COMPLETE_REORGANIZATION"
+			RUS = { annex_country = { target = RDT transfer_troops = yes } }
+		}
+		x = 8
+		y = 10
+
+	}
+	focus = {
+		id = RDT_COMPLETE_REORGANIZATION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_GENERAL_STAFF_PANIC
+		}
+		mutually_exclusive = {
+			focus = RDT_EPOCHAL_COLLAPSE
+		}
+		available = {
+			always = false
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_COMPLETE_REORGANIZATION"
+			RUS = { set_autonomy = { target = RDT autonomous_state = autonomy_puppet } }
+		}
+		x = 10
+		y = 10
+
+	}
+	focus = {
+		id = RDT_DIRECT_MO_CONTROL
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_COMPLETE_REORGANIZATION
+		}
+		x = 10
+		y = 11
+
+	}
+	focus = {
+		id = RDT_SUBSIDY_STRUCTURING
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_DIRECT_MO_CONTROL
+		}
+		x = 10
+		y = 12
+
+	}
+	focus = {
+		id = RDT_CONTRACT_REVIEW
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_SUBSIDY_STRUCTURING
+		}
+		x = 10
+		y = 19
+
+	}
+	focus = {
+		id = RDT_RESTORE_DISCIPLINE
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_CONTRACT_REVIEW
+		}
+		x = 10
+		y = 20
+
+	}
+	focus = {
+		id = RDT_VOLUNTEER_STATUS
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_RESTORE_DISCIPLINE
+		}
+		x = 10
+		y = 21
+
+	}
+	focus = {
+		id = RDT_UNIFIED_VOLUNTEER_CORPS
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_VOLUNTEER_STATUS
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RDT_UNIFIED_VOLUNTEER_CORPS"
+			set_cosmetic_tag = DOBROKOR_RDT
+		}
+		x = 10
+		y = 22
+
+	}
+	focus = {
+		id = RDT_JOINT_MEETINGS_GOVERNMENT
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_UNIFIED_VOLUNTEER_CORPS
+		}
+		x = 9
+		y = 24
+
+	}
+	focus = {
+		id = RDT_EXPAND_VUC
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_UNIFIED_VOLUNTEER_CORPS
+		}
+		x = 11
+		y = 24
+
+	}
+	focus = {
+		id = RDT_UNIFIED_MO_STANDARD
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_EXPAND_VUC
+		}
+		prerequisite = {
+			focus = RDT_JOINT_MEETINGS_GOVERNMENT
+		}
+		x = 10
+		y = 25
+
+	}
+	focus = {
+		id = RDT_NEW_DOCTRINE
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_UNIFIED_MO_STANDARD
+		}
+		x = 10
+		y = 26
+
+	}
+	focus = {
+		id = RDT_INFILTRATION_TACTICS
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_NEW_DOCTRINE
+		}
+		mutually_exclusive = {
+			focus = RDT_FIRE_SHAFT_TACTICS
+		}
+		x = 8
+		y = 27
+
+	}
+	focus = {
+		id = RDT_COVER_TRACES
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_INTERUNIT_COMMUNICATION
+		}
+		mutually_exclusive = {
+			focus = RDT_EMERGENCY_WITHDRAWAL
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = RDT_SYSTEMATIC_WITHDRAWAL
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_COVER_TRACES
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = RDT_OFFICER_PROTECTION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_SYSTEMATIC_WITHDRAWAL
+		}
+		x = 16
+		y = 11
+
+	}
+	focus = {
+		id = RDT_MILITARY_COUNTERINTELLIGENCE
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_OFFICER_PROTECTION
+		}
+		x = 16
+		y = 12
+
+	}
+	focus = {
+		id = RDT_STRONGHOLD_ESTABLISHMENT
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_MILITARY_COUNTERINTELLIGENCE
+		}
+		x = 13
+		y = 13
+
+	}
+	focus = {
+		id = RDT_COMMS_UPGRADE_PLANNED
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_STRONGHOLD_ESTABLISHMENT
+		}
+		x = 12
+		y = 14
+
+	}
+	focus = {
+		id = RDT_ECHELONED_DEFENSE
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_STRONGHOLD_ESTABLISHMENT
+		}
+		x = 14
+		y = 14
+
+	}
+	focus = {
+		id = RDT_EMERGENCY_WITHDRAWAL
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_INTERUNIT_COMMUNICATION
+		}
+		mutually_exclusive = {
+			focus = RDT_COVER_TRACES
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = RDT_IMMEDIATE_FORTIFICATION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_EMERGENCY_WITHDRAWAL
+		}
+		x = 18
+		y = 10
+
+	}
+	focus = {
+		id = RDT_EMERGENCY_ARMAMENT
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_IMMEDIATE_FORTIFICATION
+		}
+		x = 18
+		y = 11
+
+	}
+	focus = {
+		id = RDT_LOWER_CONTRACT_REQUIREMENTS
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_EMERGENCY_ARMAMENT
+		}
+		x = 18
+		y = 12
+
+	}
+	focus = {
+		id = RDT_SANCTIONS_RESISTANCE
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_MILITARY_COUNTERINTELLIGENCE
+			focus = RDT_LOWER_CONTRACT_REQUIREMENTS
+		}
+		x = 17
+		y = 14
+
+	}
+	focus = {
+		id = RDT_PARTNER_REPRESENTATION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_SANCTIONS_RESISTANCE
+		}
+		x = 17
 		y = 15
+
+	}
+	focus = {
+		id = RDT_NEW_ACCOUNTS_OPENING
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_PARTNER_REPRESENTATION
+		}
+		x = 19
+		y = 16
+
+	}
+	focus = {
+		id = RDT_UNSTABLE_COUNTRIES_PRESENCE
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_PARTNER_REPRESENTATION
+		}
+		x = 15
+		y = 16
+
+	}
+	focus = {
+		id = RDT_STRATEGIC_OBJECTIVES_SECURITY
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_UNSTABLE_COUNTRIES_PRESENCE
+		}
+		mutually_exclusive = {
+			focus = RDT_FOCUS_UKRAINE_CONFLICT
+		}
+		x = 16
+		y = 17
+
+	}
+	focus = {
+		id = RDT_GOVERNMENT_SUBSIDIES
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_NEW_ACCOUNTS_OPENING
+		}
+		x = 18
+		y = 17
+
+	}
+	focus = {
+		id = RDT_PARALLEL_IMPORT
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_NEW_ACCOUNTS_OPENING
+		}
+		x = 20
+		y = 17
+
+	}
+	focus = {
+		id = RDT_SHELL_COMPANIES_INTRODUCTION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_PARALLEL_IMPORT
+		}
+		prerequisite = {
+			focus = RDT_GOVERNMENT_SUBSIDIES
+		}
+		x = 19
+		y = 18
+
+	}
+	focus = {
+		id = RDT_CHINA_ARMS_LOBBYING
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_SHELL_COMPANIES_INTRODUCTION
+		}
+		x = 19
+		y = 19
+
+	}
+	focus = {
+		id = RDT_EMERGENCY_MO_ORGANIZATION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_LOWER_CONTRACT_REQUIREMENTS
+		}
+		x = 21
+		y = 13
+
+	}
+	focus = {
+		id = RDT_COMMS_UPGRADE_EMERGENCY
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_EMERGENCY_MO_ORGANIZATION
+		}
+		x = 20
+		y = 14
+
+	}
+	focus = {
+		id = RDT_ACTIVE_DEFENSE
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_EMERGENCY_MO_ORGANIZATION
+		}
+		x = 22
+		y = 14
+
+	}
+	focus = {
+		id = RDT_FRONT_LINE_FORMATION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_ACTIVE_DEFENSE
+		}
+		prerequisite = {
+			focus = RDT_COMMS_UPGRADE_EMERGENCY
+		}
+		x = 21
+		y = 15
+
+	}
+	focus = {
+		id = RDT_YOUTH_DESIGN_TESTS_NEW
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_UAV_INVESTMENT_NEW
+		}
+		x = 1
+		y = 11
+
+	}
+	focus = {
+		id = RDT_WAGNER_EXPULSION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_AFRICAN_CORPS_SUPPORT_NEW
+		}
+		x = 4
+		y = 12
+
+	}
+	focus = {
+		id = RDT_TROPHY_WEAPONS
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_ACTIVE_DEFENSE
+		}
+		x = 23
+		y = 15
+
+	}
+	focus = {
+		id = RDT_FOCUS_UKRAINE_CONFLICT
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_UNSTABLE_COUNTRIES_PRESENCE
+		}
+		mutually_exclusive = {
+			focus = RDT_STRATEGIC_OBJECTIVES_SECURITY
+		}
+		x = 14
+		y = 17
+
+	}
+	focus = {
+		id = RDT_SPIRICAL_ASSETS_JIHADISTS
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_FOCUS_UKRAINE_CONFLICT
+		}
+		x = 14
+		y = 18
+
+	}
+	focus = {
+		id = RDT_SYRIA_ASSETS_WITHDRAWAL
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_STRATEGIC_OBJECTIVES_SECURITY
+		}
+		x = 16
+		y = 18
+
+	}
+	focus = {
+		id = RDT_SHORT_TERM_CONTRACTS
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_CONTRACT_REVIEW
+		}
+		x = 15
+		y = 19
+
+	}
+	focus = {
+		id = RDT_QUOTA_EXPANSION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_SHORT_TERM_CONTRACTS
+		}
+		x = 14
+		y = 20
+
+	}
+	focus = {
+		id = RDT_LEGAL_LOOPHOLE
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_SHORT_TERM_CONTRACTS
+		}
+		x = 16
+		y = 20
+
+	}
+	focus = {
+		id = RDT_PARTIAL_MOBILIZATION_DECREE
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_LEGAL_LOOPHOLE
+		}
+		x = 17
+		y = 21
+
+	}
+	focus = {
+		id = RDT_LEGAL_STATUS_INITIAL
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_QUOTA_EXPANSION
+		}
+		prerequisite = {
+			focus = RDT_VOLUNTEER_STATUS
+		}
+		x = 14
+		y = 21
+
+	}
+	focus = {
+		id = RDT_FIXED_SALARY
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_LEGAL_STATUS_INITIAL
+		}
+		x = 15
+		y = 22
+
+	}
+	focus = {
+		id = RDT_WAGNER_AFFAIR
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_WAGNER_EXPULSION
+		}
+		prerequisite = {
+			focus = RDT_UNIFIED_VOLUNTEER_CORPS
+		}
+		x = 4
+		y = 23
+
+	}
+	focus = {
+		id = RDT_SEIZE_MUSICIANS_ASSETS
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_WAGNER_AFFAIR
+		}
+		x = 2
+		y = 24
+
+	}
+	focus = {
+		id = RDT_UNITS_TRANSFER_PLAN
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_WAGNER_AFFAIR
+		}
+		x = 6
+		y = 24
+
+	}
+	focus = {
+		id = RDT_SOCIAL_MEDIA_RECRUITMENT
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_FIXED_SALARY
+		}
+		x = 16
+		y = 23
+
+	}
+	focus = {
+		id = RDT_COMMON_INJURY_COMPENSATION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_FIXED_SALARY
+		}
+		x = 14
+		y = 23
+
+	}
+	focus = {
+		id = RDT_DEBTOR_RECRUITMENT
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_SOCIAL_MEDIA_RECRUITMENT
+		}
+		x = 16
+		y = 24
+
+	}
+	focus = {
+		id = RDT_PPD_ORGANIZATION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_UNITS_TRANSFER_PLAN
+		}
+		x = 6
+		y = 25
+
+	}
+	focus = {
+		id = RDT_AGITATION_FORMER_MEMBERS
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_SEIZE_MUSICIANS_ASSETS
+		}
+		x = 2
+		y = 25
+
+	}
+	focus = {
+		id = RDT_COOPERATION_WITH_AHMAT
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_PPD_ORGANIZATION
+		}
+		x = 5
+		y = 26
+
+	}
+	focus = {
+		id = RDT_OFFICER_ACCEPTABLE_CONDITIONS
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_PPD_ORGANIZATION
+		}
+		x = 7
+		y = 26
+
+	}
+	focus = {
+		id = RDT_UNIFIED_FRONT_NEONAZISM
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_COOPERATION_WITH_AHMAT
+		}
+		prerequisite = {
+			focus = RDT_OFFICER_ACCEPTABLE_CONDITIONS
+		}
+		x = 6
+		y = 27
+
+	}
+	focus = {
+		id = RDT_FIRE_SHAFT_TACTICS
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_NEW_DOCTRINE
+		}
+		mutually_exclusive = {
+			focus = RDT_INFILTRATION_TACTICS
+		}
+		x = 12
+		y = 27
+
+	}
+	focus = {
+		id = RDT_SHOCK_OPERATIONS
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_INFILTRATION_TACTICS
+		}
+		x = 8
+		y = 28
+
+	}
+	focus = {
+		id = RDT_FRONTAL_URBAN_ASSAULT
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_FIRE_SHAFT_TACTICS
+		}
+		x = 12
+		y = 28
+
+	}
+	focus = {
+		id = RDT_PROJECT_K_LOBBYING
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_DEBTOR_RECRUITMENT
+		}
+		x = 16
+		y = 28
+
+	}
+	focus = {
+		id = RDT_STORM_UNITS_UNIFICATION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_FRONTAL_URBAN_ASSAULT
+		}
+		prerequisite = {
+			focus = RDT_PROJECT_K_LOBBYING
+		}
+		x = 14
+		y = 29
+
+	}
+	focus = {
+		id = RDT_JOINT_MILITARY_OPERATION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_STORM_UNITS_UNIFICATION
+		}
+		x = 14
+		y = 30
+
+	}
+	focus = {
+		id = RDT_OPERATION_STREAM_ONE
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_SHOCK_OPERATIONS
+		}
+		x = 8
+		y = 29
+
+	}
+	focus = {
+		id = RDT_BORDER_SCREEN_RECRUITMENT
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_OPERATION_STREAM_ONE
+		}
+		x = 8
+		y = 30
+
+	}
+	focus = {
+		id = RDT_TERRITORIAL_DEFENSE_CURATION
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_BORDER_SCREEN_RECRUITMENT
+		}
+		x = 7
+		y = 31
+
+	}
+	focus = {
+		id = RDT_OPERATION_STREAM_TWO
+		icon = GFX_RDT_OPERATION_STREAM2
+		cost = 0,00
+		prerequisite = {
+			focus = RDT_BORDER_SCREEN_RECRUITMENT
+		}
+		x = 9
+		y = 31
 
 	}
 }

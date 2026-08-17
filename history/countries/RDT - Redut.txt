@@ -30,14 +30,16 @@ add_ideas = {
 	social_deficit
 	rescure_deficit
 	mobilization_age_22_24
-	service_age_60
+	service_age_50
 	military_object
 	war_economy
 	limited_conscription
 	closed_economy
-	borders_closed
+	PMC_organized_borders_closed
 	society_very_high
-	PMC_council
+	mixed_federal_republic
+	low_corruption_level
+	prohibited_service
 	heritage_of_accomplishment
 	RDT_attack
 	RDT_SYR_resources
